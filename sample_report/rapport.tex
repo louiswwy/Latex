@@ -1,0 +1,74 @@
+\documentclass[a4paper,11pt,final]{article}
+% Pour une impression recto verso, utilisez plutôt ce documentclass :
+%\documentclass[a4paper,11pt,twoside,final]{article}
+
+\usepackage[english,francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage[colorlinks,
+            linkcolor=blue,
+            anchorcolor=blue,
+            urlcolor=blue,
+            citecolor=blue
+            ]{hyperref}
+\usepackage[french]{varioref}
+\usepackage{fancyhdr} % 添加页眉页脚
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{textcomp}
+
+\newcommand{\reporttitle}{Rapport de Stage \\Année 2013-2014 \vspace{2ex}\\{\large Fouille de Donnée dans la domaine de mobile communication}}
+
+\newcommand{\reportauthor}{Wenyi \textsc{wang}} % Auteur
+\newcommand{\reportsubject}{Stage en Entreprise: Stage de fin d'étude} % Sujet
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setlength{\parskip}{1ex} % Espace entre les paragraphes
+
+\hypersetup{
+    pdftitle={\reporttitle},%
+    pdfauthor={\reportauthor},%
+    pdfproducer={\reportauthor},%
+    pdfsubject={\reportsubject},%
+    pdfkeywords={rapport} {Fouille de donnée} {Mobile Communication} {LTE} {K-MEANS} {Apriori}
+}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{Rapport de Stage}
+\rhead{}
+\lfoot{}
+\cfoot{-\thepage-}
+\rfoot{}
+\setcounter{page}{3}
+\begin{document}
+  \pagestyle{empty}
+  \include{title}
+  \cleardoublepage % Dans le cas du recto verso, ajoute une page blanche si besoin
+  %\pagenumbering{roman}
+  \tableofcontents % Table des matières
+  \thispagestyle{empty}
+  \sloppy          % Justification moins stricte : des mots ne dépasseront pas des paragraphes
+  \cleardoublepage 
+  
+  \include{remerciements}
+  \cleardoublepage
+  
+  \pagestyle{fancy}  
+  \pagenumbering{arabic}
+  \include{intro}
+  \cleardoublepage
+  
+  \include{partie1}
+  \cleardoublepage
+  
+  \include{partie2}
+  \cleardoublepage
+  
+  \include{concl}
+  \cleardoublepage
+  
+  \include{references}
+\end{document}
+
