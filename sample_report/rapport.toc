@@ -1,17 +1,29 @@
 \select@language {french}
-\contentsline {section}{Remerciements}{2}{section*.2}
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Introduction du CMCC}{1}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Introduction du laboratoire}{5}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Objectif du projet}{5}{subsection.1.3}
-\contentsline {section}{\numberline {2}Des normes de t\IeC {\'e}l\IeC {\'e}phonie mobile}{6}{section.2}
-\contentsline {section}{\numberline {3}partie1}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Une sous section}{9}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}\IeC {\'E}crire en anglais}{9}{subsubsection.3.1.1}
-\contentsline {subsection}{\numberline {3.2}Lites}{9}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}R\IeC {\'e}f\IeC {\'e}rences}{9}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Note de bas de page}{9}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Figure}{10}{subsection.3.5}
-\contentsline {section}{\numberline {4}Citation Wikip\IeC {\'e}dia}{11}{section.4}
-\contentsline {section}{Conclusion}{12}{section*.3}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{13}{section*.4}
+\contentsline {section}{Remerciements}{3}{section*.2}
+\contentsline {section}{\numberline {1}R\IeC {\'e}sum\IeC {\'e}}{1}{section.1}
+\contentsline {section}{\numberline {2}Introduction}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Introduction du CMCC}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}La crise de CMCC}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}L'optimisation du r\IeC {\'e}seau}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Introduction du laboratoire}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Objectif du projet}{7}{subsection.2.5}
+\contentsline {section}{\numberline {3}Introduction de l'industrie de la t\IeC {\'e}l\IeC {\'e}communication}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}L'evolution des normes de t\IeC {\'e}l\IeC {\'e}phonie mobile}{8}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}La premier g\IeC {\'e}n\IeC {\'e}ration}{9}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}La deuxi\IeC {\`e}me g\IeC {\'e}n\IeC {\'e}ration}{9}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}La troisi\IeC {\`e}me g\IeC {\'e}n\IeC {\'e}ration}{10}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}La quatri\IeC {\`e}me g\IeC {\'e}n\IeC {\'e}ration}{10}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Le r\IeC {\'e}seau LTE}{11}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}La structure du r\IeC {\'e}seau LTE}{12}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {4}Introduction des donn\IeC {\'e}es}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Pr\IeC {\'e}traitement de donn\IeC {\'e}es}{15}{subsection.4.1}
+\contentsline {section}{\numberline {5}partie1}{17}{section.5}
+\contentsline {subsection}{\numberline {5.1}Une sous section}{17}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}\IeC {\'E}crire en anglais}{17}{subsubsection.5.1.1}
+\contentsline {subsection}{\numberline {5.2}Lites}{17}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}R\IeC {\'e}f\IeC {\'e}rences}{17}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Note de bas de page}{18}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Figure}{18}{subsection.5.5}
+\contentsline {section}{\numberline {6}Citation Wikip\IeC {\'e}dia}{20}{section.6}
+\contentsline {section}{Conclusion}{21}{section*.3}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{22}{section*.4}

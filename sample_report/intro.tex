@@ -1,6 +1,10 @@
 
 %\addcontentsline{toc}{section}{Introduction} % Ajout dans la table des matières
-\section{Introduction} % Pas de numérotation
+\section{Résumé} 
+
+Pendant ces quatre mois de stage, notre groupe de recherche travaille avec les employés de \textsc{cmcc} ( China Mobile Communications Corporation ) . Le objectif du sujet est: utilise les technique de Fouille de données, étude les données fournir par CMCC, et trouve les relation entre les données et les défaut du système 4G. Nous avons fait plusieurs tentatives pour trouver les résultats, et on a utilise différents logiciel, j'ai utilisé le R, et mon collègue utilise Mathlab, nous avons utilisé plusieurs algorithme (Clusterring, PCA, Association rules, Ajustement). Mais à la fin,  nous avons trouvé que à cause des défaut dans la système d'acquisition, les données ne sont pas correct, et nous ne pouvons pas trouver le résultat comme prévu. Mais les recherches que nous avons fait peut faites-leur savoir comment utilise les technique de fouille de donnée dans la domaine de télécommunication.
+
+\section{Introduction} 
  
 Le 3 avril 1973, M. Mation \textsc{cooper} le directeur général de la division communication de Motorola, à effectuer un appel téléphonique à Joel \textsc{engel}, son rival et néanmoins confrère chez \textsf{Belle Labs}. c'est la premier appel téléphonique en extérieur, L'idée du téléphone portable devient une réalité. 
 
@@ -8,7 +12,7 @@ depuis ce jour, le technique développé très rapidement. dans les 20 dernière
  
  \subsection{Introduction du CMCC}
  
-Fondé en 3 Septembre 1997, après le regroupement de opérateur des télécommunications en 2008, \textsc{China Mobile Communications Corp.} (\textsf{CMCC})\ref{Fig.sub.1} est devenu un de trois opérateur des télécommunications en Chine (deux autres sont \textsf{China Unicom Co., Ltd.} et \textsf{China Telecom}). Après plusieurs années de développement, il a construit le plus grand réseau de communications mobiles dans le monde, possède la plus grande base d'utilisateurs dans le monde\ref{Fig.sub.2}. En 2013, CMCC a 767 million utilisateurs, 630,2 billion \textyen \qquad de revenu, 121,7 billions \textyen de revenus net, effectif 197,030.
+Fondé en 3 Septembre 1997, après le regroupement de opérateur des télécommunications en 2008, \textsc{China Mobile Communications Corporation} (\textsf{CMCC})\ref{Fig.sub.1} est devenu un de trois opérateur des télécommunications en Chine (deux autres sont \textsf{China Unicom Co., Ltd.} et \textsf{China Telecom}). Après plusieurs années de développement, il a construit le plus grand réseau de communications mobiles dans le monde, possède la plus grande base d'utilisateurs dans le monde\ref{Fig.sub.2}. En 2013, CMCC a 767 million utilisateurs, 630,2 billion \textyen \qquad de revenu, 121,7 billions \textyen de revenus net, effectif 197,030.
 \begin{figure}[H]
 	\flushleft
 	\subfigure[Logo de China Mobile]{
@@ -22,7 +26,7 @@ Fondé en 3 Septembre 1997, après le regroupement de opérateur des télécommu
 	\caption{CMCC} 
 \end{figure}
 
-
+\subsection{La crise de CMCC}
 Mais en même temps, le taux de croissance des nouveaux utilisateur décline de 22,5 \% (2006) à moins de 5\% 2013 \ref{tauxdecroissance}. Et dans la premier 3 mois, l'entreprise une fois considérés comme la plus rentable de Chine, le taux de croissance des revenu net est 0,3\%.
 
       \begin{figure}[H]
@@ -58,7 +62,7 @@ Mais l'étude de Orange nous montre que si nous pouvons fournir des nouveaux tec
           \caption{4G est plus rentable}
           \label{why4G}
       \end{figure}
-  
+  \subsection{L'optimisation du réseau}
 A part de la évolution des technologies. Un grand enjeu pour les opérateurs est: l'optimisation du réseau télécommunication. Le réseau de communication mobile est très dynamique, la répartition de la densité du trafic est inégale, fréquence très limité, etc. La configuration du réseau état toujours sous-optimal, et la perception de l'utilisateur n'est pas très bien. Donc tous les opérateurs doivent toujours reconfigurer/optimiser/maintien les paramètre du réseau.
   
 Les opérateurs peuvent percevoir les données sur Internet, et utilisent ces informations pour trouver les défauts du système, peut aide l'entreprise optimiser le système.

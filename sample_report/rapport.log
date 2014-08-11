@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  11 AUG 2014 01:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  11 AUG 2014 23:39
 entering extended mode
 **rapport.tex
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.tex
@@ -15,8 +15,8 @@ an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 ("C:\Program Files\MiKTeX\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX\tex\latex\base\size11.clo"
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -674,15 +674,15 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\\' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 40.
+(hyperref)                removing `\@ifnextchar' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\\' on input line 42.
 
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.aux
 (C:\Users\wang\Desktop\Git\Latex\sample_report\title.aux)
@@ -693,30 +693,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (C:\Users\wang\Desktop\Git\Latex\sample_report\partie2.aux)
 (C:\Users\wang\Desktop\Git\Latex\sample_report\concl.aux)
 (C:\Users\wang\Desktop\Git\Latex\sample_report\references.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
 
 ("C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Info: Redefining \degres on input line 50.
-LaTeX Info: Redefining \dots on input line 50.
-LaTeX Info: Redefining \up on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Info: Redefining \degres on input line 53.
+LaTeX Info: Redefining \dots on input line 53.
+LaTeX Info: Redefining \up on input line 53.
 
 ("C:\Program Files\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -741,7 +741,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 53.
 
 ("C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -752,30 +752,38 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 \c@section@level=\count118
 LaTeX Info: Redefining \Ref on input line 513.
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.out)
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.out)
 \@outlinefile=\write3
-LaTeX Info: Redefining \Ref on input line 50.
+LaTeX Info: Redefining \Ref on input line 53.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 54.
 
+("C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 (C:\Users\wang\Desktop\Git\Latex\sample_report\title.tex
-<images/logo-univ.png, id=67, 154.5775pt x 104.39pt>
+<images/logo-univ.png, id=115, 154.5775pt x 104.39pt>
 File: images/logo-univ.png Graphic file (type png)
 
 <use images/logo-univ.png>
 Package pdftex.def Info: images/logo-univ.png used on input line 9.
 (pdftex.def)             Requested size: 85.35826pt x 57.64563pt.
 
-<images/Tsinghua_University_Logo.png, id=69, 388.45125pt x 388.45125pt>
+<images/Tsinghua_University_Logo.png, id=117, 388.45125pt x 388.45125pt>
 File: images/Tsinghua_University_Logo.png Graphic file (type png)
 
 <use images/Tsinghua_University_Logo.png>
 Package pdftex.def Info: images/Tsinghua_University_Logo.png used on input line
  17.
 (pdftex.def)             Requested size: 85.35826pt x 85.35876pt.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 24.
  [1
 
 
@@ -783,55 +791,299 @@ Package pdftex.def Info: images/Tsinghua_University_Logo.png used on input line
 /Latex/sample_report/images/logo-univ.png> <C:/Users/wang/Desktop/Git/Latex/sam
 ple_report/images/Tsinghua_University_Logo.png>]) (C:\Users\wang\Desktop\Git\La
 tex\sample_report\rapport.toc
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
-)
-\tf@toc=\write4
+(Font)              <6> on input line 5.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58   \cleardoublepage
-                        [1
+l.28 ...line {section}{Conclusion}{21}{section*.3}
+                                                   [1
 
 
-]
-(C:\Users\wang\Desktop\Git\Latex\sample_report\remerciements.tex) [2
+])
+\tf@toc=\write4
+ [2]
+(C:\Users\wang\Desktop\Git\Latex\sample_report\remerciements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\T1/cmtt/m/n/12 Tout d'abord, je tiens à remercier Amaury Habrard et
+ []
 
 
-]
-(C:\Users\wang\Desktop\Git\Latex\sample_report\intro.tex
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 5.
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 tous les enseignants de la Spécialité Web Intelligence de
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 l'Université Jean Monnet, aussi les enseignants de Télécom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 Saint-Etienne et L'école nationale supérieure de Saint-Etienne,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]\T1/cmtt/m/n/12 Je remercie également M.Yongfeng \T1/cmtt/m/sc/12 Huang \T1/c
+mtt/m/n/12 pour avoir accepter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+\T1/cmtt/m/n/12 diriger cette stage, il m'a beaucoup conseillé, et les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+\T1/cmtt/m/n/12 discussions que l'on a pu avoir se sont toujours révélées très
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T1/cmtt/m/n/12 Je souhaite également adresser mes remerciement à Zheng
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/sc/12 Yang\T1/cmtt/m/n/12 , Lindong \T1/cmtt/m/sc/12 Wei \T1/cmtt/m/
+n/12 et xian \T1/cmtt/m/sc/12 wu \T1/cmtt/m/n/12 ainsi que tout les membres du
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 laboratoire de Next generation Network( NGN ) pour m'avoir
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 14--65
+[]\T1/cmtt/m/n/12 Je tiens à montrer tout ma gratitude envers toutes les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--65
+\T1/cmtt/m/n/12 personnes qui ont pu m'aider, m'encourager, me soutenir, me
+ []
+
+[3
+
+
+] (C:\Users\wang\Desktop\Git\Latex\sample_report\intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\T1/cmtt/m/n/12 Pendant ces quatre mois de stage, notre groupe de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 recherche travaille avec les employés de \T1/cmtt/m/sc/12 cmcc 
+\T1/cmtt/m/n/12 ( China Mobile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 Communications Corporation ) . Le objectif du sujet est:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 utilise les technique de Fouille de données, étude les données
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 fournir par CMCC, et trouve les relation entre les données et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 les défaut du système 4G. Nous avons fait plusieurs tentatives
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 pour trouver les résultats, et on a utilise différents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 logiciel, j'ai utilisé le R, et mon collègue utilise Mathlab,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 nous avons utilisé plusieurs algorithme (Clusterring, PCA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 Association rules, Ajustement). Mais à la fin, nous avons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 trouvé que à cause des défaut dans la système d'acquisition,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 les données ne sont pas correct, et nous ne pouvons pas trouver
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 le résultat comme prévu. Mais les recherches que nous avons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 fait peut faites-leur savoir comment utilise les technique de
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 9.
 ("C:\Program Files\MiKTeX\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<images/China_Mobile_2013.png, id=114, 121.20282pt x 48.93282pt>
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/cmtt/m/n/12 Le 3 avril 1973, M. Mation \T1/cmtt/m/sc/12 cooper \T1/cmtt/m
+/n/12 le directeur général de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 la division communication de Motorola, à effectuer un appel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 téléphonique à Joel \T1/cmtt/m/sc/12 engel\T1/cmtt/m/n/12 , son
+ rival et néanmoins confrère chez
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmss/m/n/12 Belle Labs\T1/cmtt/m/n/12 . c'est la premier appel téléphonique
+ en extérieur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T1/cmtt/m/n/12 depuis ce jour, le technique développé très rapidement.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 dans les 20 dernières années, il y a déjà quatre génération
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 des standards pour la téléphonie mobile, non seulement nous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 pouvons appeler les autres, les nouvelles technologies et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 les Smart-phones nous permettons aussi envoyer les message,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 surfer l'Internet, utiliser le service RTSP(Real Timide
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 Streaming Protocol), et le service VoIP (Voice over Internet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/cmtt/m/n/12 Protocole),etc.. les services de communication téléphonique
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 15.
+
+("C:\Program Files\MiKTeX\tex\latex\base\ts1cmtt.fd"
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<images/China_Mobile_2013.png, id=177, 121.20282pt x 48.93282pt>
 File: images/China_Mobile_2013.png Graphic file (type png)
 
 <use images/China_Mobile_2013.png>
-Package pdftex.def Info: images/China_Mobile_2013.png used on input line 16.
+Package pdftex.def Info: images/China_Mobile_2013.png used on input line 20.
 (pdftex.def)             Requested size: 130.08621pt x 52.52557pt.
 
-<images/reseau.jpg, id=115, 539.01375pt x 368.87813pt>
+<images/reseau.jpg, id=178, 539.01375pt x 368.87813pt>
 File: images/reseau.jpg Graphic file (type jpg)
  <use images/reseau.jpg>
-Package pdftex.def Info: images/reseau.jpg used on input line 21.
+Package pdftex.def Info: images/reseau.jpg used on input line 25.
 (pdftex.def)             Requested size: 144.54pt x 98.91736pt.
 
-<images/1.png, id=117, 290.58563pt x 182.18062pt>
-File: images/1.png Graphic file (type png)
- <use images/1.png>
-Package pdftex.def Info: images/1.png used on input line 30.
-(pdftex.def)             Requested size: 216.81pt x 135.92903pt.
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+[]\T1/cmtt/m/n/12 Fondé en 3 Septembre 1997, après le regroupement de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/n/12 opérateur des télécommunications en 2008, \T1/cmtt/m/sc/12 Chin
+a Mobile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/sc/12 Communications Corporation \T1/cmtt/m/n/12 (\T1/cmss/m/n/12 CM
+CC\T1/cmtt/m/n/12 )[][]1(a)[][] est devenu un de trois
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/n/12 opérateur des télécommunications en Chine (deux autres sont
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 15--27
+\T1/cmss/m/n/12 China Uni-com Co., Ltd. \T1/cmtt/m/n/12 et \T1/cmss/m/n/12 Chin
+a Te-le-com\T1/cmtt/m/n/12 ). Après plusieurs années
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/n/12 de développement, il a construit le plus grand réseau de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/n/12 communications mobiles dans le monde, possède la plus grande
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/n/12 base d'utilisateurs dans le monde[][]1(b)[][]. En 2013, CMCC a 
+767
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--27
+\T1/cmtt/m/n/12 million utilisateurs, 630,2 billion \TS1/cmtt/m/n/12 ¥ \T1/cmtt
+/m/n/12 de revenu, 121,7
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -839,183 +1091,642 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 O
-      pÃ©rateur des tÃ©lÃ©communications Vodafone a fait un Ã©tude aprÃ¨s il...
-[1
+l.27 \end{figure}
+                  [1
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\T1/cmtt/m/n/12 Mais en même temps, le taux de croissance des nouveaux
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.34 O
-      pÃ©rateur des tÃ©lÃ©communications Vodafone a fait un Ã©tude aprÃ¨s il...
- <C:/Users/wang/Desktop/Git/Latex/sample_report/images/China_Mobile_2013.png> <
-C:/Users/wang/Desktop/Git/Latex/sample_report/images/reseau.jpg>]
-<images/4.png, id=131, 267.24844pt x 256.70906pt>
-File: images/4.png Graphic file (type png)
- <use images/4.png>
-Package pdftex.def Info: images/4.png used on input line 39.
-(pdftex.def)             Requested size: 144.54pt x 138.84409pt.
 
-<images/2.png, id=132, 294.34969pt x 218.31563pt>
-File: images/2.png Graphic file (type png)
- <use images/2.png>
-Package pdftex.def Info: images/2.png used on input line 43.
-(pdftex.def)             Requested size: 130.08621pt x 96.48222pt.
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/cmtt/m/n/12 utilisateur décline de 22,5 % (2006) à moins de 5% 2013 [][]2[]
+[]. Et
+ []
 
-<images/orange.JPG, id=134, 334.24875pt x 312.41719pt>
-File: images/orange.JPG Graphic file (type jpg)
- <use images/orange.JPG>
-Package pdftex.def Info: images/orange.JPG used on input line 50.
-(pdftex.def)             Requested size: 216.81pt x 202.65402pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/cmtt/m/n/12 dans la premier 3 mois, l'entreprise une fois considérés comme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/cmtt/m/n/12 la plus rentable de Chine, le taux de croissance des revenu net
+
+ []
+
+<images/1.png, id=184, 290.58563pt x 182.18062pt>
+File: images/1.png Graphic file (type png)
+ <use images/1.png>
+Package pdftex.def Info: images/1.png used on input line 34.
+(pdftex.def)             Requested size: 216.81pt x 135.92903pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54  D
-       es Ã©tudes nous montre nouveaux technologie (comme LTE) peut diminue ...
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+l.38 O
+      pÃ©rateur des tÃ©lÃ©communications Vodafone a fait un Ã©tude aprÃ¨s il...
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54  D
+l.38 O
+      pÃ©rateur des tÃ©lÃ©communications Vodafone a fait un Ã©tude aprÃ¨s il...
+ <C:/Users/wang/Desktop/Git/Latex/sample_report/images/China_Mobile_2013.png> <
+C:/Users/wang/Desktop/Git/Latex/sample_report/images/reseau.jpg>]
+<images/4.png, id=199, 267.24844pt x 256.70906pt>
+File: images/4.png Graphic file (type png)
+ <use images/4.png>
+Package pdftex.def Info: images/4.png used on input line 43.
+(pdftex.def)             Requested size: 144.54pt x 138.84409pt.
+
+Underfull \hbox (badness 5652) in paragraph at lines 43--43
+[]\T1/cmr/m/n/10 (a) Down-link Data Traf-fic in
+ []
+
+<images/2.png, id=200, 294.34969pt x 218.31563pt>
+File: images/2.png Graphic file (type png)
+ <use images/2.png>
+Package pdftex.def Info: images/2.png used on input line 47.
+(pdftex.def)             Requested size: 130.08621pt x 96.48222pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+[]\T1/cmtt/m/n/12 Opérateur des télécommunications Vodafone a fait un étude
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 après il déployé un réseau 3G(\T1/cmss/m/n/12 the third ge-ne-r
+a-tion of mo-bile phone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmss/m/n/12 mo-bile com-mu-ni-ca-tion tech-no-logy stan-dards\T1/cmtt/m/n/1
+2 ). Comme le réseau 3G
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 permettant des débits (de 2 à 42 Mb/s définis par la dernière
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 génération des réseaux) qui sont bien plus rapides que la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 génération précédente, par exemple le GSM. Les utilisateur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 utilisent bien plus souvent le service internet[][]3(a)[][]. Co
+mme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 ils utilisent plus du service internet, le data ARPU (Average
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--49
+\T1/cmtt/m/n/12 Revenue Per User) augment, mais le voix ARPU décline plus
+ []
+
+<images/orange.JPG, id=202, 334.24875pt x 312.41719pt>
+File: images/orange.JPG Graphic file (type jpg)
+ <use images/orange.JPG>
+Package pdftex.def Info: images/orange.JPG used on input line 54.
+(pdftex.def)             Requested size: 216.81pt x 202.65402pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
+[]\T1/cmtt/m/n/12 Mais l'étude de Orange nous montre que si nous pouvons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
+\T1/cmtt/m/n/12 fournir des nouveaux technologies qui a plus haute débit, les
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58  D
+       es Ã©tudes nous montre nouveaux technologie (comme LTE) peut diminue ...
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58  D
        es Ã©tudes nous montre nouveaux technologie (comme LTE) peut diminue ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54  D
+l.58  D
        es Ã©tudes nous montre nouveaux technologie (comme LTE) peut diminue ...
  <C:/Users/wang/Desktop/Git/Latex/sample_report/images/1.png> <C:/Users/wang/De
 sktop/Git/Latex/sample_report/images/4.png> <C:/Users/wang/Desktop/Git/Latex/sa
 mple_report/images/2.png>]
-<images/why4G.jpg, id=142, 543.53062pt x 359.84438pt>
+<images/why4G.jpg, id=211, 543.53062pt x 359.84438pt>
 File: images/why4G.jpg Graphic file (type jpg)
  <use images/why4G.jpg>
-Package pdftex.def Info: images/why4G.jpg used on input line 57.
+Package pdftex.def Info: images/why4G.jpg used on input line 61.
 (pdftex.def)             Requested size: 216.81pt x 143.53986pt.
 
-[3pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+[]\T1/cmtt/m/n/12 Des études nous montre nouveaux technologie (comme LTE)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 peut diminue le prix de revient, qui peut assurer le profit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 de l'opérateur. Mais déployé les nouveaux matériel coût
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 très cher, en 2009, CMCC dépenser 30 billions \TS1/cmtt/m/n/12 
+¥\T1/cmtt/m/n/12 en construit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 les station pour réseau 3G, et à 2014, CMCC a construit 1,5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 million stations, à la fin de cet année, il y aura 1,8 million
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 stations, parmi ces station, il y aura 500 mille stations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 TD-LTE. En ajoutant des équipement 4G, il peut être mis à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 niveau un station de 3G à 4G. Donc déployé le réseau 4G n'est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 pas trop cher, selon l'expérience précédente (de 2G à 3G), les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+\T1/cmtt/m/n/12 utilisateurs iront utiliser plus le service internet, qui peut
+ []
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.63 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-}) has been already used, duplicate ignored
+l.65   \subsection
+                  {L'optimisation du rÃ©seau} <C:/Users/wang/Desktop/Git/Latex/
+sample_report/images/orange.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\T1/cmtt/m/n/12 A part de la évolution des technologies. Un grand enjeu pour
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.63 
-      <C:/Users/wang/Desktop/Git/Latex/sample_report/images/orange.JPG> <C:/Use
-rs/wang/Desktop/Git/Latex/sample_report/images/why4G.jpg>]
-<images/meseau.jpg, id=149, 402.75468pt x 158.84344pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmtt/m/n/12 les opérateurs est: l'optimisation du réseau télécommunication.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmtt/m/n/12 Le réseau de communication mobile est très dynamique, la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmtt/m/n/12 répartition de la densité du trafic est inégale, fréquence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmtt/m/n/12 très limité, etc. La configuration du réseau état toujours
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmtt/m/n/12 sous-optimal, et la perception de l'utilisateur n'est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmtt/m/n/12 pas très bien. Donc tous les opérateurs doivent toujours
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]\T1/cmtt/m/n/12 Les opérateurs peuvent percevoir les données sur Internet,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\T1/cmtt/m/n/12 et utilisent ces informations pour trouver les défauts du
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[]\T1/cmtt/m/n/12 Mais la optimisation du réseau télécommunication est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+\T1/cmtt/m/n/12 difficile parce-que: Les technologies d'optimisation de réseau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+\T1/cmtt/m/n/12 concerné: La technologie de commutation, la technologie sans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+\T1/cmtt/m/n/12 fil, la configuration et commutation de la fréquence, la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+\T1/cmtt/m/n/12 signalisation système, l'analyse de trafic, etc. c'est un
+ []
+
+<images/meseau.jpg, id=217, 402.75468pt x 158.84344pt>
 File: images/meseau.jpg Graphic file (type jpg)
  <use images/meseau.jpg>
-Package pdftex.def Info: images/meseau.jpg used on input line 71.
+Package pdftex.def Info: images/meseau.jpg used on input line 75.
 (pdftex.def)             Requested size: 216.81pt x 85.50755pt.
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+[]\T1/cmtt/m/n/12 Actuellement, l'optimisation du réseau dépend principalement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 à la expérience du personnel. Mais des fois les expériences ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 sont pas correct. Par exemple, Si l'entreprise besoin de savoir
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 le congestionné d'un station, il faut envoyer les employé avec
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 des équipement pendant les périodes de pointe, mais on ne sait
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 pas si les résultats sont correct [][]6[][]. En outre, souvent 
+un seul
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 type de donnée ont utilise pour l'analyse et la comparaison
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 pour optimiser les réseau, plutôt que de trouver un solution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 d'optimisation basées sur toutes les données liées au réseau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 (telles que les données statistique de trafic, les données
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 d'essai, etc). Et en raison de l'énorme quantité de données,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 c'est difficile de traite en temps opportun. il est évident que
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 ce méthode est défectueux. Les défauts du système provoque la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\T1/cmtt/m/n/12 satisfaction des utilisateurs inférieure, ce qui a conduit à
+ []
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
-      <C:/Users/wang/Desktop/Git/Latex/sample_report/images/meseau.jpg>]
-<images/NGN.jpg, id=163, 316.18124pt x 47.42719pt>
+l.78       \end{figure}
+                        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/w
+hy4G.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]\T1/cmtt/m/n/12 Face à des problèmes complexes, les grands entreprises
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\T1/cmtt/m/n/12 commence utilise les techniques de Fouille de données. Ce
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\T1/cmtt/m/n/12 technique peut aide l'entreprise faire les décision plus vite
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+[]\T1/cmtt/m/n/12 De ce faire, en Juillet 2013, CMCC a lancé ce projet avec
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+\T1/cmtt/m/n/12 quatre laboratoires dans trois université, ils sont [][]Tsinghu
+a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+\T1/cmtt/m/n/12 University[][], [][]Shandong University[][] et [][]University o
+f Electronic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+\T1/cmtt/m/n/12 Science and Technology of China[][]. Le projet inclure trois
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+\T1/cmtt/m/n/12 partiel: Fouille de données, gérés le Clound plateforme et
+ []
+
+<images/NGN.jpg, id=230, 316.18124pt x 47.42719pt>
 File: images/NGN.jpg Graphic file (type jpg)
  <use images/NGN.jpg>
-Package pdftex.def Info: images/NGN.jpg used on input line 86.
+Package pdftex.def Info: images/NGN.jpg used on input line 90.
 (pdftex.def)             Requested size: 216.81pt x 32.52216pt.
-)
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+[]\T1/cmtt/m/n/12 De 20 Avril 2014 à 20 Juillet 2014, je fait mon stage chez
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+[][]\T1/cmtt/m/n/12 laboratoire of Next Generation Network Technology & Applica
+tion[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+\T1/cmss/m/n/12 ( NGN ) [][]\T1/cmtt/m/n/12 7[][]. C'est d'un subordonné de [][
+]Research Institute of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+\T1/cmtt/m/n/12 Network And Human-Machine Speech Comunication[][], Département
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+\T1/cmtt/m/n/12 Ingénierie électronique, Tsinghua University. Le laboratoire se
+
+ []
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.65   \include{intro}
+l.94 L
+      e principaux axes de recherche sont ThÃ©orie des rÃ©seaux, Architectur...
+ <C:/Users/wang/Desktop/Git/Latex/sample_report/images/meseau.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+[]\T1/cmtt/m/n/12 Le principaux axes de recherche sont Théorie des réseaux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+\T1/cmtt/m/n/12 Architecture de l'Internet, Traitement de l'information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+\T1/cmtt/m/n/12 Internet, La recherche dans le domaine de la sécurité Internet,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\T1/cmtt/m/n/12 Mon tuteur professionnel est [][]M. Yongfeng \T1/cmtt/m/sc/12
+ huang[][]\T1/cmtt/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\T1/cmtt/m/n/12 vice-directeur de la laboratoire NGN. Dans le laboratoire, il
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\T1/cmtt/m/n/12 y a cinq groupe, chaque groupe a un docteur et son sujet. dans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\T1/cmtt/m/n/12 notre groupes, il y a trois personnes, un étudiant de premier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\T1/cmtt/m/n/12 année docteur, un étudiant de M1, et une étudiante de Licence
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 99--71
+[]\T1/cmtt/m/n/12 Dans cet article, nous avons d'abord présente le réseau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--71
+\T1/cmtt/m/n/12 communication mobile, ensuite je vais décrire l'état de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--71
+\T1/cmtt/m/n/12 l'optimisation du réseau. Enfin je présente la mise en place
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71   \include{intro}
                        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/NG
 N.jpg>] (C:\Users\wang\Desktop\Git\Latex\sample_report\contex.tex
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]|\T1/cmr/m/n/10.95 Radiocom
+Overfull \hbox (1.73013pt too wide) in paragraph at lines 8--8
+[]|\T1/cmr/m/n/12 Description| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]|\T1/cmr/m/n/10.95 Échanges
+[]|\T1/cmr/m/n/12 Radiocom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\T1/cmr/m/n/12 Échanges
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/cmr/m/n/12 de type
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/cmr/m/n/12 voix uni-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\T1/cmr/m/n/10.95 Échanges
+[]|\T1/cmr/m/n/12 Échanges
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\T1/cmr/m/n/12 de type
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\T1/cmr/m/n/12 voix uni-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\T1/cmr/m/n/10.95 Échange
+[]|\T1/cmr/m/n/12 Échange
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 15--15
-\T1/cmr/m/n/10.95 de don-nées
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\T1/cmr/m/n/12 Voix +
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 18--19
-[]|\T1/cmr/m/n/10.95 144 kbps ru-rale, 384
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T1/cmr/m/n/10.95 3.5G ou
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+\T1/cmr/m/n/12 kbps ur-baine, 1,9
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T1/cmr/m/n/10.95 Évolution
+[]|\T1/cmr/m/n/12 3.5G ou
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 23--23
-[]|\T1/cmr/m/n/10.95 Long Term
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/cmr/m/n/12 Évolution
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\T1/cmr/m/n/10.95 Evo-lu-tion
+\T1/cmr/m/n/12 Evo-lu-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T1/cmr/m/n/10.95 LTE-
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 25--25
-[]|\T1/cmr/m/n/10.95 Long Term
+[]|\T1/cmr/m/n/12 LTE-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/cmr/m/n/10.95 Evo-lu-tion
+\T1/cmr/m/n/12 Evo-lu-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/cmr/m/n/10.95 Ad-van-ced
+\T1/cmr/m/n/12 Ad-van-ced
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/cmr/m/n/10.95 (Don-
+\T1/cmr/m/n/12 (Don-
  []
 
-[6
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
+[]\T1/cmtt/m/n/12 Depuis 1984, il y a déjà plusieurs standards ont été utilisé
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
+\T1/cmtt/m/n/12 par les opérateur dans le monde entier. Voici un tableau de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/cmtt/m/n/12 En télécommunication, \T1/cmss/m/n/12 1G \T1/cmtt/m/n/12 est 
+la premier génération des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\T1/cmtt/m/n/12 standards pour la téléphonie mobile, il s'agit de la première
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\T1/cmtt/m/n/12 apparition du réseaux de téléphonie mobile, 1G sont des réseaux
+
+ []
+
+[8
 
 
 
@@ -1024,91 +1735,718 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 
-     ] <images/3G2.JPG, id=179, 383.18156pt x 201.00093pt>
+l.34 \subsubsection
+                   {La deuxiÃ¨me gÃ©nÃ©ration}]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\T1/cmss/m/n/12 2G\T1/cmtt/m/n/12 , la technologie de téléphonie sans fil de 
+deuxième
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\T1/cmtt/m/n/12 génération, la différence entre le réseaux 1G et 2G est: le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\T1/cmtt/m/n/12 signaux radio sur les réseaux 1G sont analogiques, et celle de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]\T1/cmtt/m/n/12 Systèmes 2G ont été significativement plus efficaces du
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 spectre permettant de bien plus grand taux de pénétration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 du téléphone mobile, en plus les données vocales numériques
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 peuvent être compressées et multiplexées beaucoup plus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 efficacement que les codages de la voix analogique grâce à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 l'utilisation de codecs différents, ce qui permet plus d'appels
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 à transmettre dans la même quantité de bande passante radio.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 Et 2G présenté premier foi les services de données pour mobile.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 Les Technologie 2G permettent les divers réseaux de téléphonie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 mobile de utiliser des services tels que le SMS et MMS. Tous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 les message de texte envoyés au delà de 2G sont chiffrés
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\T1/cmtt/m/n/12 numériquement, ce qui permet le transfert de données de telle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]\T1/cmtt/m/n/12 Réseaux 2G ont été construits principalement pour les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\T1/cmtt/m/n/12 services téléphoniques et de transmission de données lent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\T1/cmtt/m/n/12 Réseaux \T1/cmss/m/n/12 2,5G\T1/cmtt/m/n/12 , on le qualifie 
+souvent de le General packet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 Radio Service ou GPRS, est une norme pour la téléphonie mobile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 dérivée du GSM et complémentaire de celui-ci, permettant un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 débit de données plus élevé. Le 2,5 indique que c'est une
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 technologie à mi-chemin entre le GSM (deuxième génération)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 et l'UMTS (troisième génération). Le GPRS est une extension
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 du protocole GSM : il ajoute par rapport à ce dernier la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 transmission par paquets. Cette méthode est plus adaptée à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 la transmission des données. En effet, les ressources ne sont
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 allouées que lorsque des données sont échangées, contrairement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 au mode  circuit  en GSM où un circuit est établi  et les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 ressources associées  pour toute la durée de la communication.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/n/12 Le GPRS a ensuite évolué au début des années 2000 vers la norme
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\T1/cmtt/m/sc/12 edge \T1/cmtt/m/n/12 également optimisée pour transférer des d
+onnées et qui
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]\T1/cmtt/m/n/12 La troisième génération (3G) des normes de téléphonie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/cmtt/m/n/12 mobile. Elle est représentée principalement par W-CDMAmm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/cmtt/m/n/12 CDMA2000, TD-SCDMA et WiMAX. Elle permettant des débits de 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/cmtt/m/n/12 à 42 Mb/s qui sont bien plus rapides qu'avec la génération
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/cmtt/m/n/12 précédente. Grâce à l'utilisation des règles de classement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/cmtt/m/n/12 utilisateur, et les bandes de fréquences supérieures rendant la
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\T1/cmtt/m/n/12 Dans les différentes standard 3G et ses prédécesseur, ils
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\T1/cmtt/m/n/12 utilisent le domaine CS (Circuit Switch) pour les services
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\T1/cmtt/m/n/12 vocaux, et le domaine PS (Packet Switch) s'occupe des services
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]\T1/cmtt/m/n/12 La quatrième génération des standards pour la téléphonie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+\T1/cmtt/m/n/12 mobile, succédant à la 2G et la 3G, en théorie, elle permet de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\T1/cmtt/m/n/12 Une des particularité de la 4G est sa EPC (Evolved Packet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\T1/cmtt/m/n/12 Core) est basé sur IP, et il n'y a plus de mode commuté (le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\T1/cmtt/m/n/12 'Circuit Switched Domain' qui s'occupe le service vocaux dans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\T1/cmtt/m/n/12 les standard précédant), ce qui signifie que les services
+ []
+
+<images/3G2.JPG, id=258, 383.18156pt x 201.00093pt>
 File: images/3G2.JPG Graphic file (type jpg)
-
-<use images/3G2.JPG>
-Package pdftex.def Info: images/3G2.JPG used on input line 50.
+ <use images/3G2.JPG>
+Package pdftex.def Info: images/3G2.JPG used on input line 56.
 (pdftex.def)             Requested size: 216.81pt x 113.73134pt.
- <images/4g.JPG, id=180, 382.42876pt x 202.50656pt>
+
+<images/4g.JPG, id=259, 382.42876pt x 202.50656pt>
 File: images/4g.JPG Graphic file (type jpg)
-
-<use images/4g.JPG>
-Package pdftex.def Info: images/4g.JPG used on input line 54.
+ <use images/4g.JPG>
+Package pdftex.def Info: images/4g.JPG used on input line 61.
 (pdftex.def)             Requested size: 216.81pt x 114.80574pt.
- [7] <images/enb.jpg, id=187, 256.70906pt x 245.41687pt>
-File: images/enb.jpg Graphic file (type jpg)
+ [10]
+<images/evolution.JPG, id=267, 355.3275pt x 259.7203pt>
+File: images/evolution.JPG Graphic file (type jpg)
 
-<use images/enb.jpg>
-Package pdftex.def Info: images/enb.jpg used on input line 62.
-(pdftex.def)             Requested size: 216.81pt x 207.27592pt.
-) [8pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
-) has been already used, duplicate ignored
+<use images/evolution.JPG>
+Package pdftex.def Info: images/evolution.JPG used on input line 70.
+(pdftex.def)             Requested size: 289.07999pt x 211.30359pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+[]\T1/cmtt/m/n/12 Le LTE (Long Term Evolution) est l'evolution la plus récent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 des normes de CDMA 2000, TD-SCDMA, GSM. La norme LTE. La
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 technologie LTE été considérée comme une norme de troisième
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 génération '3.9G', et la 'vraie 4G', appelée LTE-Advanced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 été reconnu par l'UIT comme une technologie 4G en 2010.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 LTE a deux branche: LTE-FDD (Frequency-Division Duplex Long
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 Term Evolution)et LTE-TDD, (Time Division Duplex Long Term
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 Evolution)les deux standards sont similaire [][]9[][]. En 2011-
+2012,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\T1/cmtt/m/n/12 les réseaux LTE-TDD sont commercialisés sous l'appellation 4G
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.68   \include{contex}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.9}) has been already used, duplicate ignored
+l.74 
+      <C:/Users/wang/Desktop/Git/Latex/sample_report/images/3G2.JPG> <C:/Users/
+wang/Desktop/Git/Latex/sample_report/images/4g.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]\T1/cmtt/m/n/12 Le réseau 4G contient 2 partie: eNodeB (le station), EPC
+ []
+
+<images/enb2.jpg, id=276, 648.92438pt x 298.11375pt>
+File: images/enb2.jpg Graphic file (type jpg)
+ <use images/enb2.jpg>
+Package pdftex.def Info: images/enb2.jpg used on input line 80.
+(pdftex.def)             Requested size: 361.34999pt x 166.0055pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\T1/cmr/m/n/12 Service
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 91--91
+[]|\T1/cmr/m/n/12 PDN Ga-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\T1/cmr/m/n/12 HSS(Home
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\T1/cmr/m/n/12 Sub-scri-ber
+ []
+
+
+Overfull \hbox (5.08578pt too wide) in paragraph at lines 86--96
+[][]
+ []
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.68   \include{contex}
-                        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/3
-G2.JPG> <C:/Users/wang/Desktop/Git/Latex/sample_report/images/4g.JPG> <C:/Users
-/wang/Desktop/Git/Latex/sample_report/images/enb.jpg>]
-(C:\Users\wang\Desktop\Git\Latex\sample_report\partie1.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
-
-("C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-<./images/bloghiko.jpg, id=202, 321.2pt x 240.9pt>
-File: ./images/bloghiko.jpg Graphic file (type jpg)
- <use ./images/bloghiko.jpg>
-Package pdftex.def Info: ./images/bloghiko.jpg used on input line 60.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
-
-[9
-
-
-
-]
-File: ./images/bloghiko.jpg Graphic file (type jpg)
- <use ./images/bloghiko.jpg>
-Package pdftex.def Info: ./images/bloghiko.jpg used on input line 67.
-(pdftex.def)             Requested size: 180.0pt x 135.00232pt.
-) [10pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+l.99 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.71   \include{partie1}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{figure.11}) has been already used, duplicate ignored
+l.99 
+      <C:/Users/wang/Desktop/Git/Latex/sample_report/images/evolution.JPG> <C:/
+Users/wang/Desktop/Git/Latex/sample_report/images/enb2.jpg>]
+<images/S1-U.png, id=285, 323.70938pt x 319.1925pt>
+File: images/S1-U.png Graphic file (type png)
+ <use images/S1-U.png>
+Package pdftex.def Info: images/S1-U.png used on input line 103.
+(pdftex.def)             Requested size: 144.54pt x 142.52483pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+[]\T1/cmtt/m/n/12 Entre deux \T1/cmtt/m/sc/12 e-utran\T1/cmtt/m/n/12 , il y a l
+'interface X2, l'interface
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 S-11 se trouve entre S-GW et MME, \T1/cmtt/m/sc/12 e-utran \T1/
+cmtt/m/n/12 et S-GW échange les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 données par l'interface S1-U [][]11[][]et il échange les donnée
+ par
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 l'interface S1-AP avec MME [][]11[][], MME et HSS utilise l'int
+erface
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 S6A, et l'interface S5/8 entre S-GW et P-GW, Gx entre PCRF et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 P-GW. En mettant des capteur en les interfaces, les opérateurs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 et les fournisseurs d'équipement peuvent collecter les données
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
+\T1/cmtt/m/n/12 de signalisation, et utilisent ces données pour trouver les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+[]\T1/cmtt/m/n/12 Après quelque semaines de négociation avec les employés de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+\T1/cmtt/m/n/12 différents départements de la CMCC, ils nous ont fourni deux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+\T1/cmtt/m/n/12 versions de données, et ses spécifications du format. Nous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+\T1/cmtt/m/n/12 avons trouvé que CMCC n'a pas de accès direct aux données,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+\T1/cmtt/m/n/12 et la spécification fourni par CMCC n'est pas correct, et il
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+\T1/cmtt/m/n/12 y a des erreur dans les données fourni par les fournisseur
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.71   \include{partie1}
-                         <C:/Users/wang/Desktop/Git/Latex/sample_report/images/
-bloghiko.jpg>] (C:\Users\wang\Desktop\Git\Latex\sample_report\partie2.tex)
-[11
+l.111 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.111 
+       <C:/Users/wang/Desktop/Git/Latex/sample_report/images/S1-U.png>]
+<images/data.png, id=293, 532.23843pt x 252.945pt>
+File: images/data.png Graphic file (type png)
+ <use images/data.png>
+Package pdftex.def Info: images/data.png used on input line 115.
+(pdftex.def)             Requested size: 361.34999pt x 171.73401pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+[]\T1/cmtt/m/n/12 Ils nous ont envoyé 11 dossiers, chaque dossier correspond
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\T1/cmtt/m/n/12 à un service. les services sont 'rtsp', 'dns','mail', 'ftp',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\T1/cmtt/m/n/12 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[]\T1/cmtt/m/n/12 Et nous avons trouvé que pour les services comme 'VoIP' et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+\T1/cmtt/m/n/12 'RTSP', ils sont très peu de données [][]3[][]. Donc nous avons
+ décidé
+ []
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.141 
+       <C:/Users/wang/Desktop/Git/Latex/sample_report/images/data.png>]
+<images/http.png, id=302, 293.59688pt x 16.56187pt>
+File: images/http.png Graphic file (type png)
+ <use images/http.png>
+Package pdftex.def Info: images/http.png used on input line 147.
+(pdftex.def)             Requested size: 361.34999pt x 20.38387pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
+[]\T1/cmtt/m/n/12 Dans le dossier de HTTP, il y a 50854 lignes, chaque ligne a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]\T1/cmtt/m/n/12 En analysant des données, nous avons trouvé des erreur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+\T1/cmtt/m/n/12 et le fournisseur nous a confirmé que ces sont les défaut de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+\T1/cmtt/m/n/12 leur système 4G. Par exemple, ils sont chiffré les données en
+ []
+
+<images/errorData.png, id=305, 307.1475pt x 139.27031pt>
+File: images/errorData.png Graphic file (type png)
+
+<use images/errorData.png>
+Package pdftex.def Info: images/errorData.png used on input line 157.
+(pdftex.def)             Requested size: 272.99881pt x 123.79291pt.
+ <images/11.png, id=306, 314.67563pt x 91.84312pt>
+File: images/11.png Graphic file (type png)
+
+<use images/11.png>
+Package pdftex.def Info: images/11.png used on input line 164.
+(pdftex.def)             Requested size: 272.99881pt x 79.68283pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{table.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.168 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.168 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.168 
+       <C:/Users/wang/Desktop/Git/Latex/sample_report/images/http.png> <C:/User
+s/wang/Desktop/Git/Latex/sample_report/images/errorData.png>]) [16pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.15}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.74   \include{contex}
+                        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/1
+1.png>] (C:\Users\wang\Desktop\Git\Latex\sample_report\partie1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\T1/cmtt/m/n/12 On peut mettre des mots en \T1/cmtt/m/it/12 italique\T1/cmtt/
+m/n/12 , en \T1/cmtt/m/sc/12 petites Majuscules
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]\T1/cmtt/m/n/12 Voici un deuxième paragraphe avec une formule mathématique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\T1/cmtt/m/n/12 Voici une référence à l'image de la figure [][]16[][] page []
+[]18[][] et une
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+[]\T1/cmtt/m/n/12 On peut citer un livre[] et on précise les détails à la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+[]\T1/cmtt/m/n/12 Voici une note[][][][][] de bas de page. Une deuxième[][][][]
+[] déclarée
+ []
+
+[17
 
 
 
-] (C:\Users\wang\Desktop\Git\Latex\sample_report\concl.tex) [12
+] <./images/bloghiko.jpg, id=340, 321.2pt x 240.9pt>
+File: ./images/bloghiko.jpg Graphic file (type jpg)
+
+<use ./images/bloghiko.jpg>
+Package pdftex.def Info: ./images/bloghiko.jpg used on input line 60.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: ./images/bloghiko.jpg Graphic file (type jpg)
+ <use ./images/bloghiko.jpg>
+Package pdftex.def Info: ./images/bloghiko.jpg used on input line 67.
+(pdftex.def)             Requested size: 195.0pt x 146.25404pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.70 
+      <C:/Users/wang/Desktop/Git/Latex/sample_report/images/bloghiko.jpg>])
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77   \include{partie1}
+                        ]
+(C:\Users\wang\Desktop\Git\Latex\sample_report\partie2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\T1/cmtt/m/n/12 LaTeX est un langage et un système de composition de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 documents créé par Leslie Lamport en 198312. Plus exactement,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 il s'agit d'une collection de macro-commandes destinées à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 faciliter l'utilisation du  processeur de texte  TeX de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 Donald Knuth. Depuis 1993, il est maintenu par le LaTeX3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 Project team. La première version utilisée largement, appelée
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\T1/cmtt/m/n/12 LaTeX2.09, est sortie en 1984. Une révision majeure, appelée
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[]\T1/cmtt/m/n/12 Le nom est l'abréviation de Lamport TeX. On écrit souvent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\T1/cmtt/m/n/12 L[]T[]X, le logiciel permettant les mises en forme correspondan
+t au
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/cmtt/m/n/12 Du fait de sa relative simplicité, il est devenu la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 méthode privilégiée d'écriture de documents scientifiques
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 employant TeX. Il est particulièrement utilisé dans les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 domaines techniques et scientifiques pour la production de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 documents de taille moyenne ou importante (thèse ou livre, par
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 exemple). Néanmoins, il peut aussi être employé pour générer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/cmtt/m/n/12 des documents de types variés (par exemple, des lettres, ou des
+
+ []
+
+) [20
+
+
+
+] (C:\Users\wang\Desktop\Git\Latex\sample_report\concl.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 4--83
+[]\T1/cmtt/m/n/12 Pour conclure, avec L[]T[]X on obtient un rendu impeccable ma
+is
+ []
+
+[21
+
+
+
+] (C:\Users\wang\Desktop\Git\Latex\sample_report\references.tex) [22
 
 
 
 ]
-(C:\Users\wang\Desktop\Git\Latex\sample_report\references.tex) [13
-
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.aux
 (C:\Users\wang\Desktop\Git\Latex\sample_report\title.aux)
@@ -1119,46 +2457,47 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 (C:\Users\wang\Desktop\Git\Latex\sample_report\partie2.aux)
 (C:\Users\wang\Desktop\Git\Latex\sample_report\concl.aux)
 (C:\Users\wang\Desktop\Git\Latex\sample_report\references.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: C92A0AF084F2F79A272C82A3EF30BAFF;985.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
+(rerunfilecheck)             Checksum: ADC16969C40E3F324B78AC40AEB76271;1967.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 7417 strings out of 493921
- 107822 string characters out of 3148889
- 193413 words of memory out of 3000000
- 10463 multiletter control sequences out of 15000+200000
- 20363 words of font info for 43 fonts, out of 3000000 for 9000
+ 7518 strings out of 493921
+ 109565 string characters out of 3148889
+ 191978 words of memory out of 3000000
+ 10523 multiletter control sequences out of 15000+200000
+ 17413 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,12n,43p,1021b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,12n,43p,1021b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 crm0800.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecrm0700.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ectt1095.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\wang\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk> <C:\Users\wang\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1095.pk> <C:\Users\wan
-g\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1095.pk> <C:\
-Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
+\dpi600\ectt0800.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecit1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\wang\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\wang\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt1200.pk> <C:\Users\wan
+g\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\
+Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1200
 .pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1095.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1440.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\wang\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\wang\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\w
-ang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C
-:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc17
-28.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on rapport.pdf (16 pages, 792296 bytes).
+\ectc1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ectt1200.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecit1440.pk> <C:\Users\wang\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1440.pk> <C:\Users\wang\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt2488.pk> <C:\Users\w
+ang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectc1728.pk> <C
+:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectc14
+40.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ectc2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on rapport.pdf (26 pages, 989753 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

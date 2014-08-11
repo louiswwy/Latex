@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt,final]{article}
+\documentclass[a4paper,12pt,final]{article}
 % Pour une impression recto verso, utilisez plutôt ce documentclass :
 %\documentclass[a4paper,11pt,twoside,final]{article}
 
@@ -21,6 +21,8 @@
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{longtable}
+
+
 
 \newcommand{\reporttitle}{Rapport de Stage \\Année 2013-2014 \vspace{2ex}\\{\large Fouille de Donnée dans la domaine de télécommunication}}
 
@@ -47,7 +49,10 @@
 \cfoot{-\thepage-}
 \rfoot{}
 \setcounter{page}{3}
+
 \begin{document}
+	\ttfamily
+
   \pagestyle{empty}
   \include{title}
   \cleardoublepage % Dans le cas du recto verso, ajoute une page blanche si besoin
@@ -62,6 +67,7 @@
   
   \pagestyle{fancy}  
   \pagenumbering{arabic}
+  
   \include{intro}
   \cleardoublepage
   
