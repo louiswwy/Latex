@@ -62,9 +62,10 @@ Une des particularité de la 4G est sa EPC (Evolved Packet Core) est basé sur I
 	\caption{Structure des réseaux} 
 		\label{Fig.3G}
 \end{figure}
+Les avantages du réseau 4G sont:  plus haut débit, mieux utilisation de la bandes de fréquence, moins de délai (délai dans le panneau de utilisateur est inférieur que 5 ms, délai dans le panneau de commande est inférieur que 100 ms ), plus simple structure du réseau, moins de consommation d'énergie Terminal.
 
 \subsection{Le réseau LTE}
-Le LTE (Long Term Evolution) est l'evolution la plus récent des normes de CDMA 2000, TD-SCDMA, GSM. La norme LTE. La technologie LTE été considérée comme une norme de troisième génération '3.9G', et la 'vraie 4G', appelée LTE-Advanced été reconnu par l'UIT comme une technologie 4G en 2010. LTE a deux branche: LTE-FDD (Frequency-Division Duplex  Long Term Evolution)et LTE-TDD, (Time Division Duplex Long Term Evolution)les deux standards sont similaire \ref{evolution}. En 2011-2012, les réseaux LTE-TDD sont commercialisés sous l'appellation 4G par CMCC un Chine.
+Le LTE (Long Term Evolution) est l'evolution la plus récent des normes de CDMA 2000, TD-SCDMA, GSM. La norme LTE. La technologie LTE été considérée comme une norme de troisième génération '3.9G', et la 'vraie 4G', appelée LTE-Advanced été reconnu par l'UIT comme une technologie 4G en 2010. LTE a deux branche: LTE-FDD (Frequency-Division Duplex  Long Term Evolution)et LTE-TDD, (Time Division Duplex Long Term Evolution)les deux standards sont similaire, la différence entre les deux standard est moins de 15\% \ref{evolution}. En 2011-2012, les réseaux LTE-TDD sont commercialisés sous l'appellation 4G par CMCC un Chine.
       \begin{figure}[H]
           \centering
           \includegraphics[width=4in]{images/evolution.JPG}
@@ -73,7 +74,7 @@ Le LTE (Long Term Evolution) est l'evolution la plus récent des normes de CDMA 
       \end{figure}
       
 \subsubsection{La structure du réseau LTE}
-Le réseau 4G contient 2 partie: eNodeB (le station), EPC (Evolved Packet Core) qui contient MME, S-GW, P-GW et HSS \ref{structure4G}  \ref{founction du chaque partie}. 
+Le réseau 4G contient 3 partie: UE( User Equipment);, eNodeB (les stations de base), EPC (Evolved Packet Core). EPC contient MME, S-GW, P-GW et HSS \ref{structure4G}  \ref{founction du chaque partie}. 
     
       \begin{figure}[H]
           \centering
@@ -83,7 +84,7 @@ Le réseau 4G contient 2 partie: eNodeB (le station), EPC (Evolved Packet Core) 
       \end{figure}
       
 \begin{table}[H]
-	\begin{tabular}{|p{2cm}|p{11 cm}|}
+	\begin{tabular}{|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{11 cm}|}
 		\hline Part &                     Fonction\\
 		\hline MME & 
 			L'authentification des utilisateurs et la gestion des clés,  Cryptage de la couche NAS,  Gestion de la liste TA, Sélection P-GW ou S-GW \\ 
@@ -97,7 +98,7 @@ Le réseau 4G contient 2 partie: eNodeB (le station), EPC (Evolved Packet Core) 
 	\label{founction du chaque partie}
 \end{table}    
 
-Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve entre S-GW et MME, \textsc{e-utran} et S-GW échange les données par l'interface S1-U \ref{Fig.S1}et il échange les donnée par l'interface S1-AP avec MME \ref{Fig.S1}, MME et HSS utilise l'interface S6A, et l'interface S5/8 entre S-GW et P-GW, Gx entre PCRF et P-GW. En mettant des capteur en les interfaces, les opérateurs et les fournisseurs d'équipement peuvent collecter les données de signalisation, et utilisent ces données pour trouver les défauts du système. 
+Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve entre S-GW et MME, \textsc{e-utran} et S-GW échange les données par l'interface S1-U \ref{Fig.S1}et il échange les donnée par l'interface S1-AP avec MME \ref{Fig.S1}, MME et HSS utilise l'interface S6A, et l'interface S5/8 entre S-GW et P-GW, Gx entre PCRF et P-GW. En mettant des capteur en les interfaces, les opérateurs et les fournisseurs d'équipement peuvent collecter les données de signalisation, et utilisent ces informations pour trouver les défauts du système. 
       \begin{figure}[H]
           \centering
           \includegraphics[width=2in]{images/S1-U.png}
@@ -106,10 +107,10 @@ Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve e
       \end{figure}
 
 \section{Introduction des données}
+%\,\up{\cite{specifi}}
+Après quelque semaines de négociation avec les employés de différents départements de la CMCC, ils nous ont fourni deux versions de données, et ses spécifications du format\cite{specifi}. Nous avons trouvé que CMCC n'a pas de accès direct aux données, et le fournisseur d'équipement a modifié le spécification fournir par CMCC, et il y a des erreurs dans les données fourni par les fournisseur d'équipement.
 
-Après quelque semaines de négociation avec les employés de différents départements de la CMCC, ils nous ont fourni deux versions de données, et ses spécifications du format. Nous avons trouvé que CMCC n'a pas de accès direct aux données, et la spécification fourni par  CMCC n'est pas correct, et il y a des erreur dans les données fourni par les fournisseur d'équipement.
-
-Ils nous ont envoyé 11 dossiers, chaque dossier correspond à un service. les services sont 'rtsp', 'dns','mail', 'ftp', 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données de signalisation entre \textsc{e-utran} et MME 'S1AP-NAS'\ref{dossier}. 
+Ils nous ont envoyé $11$ dossiers, chaque dossier correspond à un service. les services sont 'rtsp', 'dns','mail', 'ftp', 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données de signalisation entre \textsc{e-utran} et MME 'S1AP-NAS'\ref{dossier}. 
       \begin{figure}[H]
           \centering
           \includegraphics[width=5in]{images/data.png}
@@ -122,17 +123,17 @@ Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont tr�
 \centering
 	\begin{tabular}{|>{\centering\arraybackslash}p{4 cm}|>{\centering\arraybackslash}p{4 cm}|}
 	\hline \textsf{L'interface }& \textsf{Nombre de ligne} \\ 
-	\hline S1-AP & 240 \\ 
-	\hline RTSP & 35 \\ 
-	\hline DNS  & 272562 \\ 
-	\hline Maill & 44 \\ 
-	\hline FTP & 71 \\ 
-	\hline HTTP-WAP & 50854 \\ 
-	\hline MMS & 193 \\ 
-	\hline P2P & 515 \\ 
-	\hline Realtimecom & 2082 \\ 
-	\hline S1U & 89759 \\ 
-	\hline VoIP & 28 \\ 
+	\hline S1-AP & $240$ \\ 
+	\hline RTSP &$ 35$ \\ 
+	\hline DNS  & $272562$ \\ 
+	\hline Maill & $44$ \\ 
+	\hline FTP &$ 71$ \\ 
+	\hline HTTP-WAP & $50854$ \\ 
+	\hline MMS & $193$ \\ 
+	\hline P2P & $515$ \\ 
+	\hline Realtimecom & $2082$ \\ 
+	\hline S1U &$ 89759$ \\ 
+	\hline VoIP & $28$ \\ 
 	\hline 
 	\end{tabular} 
 	\caption{les dossiers de données}
@@ -141,29 +142,58 @@ Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont tr�
 
 
 \subsection{Prétraitement de données}
-Dans le dossier de HTTP, il y a 50854 lignes, chaque ligne a 76 attributs \ref{Fig.HTTP}, les données sont collectent dans 20 minutes.
+Dans le dossier de HTTP, il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre le Service-Gateway et l'eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs \ref{Fig.HTTP}, qui contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
+les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
       \begin{figure}[H]
           \centering
-          \includegraphics[width=5in]{images/http.png}
+          \includegraphics[width=3.5in]{images/http.png}
           \caption{les données du service HTTP}
           \label{Fig.HTTP}
       \end{figure}
-
-En analysant des données, nous avons trouvé des erreur, et le fournisseur nous a confirmé que ces sont les défaut de leur système 4G. Par exemple, ils sont chiffré les données en utilisant le codage BCD, et Un \ref{fig:errorData}
-
-Deux \ref{fig:défaut}
-      \begin{figure}[H]
-\centering
-\includegraphics[width=0.7\linewidth]{images/errorData}
-\caption{erreur du codage BCD}
-\label{fig:errorData}
-\end{figure}
-
-      \begin{figure}[H]
-\centering
-\includegraphics[width=0.7\linewidth]{images/11}
-\caption{Défaut de la système}
-\label{fig:défaut}
-\end{figure}
-
       
+      \begin{figure}[H]
+\centering
+\includegraphics[width=15Cm]{images/lasttime}
+\caption{Les données sont collectent dans 20.92 minutes}
+\label{fig:lasttime}
+\end{figure}
+
+
+En analysant des données, nous avons trouvé des erreurs de données, et le fournisseur nous a confirmé que ces sont les défaut de leur système 4G. Pour les attributs 'IMSI', 'IMEI', 'MSISDN', $90$ \% de lignes sont vides, ce qui ne sont pas vides, les contenus sont illisible, et peuvent provoquant des erreurs de lecture \ref{fig:errorData}. Et nous avons trouvé que dans les contenus de certains lignes sont bizarre. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/errorData}
+	\caption{erreur du codage BCD}
+	\label{fig:errorData}
+\end{figure}
+Dans ce processus, le 'Down Link Online Time' égale à  $0$ ms , mais il a téléchargé $746$ bits, c'est clairement un erreur du données.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{images/bizarre}
+	\caption{Erreur de la donnée}
+	\label{fig:bizarre}
+\end{figure}
+
+ Nous avons décidé de ne utiliser les données avec ce type de erreur, à la fin, en supprimant ses données, il nous reste $37865$ lignes ($50894$ lignes en origine, $13029$ lignes ont été supprimé)  \ref{fig:newdata}.
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/newdata}
+	\caption{Prétraitement des données}
+	\label{fig:newdata}
+\end{figure}
+
+Dans certains lignes, il y a des erreurs de décompte. par exemple, dans un processus, il a téléchargé  $17$ paquets IP, et il a  $7448$  paquets sont désordre, et  ré-téléchargé  $6384$ paquets  \ref{fig:défaut}. Les données ne sont pas correct, donc nous ne pouvons pas utiliser ses donnée pour calculer les délai du service HTTP.  
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/11}
+	\caption{Défaut de la système}
+	\label{fig:défaut}
+\end{figure}
+
+\section{Solution existant}     
+L'optimisation du service téléphonie est très important, mais les utilisateur ne sont pas satisfais avec ces services. l'opérateur a construit un immense réseau téléphonie, 
+
+
+
+
