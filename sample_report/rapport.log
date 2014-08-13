@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  13 AUG 2014 18:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  14 AUG 2014 00:39
 entering extended mode
 **rapport.tex
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.tex
@@ -803,7 +803,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...umberline {6.5}Figure}{23}{subsection.6.5}
+l.28 ...umberline {6.5}Figure}{24}{subsection.6.5}
                                                    [1
 
 
@@ -2789,22 +2789,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
-\T1/cmtt/m/n/12 seulement dans le service vocaux, nous n'avons pas trouvé les
+\T1/cmtt/m/n/12 seulement dans le service vocaux, nous n'avons pas trouvé
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
-\T1/cmtt/m/n/12 règles similaire dans l'autre service. D'ailleurs, le réseau
+\T1/cmtt/m/n/12 les règles similaire dans l'autre service. D'ailleurs, le
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
-\T1/cmtt/m/n/12 LTE ne support pas le service vocaux, donc il n'existe pas
+\T1/cmtt/m/n/12 réseau LTE ne support pas le service vocaux, donc il n'existe
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
-\T1/cmtt/m/n/12 optimisation du service vocaux dans réseau LTE et nous n'avons
+\T1/cmtt/m/n/12 pas optimisation du service vocaux dans réseau LTE et nous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\T1/cmtt/m/n/12 n'avons pas de données. Donc nous ne pouvons pas utiliser cette
+
  []
 
 <images/kpi.jpg, id=368, 443.40656pt x 187.45032pt>
@@ -2814,37 +2820,198 @@ Package pdftex.def Info: images/kpi.jpg used on input line 256.
 (pdftex.def)             Requested size: 272.99881pt x 115.41711pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--259
-[]\T1/cmtt/m/n/12 La technique QoE est bien aussi, mais d'abord, nous avons
+[]\T1/cmtt/m/n/12 La technique QoE et KQI sont beaucoup utilisé, mais d'abord,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--259
-\T1/cmtt/m/n/12 besoin les réponses des utilisateurs, mais nous n'avons pas
+\T1/cmtt/m/n/12 pour la méthode QoE, nous avons besoin les réponses des
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--259
-\T1/cmtt/m/n/12 assez de temps, et des raisons financières, CMCC ne peut pas
+\T1/cmtt/m/n/12 utilisateurs, mais nous n'avons pas assez de temps, et des
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--259
-\T1/cmtt/m/n/12 nous fournir ces données. Et le équation qu'on utilise pour
+\T1/cmtt/m/n/12 raisons financières, CMCC ne peut pas nous fournir ces données.
+
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--259
-\T1/cmtt/m/n/12 calcule KPI ne sont pas convaincante, voici un exemple d'un
+\T1/cmtt/m/n/12 Et le équation qu'on utilise pour calcule KPI ne sont pas
  []
 
-[20]) [21pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.20}) has been already used, duplicate ignored
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--259
+\T1/cmtt/m/n/12 convaincante, voici un exemple d'un équation pour calcule la
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+[]\T1/cmtt/m/n/12 Le poids du chaque attributs sont définir par les experts,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 Mais l'utilisateur n'est pas satisfaits du service. Nous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 croyons que l'erreur a été causée par l'inexacte équation,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 et nous pensons que les algorithmes de Classification
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 peuvent aider à améliorer le résultat, mais très vite nous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 avons trouver que CMCC ne peut pas nous fournir ce type de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 données. Sans le connaissance a priori, nous ne pouvons pas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 utiliser ces algorithmes. Nous avons aussi pense à utiliser le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 externalisation ouverte (crowdsourcing), à notre avis si CMCC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 peut lancer un projet de externalisation ouverte, si CMCC peut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 encourager ses utilisateurs donnent les note aux services pour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 obtenir des crédits, nous pouvons obtenir les connaissance a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 priori, et a l'aide de ces données, nous pouvons trouver une
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 équation peut-être mieux que les équations écrivent par les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 experts. Mais bien sur, CMCC n'a pas accepté cette idée, parce
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 que cette méthode peut coûter cher, et il n'peut pas garantir
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\T1/cmtt/m/n/12 le revenu. Et l'entreprise ne fait pas de l'investissement sans
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+[]\T1/cmtt/m/n/12 Finalement, nous avons décidé d'utiliser l'algorithme de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+\T1/cmtt/m/n/12 clustering. C'est une méthodes statistiques d'analyse des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+\T1/cmtt/m/n/12 données. Elle divise un ensemble de données en différents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+\T1/cmtt/m/n/12 groupe, les données de chaque groupe ont mathématiquement plus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+\T1/cmtt/m/n/12 proche que les données de l'autre groupe, et on pense que les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+\T1/cmtt/m/n/12 données dans le même sous-ensemble ont des caractéristique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+[]\T1/cmtt/m/n/12 L'algorithme peut être divisé en 'clustering hiérarchiques'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/cmtt/m/n/12 et 'clustering de partition'. Dans notre cas, nous avons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/cmtt/m/n/12 utiliser l'algorithme K-Means. Le but de cet algorithme est de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/cmtt/m/n/12 diviser des données en K partitions (clusters) dans lesquelles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/cmtt/m/n/12 les données appartient à la partition avec la moyenne la plus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+\T1/cmtt/m/n/12 proche. C'est une méthode classique, il a été utilisés dans
+ []
+
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.74   \include{contex}
-                        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/k
-pi.jpg>] (C:\Users\wang\Desktop\Git\Latex\sample_report\partie1.tex
+l.266 
+       <C:/Users/wang/Desktop/Git/Latex/sample_report/images/kpi.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[]\T1/cmtt/m/n/12 Après avoir utilisé le K-Means, nous pouvons utiliser le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+\T1/cmtt/m/n/12 algorithme règles d'association pour trouver des règles qui
+ []
+
+) [22] (C:\Users\wang\Desktop\Git\Latex\sample_report\partie1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 []\T1/cmtt/m/n/12 On peut mettre des mots en \T1/cmtt/m/it/12 italique\T1/cmtt/
 m/n/12 , en \T1/cmtt/m/sc/12 petites Majuscules
@@ -2858,7 +3025,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 []\T1/cmtt/m/n/12 Voici une référence à l'image de la figure [][]21[][] page []
-[]23[][] et une
+[]24[][] et une
  []
 
 
@@ -2872,11 +3039,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 [] déclarée
  []
 
-[22
+[23
 
 
 
-] <./images/bloghiko.jpg, id=399, 321.2pt x 240.9pt>
+] <./images/bloghiko.jpg, id=403, 321.2pt x 240.9pt>
 File: ./images/bloghiko.jpg Graphic file (type jpg)
 
 <use ./images/bloghiko.jpg>
@@ -2886,14 +3053,14 @@ File: ./images/bloghiko.jpg Graphic file (type jpg)
  <use ./images/bloghiko.jpg>
 Package pdftex.def Info: ./images/bloghiko.jpg used on input line 67.
 (pdftex.def)             Requested size: 195.0pt x 146.25404pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.21
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.21
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.70 
       <C:/Users/wang/Desktop/Git/Latex/sample_report/images/bloghiko.jpg>])
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2982,7 +3149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-) [25
+) [26
 
 
 
@@ -2992,7 +3159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--83
 is
  []
 
-[26
+[27
 
 
 
@@ -3030,7 +3197,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 \T1/cmtt/m/it/12 Recessive Problem Mining and Optimization Research of
  []
 
-) [27
+) [28
 
 
 
@@ -3053,13 +3220,13 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 7574 strings out of 493921
- 110332 string characters out of 3148889
- 192441 words of memory out of 3000000
+ 7575 strings out of 493921
+ 110339 string characters out of 3148889
+ 192443 words of memory out of 3000000
  10556 multiletter control sequences out of 15000+200000
  17413 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,12n,43p,1021b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,12n,43p,1099b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 crm0800.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ectt0800.pk> <C:\Users\wang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
@@ -3084,9 +3251,9 @@ ang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectc1728.pk> <C
 00\ectc2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on rapport.pdf (31 pages, 1160094 bytes).
+Output written on rapport.pdf (32 pages, 1162233 bytes).
 PDF statistics:
- 1085 PDF objects out of 1200 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
+ 1089 PDF objects out of 1200 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
  371 words of extra memory for PDF output out of 10000 (max. 10000000)
 

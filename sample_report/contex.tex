@@ -248,22 +248,23 @@ Selon l'article le cette méthode peut aider l'opérateur trouver les défaut du
 
 \subsection{Notre solution}
 
-La méthode qui utilise le comportement de l'utilisateur est intéressant, mais nous trouvons qu'elle peut utiliser seulement dans le service vocaux, nous n'avons pas trouvé les règles similaire dans l'autre service. D'ailleurs, le réseau LTE ne support pas le service vocaux, donc il n'existe pas optimisation du service vocaux dans réseau LTE et nous n'avons pas de données.
+La méthode qui utilise le comportement de l'utilisateur est intéressant, mais nous trouvons qu'elle peut utiliser seulement dans le service vocaux, nous n'avons pas trouvé les règles similaire dans l'autre service. D'ailleurs, le réseau LTE ne support pas le service vocaux, donc il n'existe pas optimisation du service vocaux dans réseau LTE et nous n'avons pas de données. Donc nous ne pouvons pas utiliser cette méthode.
 
-La technique QoE est bien aussi, mais d'abord, nous avons besoin les réponses des utilisateurs, mais nous n'avons pas assez de temps, et des raisons financières, CMCC ne peut pas nous fournir ces données. Et le équation qu'on utilise pour calcule KPI ne sont pas convaincante, voici un exemple d'un équation pour calcule la disponibilité du réseau\ref{fig:kpi}. 
+La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode QoE, nous avons besoin les réponses des utilisateurs, mais nous n'avons pas assez de temps, et des raisons financières, CMCC ne peut pas nous fournir ces données. Et le équation qu'on utilise pour calcule KPI ne sont pas convaincante, voici un exemple d'un équation pour calcule la disponibilité du réseau\ref{fig:kpi}. 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{images/kpi}
-\caption{Un example de équation pour calculer la disponibilité}
+\caption{Un exemple d'un équation pour calculer la disponibilité}
 \label{fig:kpi}
 \end{figure}
 
+Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si CMCC peut lancer un projet de externalisation ouverte, si CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et il n'peut pas garantir le revenu. Et l'entreprise ne fait pas de l'investissement sans retour.
 
-q
+Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et on pense que les données dans le même sous-ensemble ont des caractéristique similaires.
 
+L'algorithme peut être divisé en 'clustering hiérarchiques' et 'clustering de partition'. Dans notre cas, nous avons utiliser l'algorithme K-Means. Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. C'est une méthode classique, il a été utilisés dans beaucoup différents domaines, 
 
-
-
+Après avoir utilisé le K-Means, nous pouvons utiliser le algorithme règles d'association pour trouver des règles qui peuvent nous aider à faire la décision.
 
 
 
