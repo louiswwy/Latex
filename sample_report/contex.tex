@@ -141,9 +141,9 @@ Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont tr�
 	          \label{table.nombre}
 \end{table}
 
+Dans le dossier de HTTP, il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre le Service-Gateway et l'eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs\ref{Fig.HTTP}.
 
-\subsection{Prétraitement de données}
-Dans le dossier de HTTP, il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre le Service-Gateway et l'eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs \ref{Fig.HTTP}, qui contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
+Il contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
 les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
       \begin{figure}[H]
           \centering
@@ -159,7 +159,7 @@ les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
 \label{fig:lasttime}
 \end{figure}
 
-
+\subsection{Prétraitement de données}
 En analysant des données, nous avons trouvé des erreurs de données, et le fournisseur nous a confirmé que ces sont les défaut de leur système 4G. Pour les attributs 'IMSI', 'IMEI', 'MSISDN', $90$ \% de lignes sont vides, ce qui ne sont pas vides, les contenus sont illisible, et peuvent provoquant des erreurs de lecture \ref{fig:errorData}. Et nous avons trouvé que dans les contenus de certains lignes sont bizarre. 
 \begin{figure}[H]
 	\centering
@@ -261,9 +261,13 @@ La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode Q
 Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si CMCC peut lancer un projet de externalisation ouverte, si CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et il n'peut pas garantir le revenu. Et l'entreprise ne fait pas de l'investissement sans retour.
 
 Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et on pense que les données dans le même sous-ensemble ont des caractéristique similaires.
+\subsubsection{K-Means}
+L'algorithme peut être divisé en 'clustering hiérarchiques' et 'clustering de partition'. Dans notre cas, nous avons utiliser l'algorithme K-Means. 
 
-L'algorithme peut être divisé en 'clustering hiérarchiques' et 'clustering de partition'. Dans notre cas, nous avons utiliser l'algorithme K-Means. Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. C'est une méthode classique, il a été utilisés dans beaucoup différents domaines, 
+Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. C'est une méthode classique, il a été utilisés dans beaucoup différents domaines.
 
+q
+\subsubsection{Algorithme règles}
 Après avoir utilisé le K-Means, nous pouvons utiliser le algorithme règles d'association pour trouver des règles qui peuvent nous aider à faire la décision.
 
 

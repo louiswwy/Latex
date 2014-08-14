@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  14 AUG 2014 00:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  14 AUG 2014 11:12
 entering extended mode
 **rapport.tex
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.tex
@@ -766,14 +766,14 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 54.
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 (C:\Users\wang\Desktop\Git\Latex\sample_report\title.tex
-<images/logo-univ.png, id=123, 154.5775pt x 104.39pt>
+<images/logo-univ.png, id=131, 154.5775pt x 104.39pt>
 File: images/logo-univ.png Graphic file (type png)
 
 <use images/logo-univ.png>
 Package pdftex.def Info: images/logo-univ.png used on input line 9.
 (pdftex.def)             Requested size: 85.35826pt x 57.64563pt.
 
-<images/Tsinghua_University_Logo.png, id=125, 388.45125pt x 388.45125pt>
+<images/Tsinghua_University_Logo.png, id=133, 388.45125pt x 388.45125pt>
 File: images/Tsinghua_University_Logo.png Graphic file (type png)
 
 <use images/Tsinghua_University_Logo.png>
@@ -803,7 +803,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...umberline {6.5}Figure}{24}{subsection.6.5}
+l.28 ...\'e}f\IeC {\'e}rences}{23}{subsection.6.3}
                                                    [1
 
 
@@ -1019,14 +1019,14 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 15.
 ("C:\Program Files\MiKTeX\tex\latex\base\ts1cmtt.fd"
 File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<images/China_Mobile_2013.png, id=187, 121.20282pt x 48.93282pt>
+<images/China_Mobile_2013.png, id=197, 121.20282pt x 48.93282pt>
 File: images/China_Mobile_2013.png Graphic file (type png)
 
 <use images/China_Mobile_2013.png>
 Package pdftex.def Info: images/China_Mobile_2013.png used on input line 20.
 (pdftex.def)             Requested size: 130.08621pt x 52.52557pt.
 
-<images/reseau.jpg, id=188, 539.01375pt x 368.87813pt>
+<images/reseau.jpg, id=198, 539.01375pt x 368.87813pt>
 File: images/reseau.jpg Graphic file (type jpg)
  <use images/reseau.jpg>
 Package pdftex.def Info: images/reseau.jpg used on input line 25.
@@ -1118,7 +1118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<images/1.png, id=194, 290.58563pt x 182.18062pt>
+<images/1.png, id=204, 290.58563pt x 182.18062pt>
 File: images/1.png Graphic file (type png)
  <use images/1.png>
 Package pdftex.def Info: images/1.png used on input line 34.
@@ -1138,7 +1138,7 @@ l.38 O
       pÃ©rateur des tÃ©lÃ©communications Vodafone a fait un Ã©tude aprÃ¨s il...
  <C:/Users/wang/Desktop/Git/Latex/sample_report/images/China_Mobile_2013.png> <
 C:/Users/wang/Desktop/Git/Latex/sample_report/images/reseau.jpg>]
-<images/4.png, id=209, 267.24844pt x 256.70906pt>
+<images/4.png, id=219, 267.24844pt x 256.70906pt>
 File: images/4.png Graphic file (type png)
  <use images/4.png>
 Package pdftex.def Info: images/4.png used on input line 43.
@@ -1148,7 +1148,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 43--43
 []\T1/cmr/m/n/10 (a) Down-link Data Traf-fic in
  []
 
-<images/2.png, id=210, 294.34969pt x 218.31563pt>
+<images/2.png, id=220, 294.34969pt x 218.31563pt>
 File: images/2.png Graphic file (type png)
  <use images/2.png>
 Package pdftex.def Info: images/2.png used on input line 47.
@@ -1201,7 +1201,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--49
 \T1/cmtt/m/n/12 Revenue Per User) augment, mais le voix ARPU décline plus
  []
 
-<images/orange.JPG, id=212, 334.24875pt x 312.41719pt>
+<images/orange.JPG, id=222, 334.24875pt x 312.41719pt>
 File: images/orange.JPG Graphic file (type jpg)
  <use images/orange.JPG>
 Package pdftex.def Info: images/orange.JPG used on input line 54.
@@ -1239,7 +1239,7 @@ l.58  D
  <C:/Users/wang/Desktop/Git/Latex/sample_report/images/1.png> <C:/Users/wang/De
 sktop/Git/Latex/sample_report/images/4.png> <C:/Users/wang/Desktop/Git/Latex/sa
 mple_report/images/2.png>]
-<images/why4G.jpg, id=221, 543.53062pt x 359.84438pt>
+<images/why4G.jpg, id=231, 543.53062pt x 359.84438pt>
 File: images/why4G.jpg Graphic file (type jpg)
  <use images/why4G.jpg>
 Package pdftex.def Info: images/why4G.jpg used on input line 61.
@@ -1378,7 +1378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \T1/cmtt/m/n/12 signalisation système, l'analyse de trafic, etc. c'est un
  []
 
-<images/meseau.jpg, id=227, 402.75468pt x 158.84344pt>
+<images/meseau.jpg, id=237, 402.75468pt x 158.84344pt>
 File: images/meseau.jpg Graphic file (type jpg)
  <use images/meseau.jpg>
 Package pdftex.def Info: images/meseau.jpg used on input line 75.
@@ -1505,7 +1505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--84
 \T1/cmtt/m/n/12 partiel: Fouille de données, gérés le Clound plateforme et
  []
 
-<images/NGN.jpg, id=240, 316.18124pt x 47.42719pt>
+<images/NGN.jpg, id=250, 316.18124pt x 47.42719pt>
 File: images/NGN.jpg Graphic file (type jpg)
  <use images/NGN.jpg>
 Package pdftex.def Info: images/NGN.jpg used on input line 90.
@@ -1973,13 +1973,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 \T1/cmtt/m/n/12 les standard précédant), ce qui signifie que les services
  []
 
-<images/3G2.JPG, id=268, 383.18156pt x 201.00093pt>
+<images/3G2.JPG, id=278, 383.18156pt x 201.00093pt>
 File: images/3G2.JPG Graphic file (type jpg)
  <use images/3G2.JPG>
 Package pdftex.def Info: images/3G2.JPG used on input line 57.
 (pdftex.def)             Requested size: 216.81pt x 113.73134pt.
 
-<images/4g.JPG, id=269, 382.42876pt x 202.50656pt>
+<images/4g.JPG, id=279, 382.42876pt x 202.50656pt>
 File: images/4g.JPG Graphic file (type jpg)
  <use images/4g.JPG>
 Package pdftex.def Info: images/4g.JPG used on input line 62.
@@ -2009,7 +2009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 \T1/cmtt/m/n/12 simple structure du réseau, moins de consommation d'énergie
  []
 
-<images/evolution.JPG, id=277, 355.3275pt x 259.7203pt>
+<images/evolution.JPG, id=287, 355.3275pt x 259.7203pt>
 File: images/evolution.JPG Graphic file (type jpg)
 
 <use images/evolution.JPG>
@@ -2084,7 +2084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<images/enb2.jpg, id=286, 648.92438pt x 298.11375pt>
+<images/enb2.jpg, id=296, 648.92438pt x 298.11375pt>
 File: images/enb2.jpg Graphic file (type jpg)
  <use images/enb2.jpg>
 Package pdftex.def Info: images/enb2.jpg used on input line 82.
@@ -2108,7 +2108,7 @@ l.101
 l.101 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/evolution.JPG> <C:
 /Users/wang/Desktop/Git/Latex/sample_report/images/enb2.jpg>]
-<images/S1-U.png, id=295, 323.70938pt x 319.1925pt>
+<images/S1-U.png, id=305, 323.70938pt x 319.1925pt>
 File: images/S1-U.png Graphic file (type png)
  <use images/S1-U.png>
 Package pdftex.def Info: images/S1-U.png used on input line 105.
@@ -2201,7 +2201,7 @@ l.113
                                                   \fi \fi 
 l.113 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/S1-U.png>]
-<images/data.png, id=304, 532.23843pt x 252.945pt>
+<images/data.png, id=314, 532.23843pt x 252.945pt>
 File: images/data.png Graphic file (type png)
  <use images/data.png>
 Package pdftex.def Info: images/data.png used on input line 117.
@@ -2240,42 +2240,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
                                                   \fi \fi 
 l.143 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/data.png>]
-<images/http.png, id=316, 293.59688pt x 16.56187pt>
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+[]\T1/cmtt/m/n/12 Dans le dossier de HTTP, il y a $\OT1/cmr/m/n/12 50854$ \T1/c
+mtt/m/n/12 lignes, tous les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+\T1/cmtt/m/n/12 données sont collectées par les capteurs placer entre le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+\T1/cmtt/m/n/12 Service-Gateway et l'eNodeB. le capteur enregistre un ligne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+\T1/cmtt/m/n/12 de donnée quand un processus est fini. chaque ligne a $\OT1/cmr
+/m/n/12 76$
+ []
+
+<images/http.png, id=326, 293.59688pt x 16.56187pt>
 File: images/http.png Graphic file (type png)
  <use images/http.png>
 Package pdftex.def Info: images/http.png used on input line 150.
 (pdftex.def)             Requested size: 252.94499pt x 14.26869pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--153
-[]\T1/cmtt/m/n/12 Dans le dossier de HTTP, il y a $\OT1/cmr/m/n/12 50854$ \T1/c
-mtt/m/n/12 lignes, tous les
+[]\T1/cmtt/m/n/12 Il contient des informations de UE (IMEI, IMSI, etc), les
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--153
-\T1/cmtt/m/n/12 données sont collectées par les capteurs placer entre le
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
-\T1/cmtt/m/n/12 Service-Gateway et l'eNodeB. le capteur enregistre un ligne de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
-\T1/cmtt/m/n/12 donnée quand un processus est fini. chaque ligne a $\OT1/cmr/m/
-n/12 76$ \T1/cmtt/m/n/12 attributs
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
-[][]\T1/cmtt/m/n/12 13[][], qui contient des informations de UE (IMEI, IMSI, et
-c),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
-\T1/cmtt/m/n/12 les trafic de la liaison montante et la liaison descendante et
+\T1/cmtt/m/n/12 trafic de la liaison montante et la liaison descendante et
  []
 
 
@@ -2293,7 +2291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--153
 \T1/cmtt/m/n/12 aussi le début temps et le temps d'arrêter. les données sont
  []
 
-<images/lasttime.jpg, id=317, 511.15968pt x 170.88844pt>
+<images/lasttime.jpg, id=327, 511.15968pt x 170.88844pt>
 File: images/lasttime.jpg Graphic file (type jpg)
 
 <use images/lasttime.jpg>
@@ -2317,7 +2315,7 @@ l.161
                                                   \fi \fi 
 l.161 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/http.png>]
-<images/errorData.png, id=327, 306.39468pt x 66.2475pt>
+<images/errorData.png, id=337, 306.39468pt x 66.2475pt>
 File: images/errorData.png Graphic file (type png)
 
 <use images/errorData.png>
@@ -2355,7 +2353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--169
 us de
  []
 
-<images/bizarre.jpg, id=328, 446.41782pt x 33.87656pt>
+<images/bizarre.jpg, id=338, 446.41782pt x 33.87656pt>
 File: images/bizarre.jpg Graphic file (type jpg)
 
 <use images/bizarre.jpg>
@@ -2390,36 +2388,37 @@ t/m/n/12 lignes en origine, $\OT1/cmr/m/n/12 13029$ \T1/cmtt/m/n/12 lignes ont
 été
  []
 
-<images/newdata.jpg, id=330, 358.33875pt x 33.12375pt>
-File: images/newdata.jpg Graphic file (type jpg)
-
-<use images/newdata.jpg>
-Package pdftex.def Info: images/newdata.jpg used on input line 182.
-(pdftex.def)             Requested size: 312.00119pt x 28.84218pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.14
-}) has been already used, duplicate ignored
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.186 
+l.179 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.186 
+l.179 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.186 
+l.179 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/lasttime.jpg> <C:/
 Users/wang/Desktop/Git/Latex/sample_report/images/errorData.png> <C:/Users/wang
 /Desktop/Git/Latex/sample_report/images/bizarre.jpg>]
-<images/11.png, id=339, 314.67563pt x 91.84312pt>
+<images/newdata.jpg, id=347, 358.33875pt x 33.12375pt>
+File: images/newdata.jpg Graphic file (type jpg)
+
+<use images/newdata.jpg>
+Package pdftex.def Info: images/newdata.jpg used on input line 182.
+(pdftex.def)             Requested size: 312.00119pt x 28.84218pt.
+ <images/11.png, id=349, 314.67563pt x 91.84312pt>
 File: images/11.png Graphic file (type png)
- <use images/11.png>
+
+<use images/11.png>
 Package pdftex.def Info: images/11.png used on input line 190.
 (pdftex.def)             Requested size: 272.99881pt x 79.68283pt.
 
@@ -2491,7 +2490,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-<images/kqi.png, id=342, 177.66376pt x 205.5178pt>
+<images/kqi.png, id=352, 177.66376pt x 205.5178pt>
 File: images/kqi.png Graphic file (type png)
  <use images/kqi.png>
 Package pdftex.def Info: images/kqi.png used on input line 203.
@@ -2813,7 +2812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
-<images/kpi.jpg, id=368, 443.40656pt x 187.45032pt>
+<images/kpi.jpg, id=378, 443.40656pt x 187.45032pt>
 File: images/kpi.jpg Graphic file (type jpg)
  <use images/kpi.jpg>
 Package pdftex.def Info: images/kpi.jpg used on input line 256.
@@ -2975,26 +2974,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 \T1/cmtt/m/n/12 et 'clustering de partition'. Dans notre cas, nous avons
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\T1/cmtt/m/n/12 utiliser l'algorithme K-Means. Le but de cet algorithme est de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\T1/cmtt/m/n/12 diviser des données en K partitions (clusters) dans lesquelles
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\T1/cmtt/m/n/12 les données appartient à la partition avec la moyenne la plus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\T1/cmtt/m/n/12 proche. C'est une méthode classique, il a été utilisés dans
- []
-
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
 ) has been already used, duplicate ignored
 
@@ -3003,11 +2982,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 l.266 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/kpi.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
-[]\T1/cmtt/m/n/12 Après avoir utilisé le K-Means, nous pouvons utiliser le
+[]\T1/cmtt/m/n/12 Le but de cet algorithme est de diviser des données en K
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
+\T1/cmtt/m/n/12 partitions (clusters) dans lesquelles les données appartient à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+\T1/cmtt/m/n/12 la partition avec la moyenne la plus proche. C'est une méthode
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]\T1/cmtt/m/n/12 Après avoir utilisé le K-Means, nous pouvons utiliser le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 \T1/cmtt/m/n/12 algorithme règles d'association pour trouver des règles qui
  []
 
@@ -3043,7 +3037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 
 
 
-] <./images/bloghiko.jpg, id=403, 321.2pt x 240.9pt>
+] <./images/bloghiko.jpg, id=413, 321.2pt x 240.9pt>
 File: ./images/bloghiko.jpg Graphic file (type jpg)
 
 <use ./images/bloghiko.jpg>
@@ -3216,14 +3210,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 8C7481AC86E9ED95CF2EAB8192A8914E;2086.
+(rerunfilecheck)             Checksum: 40905B2FFBA4492A08C5A3D42FB8E617;2235.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 7575 strings out of 493921
- 110339 string characters out of 3148889
+ 7579 strings out of 493921
+ 110419 string characters out of 3148889
  192443 words of memory out of 3000000
- 10556 multiletter control sequences out of 15000+200000
+ 10558 multiletter control sequences out of 15000+200000
  17413 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,12n,43p,1099b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3251,9 +3245,9 @@ ang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectc1728.pk> <C
 00\ectc2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on rapport.pdf (32 pages, 1162233 bytes).
+Output written on rapport.pdf (32 pages, 1165710 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1105 PDF objects out of 1200 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
