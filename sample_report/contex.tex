@@ -66,7 +66,7 @@ Une des particularité de la 4G est sa EPC (Evolved Packet Core) est basé sur I
 Les avantages du réseau 4G sont:  plus haut débit, mieux utilisation de la bandes de fréquence, moins de délai (délai dans le panneau de l'utilisateur est inférieur que 5 ms, délai dans le panneau de commande est inférieur que 100 ms ), plus simple structure du réseau, moins de consommation d'énergie Terminal.
 
 \subsection{Le réseau LTE}
-Le LTE (Long Term Evolution) est l'evolution la plus récent des normes de CDMA 2000, TD-SCDMA, GSM. La norme LTE. La technologie LTE été considérée comme une norme de troisième génération '3.9G', et la 'vraie 4G', appelée LTE-Advanced été reconnu par l'UIT comme une technologie 4G en 2010. LTE a deux branche: LTE-FDD (Frequency-Division Duplex  Long Term Evolution)et LTE-TDD, (Time Division Duplex Long Term Evolution)les deux standards sont similaire, la différence entre les deux standard est moins de 15\% \ref{evolution}. En 2011-2012, les réseaux LTE-TDD sont commercialisés sous l'appellation 4G par CMCC un Chine.
+Le LTE (Long Term Evolution) est l'evolution la plus récent des normes de CDMA 2000, TD-SCDMA, GSM. La norme LTE. La technologie LTE été considérée comme une norme de troisième génération '3.9G', et la 'vraie 4G', appelée LTE-Advanced été reconnu par l'UIT comme une technologie 4G en 2010. LTE a deux branche: LTE-FDD (Frequency-Division Duplex  Long Term Evolution)et LTE-TDD, (Time Division Duplex Long Term Evolution)les deux standards sont similaire, la différence entre les deux standard est moins de 15\% \ref{evolution}. En 2011-2012, les réseaux LTE-TDD sont commercialisés sous l'appellation 4G par le CMCC un Chine.
       \begin{figure}[H]
           \centering
           \includegraphics[width=4in]{images/evolution.JPG}
@@ -114,129 +114,6 @@ Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve e
 \caption{User plan}
 \label{fig:S1-U}
 \end{figure}
-
-\section{Introduction des données}
-%\,\up{\cite{specifi}}
-Après quelque semaines de négociation avec les employés de différents départements de la CMCC, ils nous ont fourni deux versions de données, et ses spécifications du format\cite{specifi}. Nous avons trouvé que CMCC n'a pas de accès direct aux données, et le fournisseur d'équipement a modifié le spécification fournir par CMCC, et il y a des erreurs dans les données fourni par les fournisseur d'équipement.
-
-Ils nous ont envoyé $11$ dossiers, chaque dossier correspond à un service. les services sont 'rtsp', 'dns','mail', 'ftp', 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données de signalisation entre \textsc{e-utran} et MME 'S1AP-NAS'.
-    
-Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont très peu de données \ref{table.nombre}. Donc nous avons décidé de utiliser le donnée du service 'HTTP'.
-
-\begin{table}[H]
-\centering
-	\begin{tabular}{|>{\centering\arraybackslash}p{4 cm}|>{\centering\arraybackslash}p{4 cm}|}
-	\hline \textsf{L'interface }& \textsf{Nombre de ligne} \\ 
-	\hline S1-AP & $240$ \\ 
-	\hline RTSP &$ 35$ \\ 
-	\hline DNS  & $272562$ \\ 
-	\hline Maill & $44$ \\ 
-	\hline FTP &$ 71$ \\ 
-	\hline HTTP-WAP & $50854$ \\ 
-	\hline MMS & $193$ \\ 
-	\hline P2P & $515$ \\ 
-	\hline Realtimecom & $2082$ \\ 
-	\hline S1U &$ 89759$ \\ 
-	\hline VoIP & $28$ \\ 
-	\hline 
-	\end{tabular} 
-	\caption{les dossiers de données}
-	          \label{table.nombre}
-\end{table}
-
-
-Le dossier du service HTTP a $18,4Mbit$ , il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre les Service-Gateway et les eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs\ref{Fig.HTTP}.
-
-      \begin{figure}[H]
-          \centering
-          \includegraphics[width=3.5in]{images/http.png}
-          \caption{les données du service HTTP}
-          \label{Fig.HTTP}
-      \end{figure}
-      
-Il contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
-les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
-
-      
-      \begin{figure}[H]
-\centering
-\includegraphics[width=15Cm]{images/lasttime}
-\caption{Les données sont collectent dans 20.92 minutes}
-\label{fig:lasttime}
-\end{figure}
-
-\subsection{Prétraitement de données}
-En analysant des données, nous avons trouvé des erreurs de données, et le fournisseur nous a confirmé que ces sont les défaut de leur système 4G. Pour les attributs 'IMSI', 'IMEI', 'MSISDN', $90$ \% de lignes sont vides, ce qui ne sont pas vides, les contenus sont illisible, et peuvent provoquant des erreurs de lecture \ref{fig:errorData}. Et nous avons trouvé que dans les contenus de certains lignes sont bizarre. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/errorData}
-	\caption{erreur du codage BCD}
-	\label{fig:errorData}
-\end{figure}
-Dans ce processus, le 'Down Link Online Time' égale à  $0$ ms , mais il a téléchargé $746$ bits, c'est clairement un erreur du données.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\linewidth]{images/bizarre}
-	\caption{Erreur de la donnée}
-	\label{fig:bizarre}
-\end{figure}
-
- Nous avons décidé de ne utiliser les données avec ce type de erreur, à la fin, en supprimant ses données, il nous reste $37865$ lignes ($50894$ lignes en origine, $13029$ lignes ont été supprimé)  \ref{fig:newdata}.
- 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{images/newdata}
-	\caption{Prétraitement des données}
-	\label{fig:newdata}
-\end{figure}
-
-Entre ces 76 attributs, Une grande partie de ces informations sont inutile, et pour certain attributs les contenus égal tous à 0. Finalement nous avons trouvé 11 attributs. ils sont:
-\begin{table}[H]
-\centering
-\begin{tabular}{|>{\centering\arraybackslash}p{3 cm}|>{\centering\arraybackslash}p{3 cm}|>{\centering\arraybackslash}p{3 cm}|}
-\hline \rule[-2ex]{0pt}{5.5ex} Signalisation & Signalisation & KPI \\ 
-\hline \rule[-2ex]{0pt}{5.5ex} trafic en liaison montante & le temps en ligne & vitesse \\ 
-\hline \rule[-2ex]{0pt}{5.5ex} trafic en liaison descendante  & le temps en ligne & vitesse \\ 
-\hline \rule[-2ex]{0pt}{5.5ex}  & Http First Response Time & délai \\ 
-\hline \rule[-2ex]{0pt}{5.5ex}  & Http Last Packet Time & délai \\ 
-\hline \rule[-2ex]{0pt}{5.5ex}  & Http Last Ack Time & délai \\ 
-\hline \rule[-2ex]{0pt}{5.5ex}  Packet Num en liaison montante & retransmission de paquets Num en liaison montante & taux de retransmission \\ 
-\hline \rule[-2ex]{0pt}{5.5ex}  Packet Num en liaison descendante & retransmission de paquets Num en liaison descendante& taux de retransmission \\ 
-\hline 
-\end{tabular} 
-\end{table}
-
-
-Mais nous avons trouvé que dans certains lignes le taux de retransmission sont trop grands ( plus grand que $100\%$). par exemple, dans un processus, il a téléchargé  $17$ paquets IP, et il a  $7448$  paquets sont désordre, et  ré-téléchargé  $6384$ paquets  \ref{fig:défaut}. Les données ne sont pas correct, donc nous ne pouvons pas utiliser ses donnée pour calculer le taux de retransmission.  
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/11}
-	\caption{Défaut de la système}
-	\label{fig:défaut}
-\end{figure}
-
-Finalement nous avons décidé de utiliser ces 5 attributs (la vitesse et le délai) pour mesurer la qualité du service.
-
-\subsection{Les caractéristique du donnée}
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.9\linewidth, height=0.3\textheight]{images/max-min}
-\caption{La valeur maximal, valeur minimal et l'écart type}
-\label{fig:max-min}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.4\linewidth]{images/mean}
-\caption{La valeur moyenne}
-\label{fig:mean}
-\end{figure}
-
-Nous avons trouvé que l'écart type pour les trois attributs de délais sont très grand. Les valeurs varient de $0ms$ à $1220150ms$. 
- Par contre la changement  de la vitesse de la liaison montante et descendante n'est pas très grand.
 
 
 \section{Les solution et la mise en \oe uvre}
@@ -298,7 +175,7 @@ Selon l'article le cette méthode peut aider l'opérateur trouver les défaut du
 
 La méthode qui utilise le comportement de l'utilisateur est intéressant, mais nous trouvons qu'elle peut utiliser seulement dans le service vocaux, nous n'avons pas trouvé les règles similaire dans l'autre service. D'ailleurs, le réseau LTE ne support pas le service vocaux, donc il n'existe pas optimisation du service vocaux dans réseau LTE et nous n'avons pas de données. Donc nous ne pouvons pas utiliser cette méthode.
 
-La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode QoE, nous avons besoin les réponses des utilisateurs, mais nous n'avons pas assez de temps, et des raisons financières, CMCC ne peut pas nous fournir ces données. Et le équation qu'on utilise pour calcule KPI ne sont pas convaincante, voici un exemple d'un équation pour calcule la disponibilité du réseau\ref{fig:kpi}. 
+La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode QoE, nous avons besoin les réponses des utilisateurs, mais nous n'avons pas assez de temps, et des raisons financières, le CMCC ne peut pas nous fournir ces données. Et le équation qu'on utilise pour calcule KPI ne sont pas convaincante, voici un exemple d'un équation pour calcule la disponibilité du réseau\ref{fig:kpi}. 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{images/kpi}
@@ -306,7 +183,7 @@ La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode Q
 \label{fig:kpi}
 \end{figure}
 
-Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si CMCC peut lancer un projet de externalisation ouverte, si CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et il n'peut pas garantir le revenu. Et l'entreprise ne fait pas de l'investissement sans retour.
+Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que le CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si le CMCC peut lancer un projet de externalisation ouverte, si le CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, le CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et il n'peut pas garantir le revenu. Et l'entreprise ne fait pas de l'investissement sans retour.
 
 Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et on pense que les données dans le même sous-ensemble ont des caractéristique similaires.
 \subsubsection{K-Means}
@@ -326,14 +203,157 @@ C'est une méthode classique, il a été utilisés dans beaucoup différents dom
 \subsubsection{règles d'association}
 La règle d'association est une méthode populaire, elle étudiée d'une manière approfondie dont le but est de découvrir des relations ayant un intérêt pour le statisticien entre les variables. En se basant sur le concept de relations fortes, Rakesh Agrawal et son équipe présente des règles d'association dont le but est de découvrir des similitudes entre des produits dans des données saisies sur une grande échelle dans les systèmes informatiques des points de ventes des chaînes de supermarchés. Par exemple, une règle découverte que si un homme achète les serviettes de bébé, il est susceptible de achète les bières. Une telle information peut être utile quand on veut prendre des décisions marketing.
 
-Les règles d'association sont employées aujourd'hui dans plusieurs domaines, incluant: la fouille du web, la détection d'intrusion et la bio-informatique.  Dans ces domaines, ils utilisent les données booléenne pour trouver les règles utiles. Mais dans le domaine télécommunication, les données de signalisation sont le données numérique. Donc nous ne pouvons pas directement utiliser la règles d'association. Par contre nous pouvons convertir les données de type numérique en données de caractère.
+Les règles d'association sont employées aujourd'hui dans plusieurs domaines, incluant: la fouille du web, la détection d'intrusion et la bio-informatique.  Dans ces domaines, ils utilisent les données booléenne pour trouver les règles utiles. Mais dans le domaine télécommunication, les données de signalisation sont le données numérique. Donc nous ne pouvons pas directement utiliser la règles d'association. Par contre nous pouvons convertir les données de type numérique en données de caractère en divisant les données dans plusieurs partitions \cite{AR}. Par exemple, nous avons des données numérique entre $0$ et $100$, et on divise les données en 10 partitions, donc les chiffres entre $0$ et $10$ peuvent présenter par $0<x<10$. En utilisant cette technique nous pouvons utiliser la règle d'association pour trouver les relations dans les données.
 
+ Il y a plusieurs méthodes pour diviser les attributs numériques: par catégorisation, l'analyse typologique, par analyse de l'histogramme, l'analyse basé sur l'entropie de discret, partition naturel et ainsi de suite. 
  
+ Nous décidons de utiliser le K-Means d'abord. Après analyse le résultat, nous pouvons utiliser la algorithme règles d'associations à l'aide du résultat de K-Means.
+
+\subsection{La mise en \oe uvre}
+\subsubsection{Le logiciel utilisés}
+L'objectif de notre projet est de trouver une méthode qui peut s'implanter dans les serveurs du CMCC, et aider le CMCC améliorer la qualité du réseau. D'après le directeur du R\&D département du CMCC, au total, il a $20Pb$ de donnée stock dans ses base de données, donc le logiciel doit être capable d'exécuter grand quantité de données. En plus,  au lieu de utilisé directement les logiciel comme SQL (qui n'est pas très efficient si on a beaucoup de donnée stock dans différent serveur), le CMCC utilise 'Hadoop' pour stock et géré ses données.
+
+Donc le logiciel que nous utilisons doit être capable d'exécuter grand quantité de donnée et peut travailler avec Hadoop. 
+
+Finalement nous décidons de utiliser le langage \textsf{R}. L'avantage de R sont:
+
+\begin{itemize}
+\item R est un langage et un environnement pour le calcule statique et les graphiques; 
+\item R offre une grande variété de statistiques (modélisation linéaire et non linéaire, classification, clustering, etc,) et des graphiques techniques, et il est très extensible ;
+\item R est facile à utiliser; 
+\item R est un logiciel libre, il compile et fonctionne sur une grande variété de plates-formes UNIX et les systèmes similaires (y compris FreeBSD et Linux), Windows et Mac OS;
+\item en utilisant les packages fournir par 'Revolution Analytics', nous pouvons utiliser Hadoop en R.
+\end{itemize}
+
+Nous utilisons \textsf{Rstudio} comme notre environnement de programmation. C'est une interface utilisateur puissante et productive pour R.
+
+
+
+\subsubsection{Introduction des données}
+%\,\up{\cite{specifi}}
+Après quelque semaines de négociation avec les employés de différents départements de le CMCC, ils nous ont fourni deux versions de données, et ses spécifications du format\cite{specifi}. Nous avons trouvé que le CMCC n'a pas de accès direct aux données, et le fournisseur d'équipement a modifié le spécification fournir par le CMCC, et il y a des erreurs dans les données fourni par les fournisseur d'équipement.
+
+Ils nous ont envoyé $11$ dossiers, chaque dossier correspond à un service. les services sont 'rtsp', 'dns','mail', 'ftp', 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données de signalisation entre \textsc{e-utran} et MME 'S1AP-NAS'.
+    
+Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont très peu de données \ref{table.nombre}. Donc nous avons décidé de utiliser le donnée du service 'HTTP'.
+
+\begin{table}[H]
+\centering
+	\begin{tabular}{|>{\centering\arraybackslash}p{4 cm}|>{\centering\arraybackslash}p{4 cm}|}
+	\hline \textsf{L'interface }& \textsf{Nombre de ligne} \\ 
+	\hline S1-AP & $240$ \\ 
+	\hline RTSP &$ 35$ \\ 
+	\hline DNS  & $272562$ \\ 
+	\hline Maill & $44$ \\ 
+	\hline FTP &$ 71$ \\ 
+	\hline HTTP-WAP & $50854$ \\ 
+	\hline MMS & $193$ \\ 
+	\hline P2P & $515$ \\ 
+	\hline Realtimecom & $2082$ \\ 
+	\hline S1U &$ 89759$ \\ 
+	\hline VoIP & $28$ \\ 
+	\hline 
+	\end{tabular} 
+	\caption{les dossiers de données}
+	          \label{table.nombre}
+\end{table}
+
+
+Le dossier du service HTTP a $18,4Mbit$ , il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre les Service-Gateway et les eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs\ref{Fig.HTTP}.
+
+      \begin{figure}[H]
+          \centering
+          \includegraphics[width=3.5in]{images/http.png}
+          \caption{les données du service HTTP}
+          \label{Fig.HTTP}
+      \end{figure}
+      
+Il contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
+les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
+
+      
+      \begin{figure}[H]
+\centering
+\includegraphics[width=15Cm]{images/lasttime}
+\caption{Les données sont collectent dans 20.92 minutes}
+\label{fig:lasttime}
+\end{figure}
+
+\subsubsection{Prétraitement de données}
+En analysant des données, nous avons trouvé des erreurs de données, et le fournisseur nous a confirmé que ces sont les défaut de leur système 4G. Pour les attributs 'IMSI', 'IMEI', 'MSISDN', $90$ \% de lignes sont vides, ce qui ne sont pas vides, les contenus sont illisible, et peuvent provoquant des erreurs de lecture \ref{fig:errorData}. Et nous avons trouvé que dans les contenus de certains lignes sont bizarre. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/errorData}
+	\caption{erreur du codage BCD}
+	\label{fig:errorData}
+\end{figure}
+Dans ce processus, le 'Down Link Online Time' égale à  $0$ ms , mais il a téléchargé $746$ bits, c'est clairement un erreur du données.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{images/bizarre}
+	\caption{Erreur de la donnée}
+	\label{fig:bizarre}
+\end{figure}
+
+ Nous avons décidé de ne utiliser les données avec ce type de erreur, à la fin, en supprimant ses données, il nous reste $37865$ lignes ($50894$ lignes en origine, $13029$ lignes ont été supprimé)  \ref{fig:newdata}.
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/newdata}
+	\caption{Prétraitement des données}
+	\label{fig:newdata}
+\end{figure}
+
+Entre ces 76 attributs, Une grande partie de ces informations sont inutile, et pour certain attributs les contenus égal tous à 0. Finalement nous avons trouvé 11 attributs. ils sont:
+\begin{table}[H]
+\centering
+\begin{tabular}{|>{\centering\arraybackslash}p{3 cm}|>{\centering\arraybackslash}p{3 cm}|>{\centering\arraybackslash}p{3 cm}|}
+\hline \rule[-2ex]{0pt}{5.5ex} Signalisation & Signalisation & KPI \\ 
+\hline \rule[-2ex]{0pt}{5.5ex} trafic en liaison montante & le temps en ligne & vitesse \\ 
+\hline \rule[-2ex]{0pt}{5.5ex} trafic en liaison descendante  & le temps en ligne & vitesse \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  & Http First Response Time & délai \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  & Http Last Packet Time & délai \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  & Http Last Ack Time & délai \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  Packet Num en liaison montante & retransmission de paquets Num en liaison montante & taux de retransmission \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  Packet Num en liaison descendante & retransmission de paquets Num en liaison descendante& taux de retransmission \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+
+Mais nous avons trouvé que dans certains lignes le taux de retransmission sont trop grands ( plus grand que $100\%$). par exemple, dans un processus, il a téléchargé  $17$ paquets IP, et il a  $7448$  paquets sont désordre, et  ré-téléchargé  $6384$ paquets  \ref{fig:défaut}. Les données ne sont pas correct, donc nous ne pouvons pas utiliser ses donnée pour calculer le taux de retransmission.  
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/11}
+	\caption{Défaut de la système}
+	\label{fig:défaut}
+\end{figure}
+
+Finalement nous avons décidé de utiliser ces 5 attributs (la vitesse et le délai) pour mesurer la qualité du service.
+
+\subsubsection{Les caractéristique du donnée}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth, height=0.3\textheight]{images/max-min}
+\caption{La valeur maximal, valeur minimal et l'écart type}
+\label{fig:max-min}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{images/mean}
+\caption{La valeur moyenne}
+\label{fig:mean}
+\end{figure}
+
+Nous avons trouvé que l'écart type pour les trois attributs de délais sont très grand. Les valeurs varient de $0ms$ à $1220150ms$. Par contre la changement  de la vitesse de la liaison montante et descendante n'est pas très grand.
 
 
 
 
-Après avoir utilisé le K-Means, nous pouvons utiliser le algorithme règles d'association pour trouver des règles qui peuvent nous aider à faire la décision.
 
 
 
@@ -342,11 +362,7 @@ Après avoir utilisé le K-Means, nous pouvons utiliser le algorithme règles d'
 
 
 
-
-
-
-
-
+,rngR=TRUE
 
 
 

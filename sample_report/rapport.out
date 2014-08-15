@@ -2,7 +2,7 @@
 \BOOKMARK [1][-]{section.1}{R\351sum\351}{}% 2
 \BOOKMARK [1][-]{section.2}{Introduction}{}% 3
 \BOOKMARK [2][-]{subsection.2.1}{Introduction du CMCC}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.2}{La crise de CMCC}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{La crise du CMCC}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.3}{L'optimisation du r\351seau}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.4}{Introduction du laboratoire}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.5}{Objectif du projet}{section.2}% 8
@@ -14,21 +14,23 @@
 \BOOKMARK [3][-]{subsubsection.3.1.4}{La quatri\350me g\351n\351ration}{subsection.3.1}% 14
 \BOOKMARK [2][-]{subsection.3.2}{Le r\351seau LTE}{section.3}% 15
 \BOOKMARK [3][-]{subsubsection.3.2.1}{La structure du r\351seau LTE}{subsection.3.2}% 16
-\BOOKMARK [1][-]{section.4}{Introduction des donn\351es}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{Pr\351traitement de donn\351es}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.2}{Les caract\351ristique du donn\351e}{section.4}% 19
-\BOOKMARK [1][-]{section.5}{Les solution et la mise en \234uvre}{}% 20
-\BOOKMARK [2][-]{subsection.5.1}{Solution existant}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.2}{Notre solution}{section.5}% 22
-\BOOKMARK [3][-]{subsubsection.5.2.1}{K-Means}{subsection.5.2}% 23
-\BOOKMARK [3][-]{subsubsection.5.2.2}{r\350gles d'association}{subsection.5.2}% 24
-\BOOKMARK [1][-]{section.6}{partie1}{}% 25
-\BOOKMARK [2][-]{subsection.6.1}{Une sous section}{section.6}% 26
-\BOOKMARK [3][-]{subsubsection.6.1.1}{\311crire en anglais}{subsection.6.1}% 27
-\BOOKMARK [2][-]{subsection.6.2}{Lites}{section.6}% 28
-\BOOKMARK [2][-]{subsection.6.3}{R\351f\351rences}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.4}{Note de bas de page}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.5}{Figure}{section.6}% 31
-\BOOKMARK [1][-]{section.7}{Citation Wikip\351dia}{}% 32
-\BOOKMARK [1][-]{section*.3}{Conclusion}{}% 33
-\BOOKMARK [1][-]{section*.4}{R\351f\351rences}{}% 34
+\BOOKMARK [1][-]{section.4}{Les solution et la mise en \234uvre}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Solution existant}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Notre solution}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.1}{K-Means}{subsection.4.2}% 20
+\BOOKMARK [3][-]{subsubsection.4.2.2}{r\350gles d'association}{subsection.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.3}{La mise en \234uvre}{section.4}% 22
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Le logiciel utilis\351s}{subsection.4.3}% 23
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Introduction des donn\351es}{subsection.4.3}% 24
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Pr\351traitement de donn\351es}{subsection.4.3}% 25
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Les caract\351ristique du donn\351e}{subsection.4.3}% 26
+\BOOKMARK [1][-]{section.5}{partie1}{}% 27
+\BOOKMARK [2][-]{subsection.5.1}{Une sous section}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.1.1}{\311crire en anglais}{subsection.5.1}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Lites}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.3}{R\351f\351rences}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.4}{Note de bas de page}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.5}{Figure}{section.5}% 33
+\BOOKMARK [1][-]{section.6}{Citation Wikip\351dia}{}% 34
+\BOOKMARK [1][-]{section*.3}{Conclusion}{}% 35
+\BOOKMARK [1][-]{section*.4}{R\351f\351rences}{}% 36

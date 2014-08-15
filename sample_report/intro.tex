@@ -2,7 +2,7 @@
 %\addcontentsline{toc}{section}{Introduction} % Ajout dans la table des matières
 \section{Résumé} 
 
-Pendant ces quatre mois de stage, notre groupe de recherche travaille avec les employés de \textsc{cmcc} ( China Mobile Communications Corporation ) . Le objectif du sujet est: utilise les technique de Fouille de données, étude les données fournir par CMCC, et trouve les relation entre les données et les défaut du système 4G. Nous avons fait plusieurs tentatives pour trouver les résultats, et on a utilise différents logiciel, j'ai utilisé le R, et mon collègue utilise Mathlab, nous avons utilisé plusieurs algorithme (Clusterring, PCA, Association rules, Ajustement). Mais à la fin,  nous avons trouvé que à cause des défaut dans la système d'acquisition, les données ne sont pas correct, et nous ne pouvons pas trouver le résultat comme prévu. Mais les recherches que nous avons fait peut faites-leur savoir comment utilise les technique de fouille de donnée dans la domaine de télécommunication.
+Pendant ces quatre mois de stage, notre groupe de recherche travaille avec les employés de \textsc{cmcc} ( China Mobile Communications Corporation ) . Le objectif du sujet est: utilise les technique de Fouille de données, étude les données fournir par le CMCC, et trouve les relation entre les données et les défaut du système 4G. Nous avons fait plusieurs tentatives pour trouver les résultats, et on a utilise différents logiciel, j'ai utilisé le R, et mon collègue utilise Mathlab, nous avons utilisé plusieurs algorithme (Clusterring, PCA, Association rules, Ajustement). Mais à la fin,  nous avons trouvé que à cause des défaut dans la système d'acquisition, les données ne sont pas correct, et nous ne pouvons pas trouver le résultat comme prévu. Mais les recherches que nous avons fait peut faites-leur savoir comment utilise les technique de fouille de donnée dans la domaine de télécommunication.
 
 \section{Introduction} 
  
@@ -12,7 +12,7 @@ depuis ce jour, le technique développé très rapidement. dans les 20 dernière
  
  \subsection{Introduction du CMCC}
  
-Fondé en 3 Septembre 1997, après le regroupement de opérateur des télécommunications en 2008, \textsc{China Mobile Communications Corporation} (\textsf{CMCC})\ref{Fig.sub.1} est devenu un de trois opérateur des télécommunications en Chine (deux autres sont \textsf{China Unicom Co., Ltd.} et \textsf{China Telecom}). Après plusieurs années de développement, il a construit le plus grand réseau de communications mobiles dans le monde, possède la plus grande base d'utilisateurs dans le monde\ref{Fig.sub.2}. En 2013, CMCC a 767 million utilisateurs, 630,2 billion \textyen \qquad de revenu, 121,7 billions \textyen de revenus net, effectif 197,030.
+Fondé en 3 Septembre 1997, après le regroupement de opérateur des télécommunications en 2008, \textsc{China Mobile Communications Corporation} (\textsf{CMCC})\ref{Fig.sub.1} est devenu un de trois opérateur des télécommunications en Chine (deux autres sont \textsf{China Unicom Co., Ltd.} et \textsf{China Telecom}). Après plusieurs années de développement, il a construit le plus grand réseau de communications mobiles dans le monde, possède la plus grande base d'utilisateurs dans le monde\ref{Fig.sub.2}. En 2013, le CMCC a 767 million utilisateurs, 630,2 billion \textyen \qquad de revenu, 121,7 billions \textyen de revenus net, effectif 197,030.
 \begin{figure}[H]
 	\flushleft
 	\subfigure[Logo de China Mobile]{
@@ -26,7 +26,7 @@ Fondé en 3 Septembre 1997, après le regroupement de opérateur des télécommu
 	\caption{CMCC} 
 \end{figure}
 
-\subsection{La crise de CMCC}
+\subsection{La crise du CMCC}
 Mais en même temps, le taux de croissance des nouveaux utilisateur décline de 22,5 \% (2006) à moins de 5\% 2013 \ref{tauxdecroissance}. Et dans la premier 3 mois, l'entreprise une fois considérés comme la plus rentable de Chine, le taux de croissance des revenu net est 0,3\%.
 
       \begin{figure}[H]
@@ -55,7 +55,7 @@ Mais l'étude de Orange nous montre que si nous pouvons fournir des nouveaux tec
    \caption{trafic par personne }
    \label{traficparpersonne}
   \end{figure}
- Des études nous montre nouveaux technologie (comme LTE) peut diminue le prix de revient, qui peut assurer le profit de l'opérateur. Mais déployé les nouveaux matériel coût très cher, en 2009, CMCC dépenser 30 billions \textyen en construit les station pour réseau 3G, et à 2014, CMCC a construit 1,5 million stations, à la fin de cet année, il y aura 1,8 million stations, parmi ces station, il y aura 500 mille stations TD-LTE. En ajoutant des équipement 4G, il peut être mis à niveau un station de 3G à 4G. Donc déployé le réseau 4G n'est pas trop cher, selon l'expérience précédente (de 2G à 3G), les utilisateurs iront utiliser plus le service internet, qui peut assurer le profit de l'entreprise.
+ Des études nous montre nouveaux technologie (comme LTE) peut diminue le prix de revient, qui peut assurer le profit de l'opérateur. Mais déployé les nouveaux matériel coût très cher, en 2009, le CMCC dépenser 30 billions \textyen en construit les station pour réseau 3G, et à 2014, le CMCC a construit 1,5 million stations, à la fin de cet année, il y aura 1,8 million stations, parmi ces station, il y aura 500 mille stations TD-LTE. En ajoutant des équipement 4G, il peut être mis à niveau un station de 3G à 4G. Donc déployé le réseau 4G n'est pas trop cher, selon l'expérience précédente (de 2G à 3G), les utilisateurs iront utiliser plus le service internet, qui peut assurer le profit de l'entreprise.
       \begin{figure}[H]
           \centering
           \includegraphics[width=3in]{images/why4G.jpg}
@@ -79,12 +79,12 @@ Actuellement, l'optimisation du réseau dépend principalement à la expérience
       
 Face à des problèmes complexes, les grands entreprises commence utilise les techniques de Fouille de données. Ce technique peut aide l'entreprise faire les décision plus vite et plus précis.
 
-De ce faire, en Juillet 2013, CMCC a lancé ce projet avec quatre laboratoires dans trois université, ils sont
+De ce faire, en Juillet 2013, le CMCC a lancé ce projet avec quatre laboratoires dans trois université, ils sont
  \href{http://www.tsinghua.edu.cn/publish/newthuen/index.html}{Tsinghua University}, \href{http://en.sdu.edu.cn/}{Shandong University} et \href{http://www.oice.uestc.edu.cn/en/}{University of Electronic Science and Technology of China}. Le projet inclure trois partiel: Fouille de données, gérés le Clound plateforme et modélisation de l'information dans le système.
  
 
   \subsection{Introduction du laboratoire}
- De 20 Avril 2014 à 20 Juillet 2014, je fait mon stage chez \href{http://203.91.121.76/joomla/}{laboratoire of Next Generation Network Technology \& Application} \textsf{( NGN )} \ref{Logo NGN}. C'est d'un subordonné de \href{http://www.ee.tsinghua.edu.cn/publish/eeen/3776/index.html}{Research Institute of Network And Human-Machine Speech Comunication}, Département Ingénierie électronique, Tsinghua University. Le laboratoire se trouve dans la ROHM bâtiment.
+ De 20 Avril 2014 à 20 Juillet 2014, je fait mon stage chez \href{http://203.91.121.76/joomla/}{laboratoire of Next Generation Network Technology \& Application} \textsf{(NGN)} \ref{Logo NGN}. C'est d'un subordonné de \href{http://www.ee.tsinghua.edu.cn/publish/eeen/3776/index.html}{Research Institute of Network And Human-Machine Speech Comunication}, Département Ingénierie électronique, Tsinghua University. Le laboratoire se trouve dans la ROHM bâtiment.
   \begin{figure}[H]
       \centering
       \includegraphics[width=3in]{images/NGN.jpg}
