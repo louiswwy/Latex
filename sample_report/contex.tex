@@ -99,25 +99,28 @@ Le réseau 4G contient 3 partie: UE( User Equipment);, eNodeB (les stations de b
 	\label{founction du chaque partie}
 \end{table}    
 
-Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve entre S-GW et MME, \textsc{e-utran} et S-GW échange les données par l'interface S1-U \ref{Fig.S1}et il échange les donnée par l'interface S1-AP avec MME \ref{Fig.S1}, MME et HSS utilise l'interface S6A, et l'interface S5/8 entre S-GW et P-GW, Gx entre PCRF et P-GW. En mettant des capteur en les interfaces, les opérateurs et les fournisseurs d'équipement peuvent collecter les données de signalisation, et utilisent ces informations pour trouver les défauts du système. 
-      \begin{figure}[H]
-          \centering
-          \includegraphics[width=2in]{images/S1-U.png}
-          \caption{Interface S1}
-          \label{Fig.S1}
-      \end{figure}
+Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve entre S-GW et MME, \textsc{e-utran} et S-GW échange les données par l'interface S1-U et il échange les donnée par l'interface S1-AP avec MME, MME et HSS utilise l'interface S6A, et l'interface S5/8 entre S-GW et P-GW, Gx entre PCRF et P-GW. En mettant des capteur en les interfaces, les opérateurs et les fournisseurs d'équipement peuvent collecter les données de signalisation, et utilisent ces informations pour trouver les défauts du système. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth]{images/s1-mme}
+\caption{Contrôle plan}
+\label{fig:s1-mme}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth]{images/S1-U}
+\caption{User plan}
+\label{fig:S1-U}
+\end{figure}
 
 \section{Introduction des données}
 %\,\up{\cite{specifi}}
 Après quelque semaines de négociation avec les employés de différents départements de la CMCC, ils nous ont fourni deux versions de données, et ses spécifications du format\cite{specifi}. Nous avons trouvé que CMCC n'a pas de accès direct aux données, et le fournisseur d'équipement a modifié le spécification fournir par CMCC, et il y a des erreurs dans les données fourni par les fournisseur d'équipement.
 
-Ils nous ont envoyé $11$ dossiers, chaque dossier correspond à un service. les services sont 'rtsp', 'dns','mail', 'ftp', 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données de signalisation entre \textsc{e-utran} et MME 'S1AP-NAS'\ref{dossier}. 
-      \begin{figure}[H]
-          \centering
-          \includegraphics[width=5in]{images/data.png}
-          \caption{les dossiers de données}
-          \label{dossier}
-      \end{figure}
+Ils nous ont envoyé $11$ dossiers, chaque dossier correspond à un service. les services sont 'rtsp', 'dns','mail', 'ftp', 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données de signalisation entre \textsc{e-utran} et MME 'S1AP-NAS'.
+    
 Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont très peu de données \ref{table.nombre}. Donc nous avons décidé de utiliser le donnée du service 'HTTP'.
 
 \begin{table}[H]
@@ -141,16 +144,19 @@ Et nous avons trouvé que pour les services comme 'VoIP' et 'RTSP', ils sont tr�
 	          \label{table.nombre}
 \end{table}
 
-Dans le dossier de HTTP, il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre le Service-Gateway et l'eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs\ref{Fig.HTTP}.
 
-Il contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
-les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
+Le dossier du service HTTP a $18,4Mbit$ , il y a $50854$ lignes, tous les données sont collectées par les capteurs placer entre les Service-Gateway et les eNodeB. le capteur enregistre un ligne de donnée quand un processus est fini. chaque ligne a $76$ attributs\ref{Fig.HTTP}.
+
       \begin{figure}[H]
           \centering
           \includegraphics[width=3.5in]{images/http.png}
           \caption{les données du service HTTP}
           \label{Fig.HTTP}
       \end{figure}
+      
+Il contient des informations de UE (IMEI, IMSI, etc), les trafic de la liaison montante et la liaison descendante et le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE, eNodeB et S-GW, le délai du service, le site web, cookie, et aussi le début temps et le temps d'arrêter.
+les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
+
       
       \begin{figure}[H]
 \centering
@@ -184,7 +190,24 @@ Dans ce processus, le 'Down Link Online Time' égale à  $0$ ms , mais il a tél
 	\label{fig:newdata}
 \end{figure}
 
-Dans certains lignes, il y a des erreurs de décompte. par exemple, dans un processus, il a téléchargé  $17$ paquets IP, et il a  $7448$  paquets sont désordre, et  ré-téléchargé  $6384$ paquets  \ref{fig:défaut}. Les données ne sont pas correct, donc nous ne pouvons pas utiliser ses donnée pour calculer les délai du service HTTP.  
+Entre ces 76 attributs, Une grande partie de ces informations sont inutile, et pour certain attributs les contenus égal tous à 0. Finalement nous avons trouvé 11 attributs. ils sont:
+\begin{table}[H]
+\centering
+\begin{tabular}{|>{\centering\arraybackslash}p{3 cm}|>{\centering\arraybackslash}p{3 cm}|>{\centering\arraybackslash}p{3 cm}|}
+\hline \rule[-2ex]{0pt}{5.5ex} Signalisation & Signalisation & KPI \\ 
+\hline \rule[-2ex]{0pt}{5.5ex} trafic en liaison montante & le temps en ligne & vitesse \\ 
+\hline \rule[-2ex]{0pt}{5.5ex} trafic en liaison descendante  & le temps en ligne & vitesse \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  & Http First Response Time & délai \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  & Http Last Packet Time & délai \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  & Http Last Ack Time & délai \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  Packet Num en liaison montante & retransmission de paquets Num en liaison montante & taux de retransmission \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  Packet Num en liaison descendante & retransmission de paquets Num en liaison descendante& taux de retransmission \\ 
+\hline 
+\end{tabular} 
+\end{table}
+
+
+Mais nous avons trouvé que dans certains lignes le taux de retransmission sont trop grands ( plus grand que $100\%$). par exemple, dans un processus, il a téléchargé  $17$ paquets IP, et il a  $7448$  paquets sont désordre, et  ré-téléchargé  $6384$ paquets  \ref{fig:défaut}. Les données ne sont pas correct, donc nous ne pouvons pas utiliser ses donnée pour calculer le taux de retransmission.  
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{images/11}
@@ -192,7 +215,32 @@ Dans certains lignes, il y a des erreurs de décompte. par exemple, dans un proc
 	\label{fig:défaut}
 \end{figure}
 
-\section{Solution existant}     
+Finalement nous avons décidé de utiliser ces 5 attributs (la vitesse et le délai) pour mesurer la qualité du service.
+
+\subsection{Les caractéristique du donnée}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth, height=0.3\textheight]{images/max-min}
+\caption{La valeur maximal, valeur minimal et l'écart type}
+\label{fig:max-min}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{images/mean}
+\caption{La valeur moyenne}
+\label{fig:mean}
+\end{figure}
+
+Nous avons trouvé que l'écart type pour les trois attributs de délais sont très grand. Les valeurs varient de $0ms$ à $1220150ms$. 
+ Par contre la changement  de la vitesse de la liaison montante et descendante n'est pas très grand.
+
+
+\section{Les solution et la mise en \oe uvre}
+\subsection{Solution existant}     
 L'optimisation du service téléphonie est très important. L'opérateur a construit un immense réseau télécommunication, mais a cause de la mauvaise configuration du système, les utilisateur ne sont pas satisfais avec les services, les investissement n'a pas été remis. Donc les entreprises comme IBM, Huawei, et l'autre fournisseur du équipement essaient de trouver la meilleure solution. 
 
 Maintenant, nous pouvons trouver beaucoup de papier sur l'optimisation du réseau télécommunication, mais les articles sont basé sur réseau 3G ou 2G, et la technique qu'ils utilisent ne sont pas convainquent. 
@@ -264,10 +312,27 @@ Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une
 \subsubsection{K-Means}
 L'algorithme peut être divisé en 'clustering hiérarchiques' et 'clustering de partition'. Dans notre cas, nous avons utiliser l'algorithme K-Means. 
 
-Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. C'est une méthode classique, il a été utilisés dans beaucoup différents domaines.
+Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. 
 
-q
-\subsubsection{Algorithme règles}
+C'est une méthode classique, il a été utilisés dans beaucoup différents domaines. Après avoir étudié et comparé les caractéristiques de chaque partition, on pouvons défini quelle partition représentent mauvais qualité de service. Les résultat peut nous aider à classifier le service. 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{images/kmeans}
+\caption{procédé de l'algorithme K-Means}
+\label{fig:kmeans}
+\end{figure}
+
+
+\subsubsection{règles d'association}
+La règle d'association est une méthode populaire, elle étudiée d'une manière approfondie dont le but est de découvrir des relations ayant un intérêt pour le statisticien entre les variables. En se basant sur le concept de relations fortes, Rakesh Agrawal et son équipe présente des règles d'association dont le but est de découvrir des similitudes entre des produits dans des données saisies sur une grande échelle dans les systèmes informatiques des points de ventes des chaînes de supermarchés. Par exemple, une règle découverte que si un homme achète les serviettes de bébé, il est susceptible de achète les bières. Une telle information peut être utile quand on veut prendre des décisions marketing.
+
+Les règles d'association sont employées aujourd'hui dans plusieurs domaines, incluant: la fouille du web, la détection d'intrusion et la bio-informatique.  Dans ces domaines, ils utilisent les données booléenne pour trouver les règles utiles. Mais dans le domaine télécommunication, les données de signalisation sont le données numérique. Donc nous ne pouvons pas directement utiliser la règles d'association. Par contre nous pouvons convertir les données de type numérique en données de caractère.
+
+ 
+
+
+
+
 Après avoir utilisé le K-Means, nous pouvons utiliser le algorithme règles d'association pour trouver des règles qui peuvent nous aider à faire la décision.
 
 

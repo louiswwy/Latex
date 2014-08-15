@@ -17,17 +17,19 @@
 \contentsline {subsubsection}{\numberline {3.2.1}La structure du r\IeC {\'e}seau LTE}{12}{subsubsection.3.2.1}
 \contentsline {section}{\numberline {4}Introduction des donn\IeC {\'e}es}{14}{section.4}
 \contentsline {subsection}{\numberline {4.1}Pr\IeC {\'e}traitement de donn\IeC {\'e}es}{16}{subsection.4.1}
-\contentsline {section}{\numberline {5}Solution existant}{17}{section.5}
-\contentsline {subsection}{\numberline {5.1}Notre solution}{20}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}K-Means}{22}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Algorithme r\IeC {\`e}gles}{22}{subsubsection.5.1.2}
-\contentsline {section}{\numberline {6}partie1}{23}{section.6}
-\contentsline {subsection}{\numberline {6.1}Une sous section}{23}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}\IeC {\'E}crire en anglais}{23}{subsubsection.6.1.1}
-\contentsline {subsection}{\numberline {6.2}Lites}{23}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}R\IeC {\'e}f\IeC {\'e}rences}{23}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Note de bas de page}{24}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Figure}{24}{subsection.6.5}
-\contentsline {section}{\numberline {7}Citation Wikip\IeC {\'e}dia}{26}{section.7}
-\contentsline {section}{Conclusion}{27}{section*.3}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{28}{section*.4}
+\contentsline {subsection}{\numberline {4.2}Les caract\IeC {\'e}ristique du donn\IeC {\'e}e}{18}{subsection.4.2}
+\contentsline {section}{\numberline {5}Les solution et la mise en \oe uvre}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Solution existant}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Notre solution}{22}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}K-Means}{23}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}r\IeC {\`e}gles d'association}{24}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}partie1}{26}{section.6}
+\contentsline {subsection}{\numberline {6.1}Une sous section}{26}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}\IeC {\'E}crire en anglais}{26}{subsubsection.6.1.1}
+\contentsline {subsection}{\numberline {6.2}Lites}{26}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}R\IeC {\'e}f\IeC {\'e}rences}{26}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Note de bas de page}{27}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Figure}{27}{subsection.6.5}
+\contentsline {section}{\numberline {7}Citation Wikip\IeC {\'e}dia}{29}{section.7}
+\contentsline {section}{Conclusion}{30}{section*.3}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{31}{section*.4}
