@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {4}Les solution et la mise en \oe uvre}{14}{section.4}
 \contentsline {subsection}{\numberline {4.1}Solution existant}{14}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Notre solution}{17}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}K-Means}{18}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}K-Means et Clara}{18}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}r\IeC {\`e}gles d'association}{19}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}La mise en \oe uvre}{20}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Le logiciel utilis\IeC {\'e}s}{20}{subsubsection.4.3.1}

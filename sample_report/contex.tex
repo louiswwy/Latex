@@ -186,7 +186,7 @@ La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode Q
 Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que le CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si le CMCC peut lancer un projet de externalisation ouverte, si le CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, le CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et il n'peut pas garantir le revenu. Et l'entreprise ne fait pas de l'investissement sans retour.
 
 Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et on pense que les données dans le même sous-ensemble ont des caractéristique similaires.
-\subsubsection{K-Means}
+\subsubsection{K-Means et Clara}
 L'algorithme peut être divisé en 'clustering hiérarchiques' et 'clustering de partition'. Dans notre cas, nous avons utiliser l'algorithme K-Means. 
 
 Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. 
@@ -199,6 +199,7 @@ C'est une méthode classique, il a été utilisés dans beaucoup différents dom
 \label{fig:kmeans}
 \end{figure}
 
+Clara (Clustering Large Applications ) est un algorithme clustering, il est utilisé pour les données de grand quantité. Compare avec K-Means, il est plus robuste, et moins complexe.  
 
 \subsubsection{règles d'association}
 La règle d'association est une méthode populaire, elle étudiée d'une manière approfondie dont le but est de découvrir des relations ayant un intérêt pour le statisticien entre les variables. En se basant sur le concept de relations fortes, Rakesh Agrawal et son équipe présente des règles d'association dont le but est de découvrir des similitudes entre des produits dans des données saisies sur une grande échelle dans les systèmes informatiques des points de ventes des chaînes de supermarchés. Par exemple, une règle découverte que si un homme achète les serviettes de bébé, il est susceptible de achète les bières. Une telle information peut être utile quand on veut prendre des décisions marketing.

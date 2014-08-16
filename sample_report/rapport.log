@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  15 AUG 2014 16:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.10)  16 AUG 2014 15:26
 entering extended mode
 **rapport.tex
 (C:\Users\wang\Desktop\Git\Latex\sample_report\rapport.tex
@@ -2740,130 +2740,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--200
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+[]\T1/cmtt/m/n/12 Clara (Clustering Large Applications ) est un algorithme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+\T1/cmtt/m/n/12 clustering, il est utilisé pour les données de grand quantité.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 []\T1/cmtt/m/n/12 La règle d'association est une méthode populaire, elle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 étudiée d'une manière approfondie dont le but est de découvrir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 des relations ayant un intérêt pour le statisticien entre les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 variables. En se basant sur le concept de relations fortes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 Rakesh Agrawal et son équipe présente des règles d'association
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 dont le but est de découvrir des similitudes entre des produits
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 dans des données saisies sur une grande échelle dans les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 systèmes informatiques des points de ventes des chaînes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 supermarchés. Par exemple, une règle découverte que si un homme
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 achète les serviettes de bébé, il est susceptible de achète
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 \T1/cmtt/m/n/12 les bières. Une telle information peut être utile quand on veut
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 []\T1/cmtt/m/n/12 Les règles d'association sont employées aujourd'hui dans
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 plusieurs domaines, incluant: la fouille du web, la détection
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 d'intrusion et la bio-informatique. Dans ces domaines, ils
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 utilisent les données booléenne pour trouver les règles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 utiles. Mais dans le domaine télécommunication, les données de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 signalisation sont le données numérique. Donc nous ne pouvons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 pas directement utiliser la règles d'association. Par contre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 nous pouvons convertir les données de type numérique en données
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 de caractère en divisant les données dans plusieurs partitions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 [[]]. Par exemple, nous avons des données numérique entre $\OT1
 /cmr/m/n/12 0$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 et $\OT1/cmr/m/n/12 100$\T1/cmtt/m/n/12 , et on divise les donn
 ées en 10 partitions, donc les
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 206--207
+Underfull \hbox (badness 5592) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 chiffres entre $\OT1/cmr/m/n/12 0$ \T1/cmtt/m/n/12 et $\OT1/cmr
 /m/n/12 10$ \T1/cmtt/m/n/12 peuvent présenter par $\OT1/cmr/m/n/12 0 \OML/cmm/m
 /it/12 < x < \OT1/cmr/m/n/12 10$\T1/cmtt/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \T1/cmtt/m/n/12 En utilisant cette technique nous pouvons utiliser la règle
  []
 
@@ -2872,221 +2882,221 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.207 
+l.208 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/kmeans.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 []\T1/cmtt/m/n/12 Il y a plusieurs méthodes pour diviser les attributs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 \T1/cmtt/m/n/12 numériques: par catégorisation, l'analyse typologique, par
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 \T1/cmtt/m/n/12 analyse de l'histogramme, l'analyse basé sur l'entropie de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 []\T1/cmtt/m/n/12 Nous décidons de utiliser le K-Means d'abord. Après analyse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 \T1/cmtt/m/n/12 le résultat, nous pouvons utiliser la algorithme règles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 []\T1/cmtt/m/n/12 L'objectif de notre projet est de trouver une méthode qui
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 peut s'implanter dans les serveurs du CMCC, et aider le CMCC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 améliorer la qualité du réseau. D'après le directeur du R&D
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 département du CMCC, au total, il a $\OT1/cmr/m/n/12 20\OML/cmm
 /m/it/12 Pb$ \T1/cmtt/m/n/12 de donnée stock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 dans ses base de données, donc le logiciel doit être capable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 d'exécuter grand quantité de données. En plus, au lieu de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 utilisé directement les logiciel comme SQL (qui n'est pas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 très efficient si on a beaucoup de donnée stock dans différent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/cmtt/m/n/12 serveur), le CMCC utilise 'Hadoop' pour stock et géré ses
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 []\T1/cmtt/m/n/12 Donc le logiciel que nous utilisons doit être capable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 \T1/cmtt/m/n/12 d'exécuter grand quantité de donnée et peut travailler avec
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 []\T1/cmtt/m/n/12 Finalement nous décidons de utiliser le langage \T1/cmss/m/n/
 12 R\T1/cmtt/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 []\T1/cmtt/m/n/12 R est un langage et un environnement pour le calcule
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 []\T1/cmtt/m/n/12 R offre une grande variété de statistiques (modélisation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \T1/cmtt/m/n/12 linéaire et non linéaire, classification, clustering,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \T1/cmtt/m/n/12 etc,) et des graphiques techniques, et il est très
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 []\T1/cmtt/m/n/12 R est un logiciel libre, il compile et fonctionne sur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \T1/cmtt/m/n/12 une grande variété de plates-formes UNIX et les systèmes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \T1/cmtt/m/n/12 similaires (y compris FreeBSD et Linux), Windows et Mac
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 []\T1/cmtt/m/n/12 en utilisant les packages fournir par 'Revolution
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 []\T1/cmtt/m/n/12 Nous utilisons \T1/cmss/m/n/12 Rs-tu-dio \T1/cmtt/m/n/12 comm
 e notre environnement de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \T1/cmtt/m/n/12 programmation. C'est une interface utilisateur puissante et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 []\T1/cmtt/m/n/12 Après quelque semaines de négociation avec les employés de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/cmtt/m/n/12 différents départements de le CMCC, ils nous ont fourni deux
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/cmtt/m/n/12 versions de données, et ses spécifications du format[[]]. Nous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/cmtt/m/n/12 avons trouvé que le CMCC n'a pas de accès direct aux données,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/cmtt/m/n/12 et le fournisseur d'équipement a modifié le spécification
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/cmtt/m/n/12 fournir par le CMCC, et il y a des erreurs dans les données
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 []\T1/cmtt/m/n/12 Ils nous ont envoyé $\OT1/cmr/m/n/12 11$ \T1/cmtt/m/n/12 doss
 iers, chaque dossier correspond
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 \T1/cmtt/m/n/12 à un service. les services sont 'rtsp', 'dns','mail', 'ftp',
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 \T1/cmtt/m/n/12 'http-wap', 'mms', 'p2p', 'realtimecom', 'VoIP' et les données
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 []\T1/cmtt/m/n/12 Et nous avons trouvé que pour les services comme 'VoIP' et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \T1/cmtt/m/n/12 'RTSP', ils sont très peu de données [][]5[][]. Donc nous avons
  décidé
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 []\T1/cmtt/m/n/12 Le dossier du service HTTP a $\OT1/cmr/m/n/12 18\OML/cmm/m/it
 /12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 Mbit$ \T1/cmtt/m/n/12 , il y a $\OT1/cm
 r/m/n/12 50854$ \T1/cmtt/m/n/12 lignes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \T1/cmtt/m/n/12 tous les données sont collectées par les capteurs placer entre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \T1/cmtt/m/n/12 les Service-Gateway et les eNodeB. le capteur enregistre un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \T1/cmtt/m/n/12 ligne de donnée quand un processus est fini. chaque ligne a $\O
 T1/cmr/m/n/12 76$
  []
@@ -3094,30 +3104,30 @@ T1/cmr/m/n/12 76$
 <images/http.png, id=395, 293.59688pt x 16.56187pt>
 File: images/http.png Graphic file (type png)
  <use images/http.png>
-Package pdftex.def Info: images/http.png used on input line 266.
+Package pdftex.def Info: images/http.png used on input line 267.
 (pdftex.def)             Requested size: 252.94499pt x 14.26869pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 []\T1/cmtt/m/n/12 Il contient des informations de UE (IMEI, IMSI, etc), les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 \T1/cmtt/m/n/12 trafic de la liaison montante et la liaison descendante et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 \T1/cmtt/m/n/12 le temps, la adresse IP de UE, eNodeB et S-GW, le port de UE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 \T1/cmtt/m/n/12 eNodeB et S-GW, le délai du service, le site web, cookie, et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 \T1/cmtt/m/n/12 aussi le début temps et le temps d'arrêter. les données sont
  []
 
@@ -3125,10 +3135,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--273
 File: images/lasttime.jpg Graphic file (type jpg)
 
 <use images/lasttime.jpg>
-Package pdftex.def Info: images/lasttime.jpg used on input line 277.
+Package pdftex.def Info: images/lasttime.jpg used on input line 278.
 (pdftex.def)             Requested size: 426.79134pt x 142.6822pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 277--278
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 278--279
  [][] 
  []
 
@@ -3137,48 +3147,48 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.281 
+l.282 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.281 
+l.282 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/http.png>]
 <images/errorData.png, id=405, 306.39468pt x 66.2475pt>
 File: images/errorData.png Graphic file (type png)
 
 <use images/errorData.png>
-Package pdftex.def Info: images/errorData.png used on input line 286.
+Package pdftex.def Info: images/errorData.png used on input line 287.
 (pdftex.def)             Requested size: 272.99881pt x 59.02983pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 []\T1/cmtt/m/n/12 En analysant des données, nous avons trouvé des erreurs de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 \T1/cmtt/m/n/12 données, et le fournisseur nous a confirmé que ces sont les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 \T1/cmtt/m/n/12 défaut de leur système 4G. Pour les attributs 'IMSI', 'IMEI',
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 \T1/cmtt/m/n/12 'MSISDN', $\OT1/cmr/m/n/12 90$ \T1/cmtt/m/n/12 % de lignes sont
  vides, ce qui ne sont pas vides,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 \T1/cmtt/m/n/12 les contenus sont illisible, et peuvent provoquant des erreurs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 \T1/cmtt/m/n/12 de lecture [][]18[][]. Et nous avons trouvé que dans les conten
 us de
  []
@@ -3187,32 +3197,32 @@ us de
 File: images/bizarre.jpg Graphic file (type jpg)
 
 <use images/bizarre.jpg>
-Package pdftex.def Info: images/bizarre.jpg used on input line 293.
+Package pdftex.def Info: images/bizarre.jpg used on input line 294.
 (pdftex.def)             Requested size: 350.99762pt x 26.63605pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--296
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 []\T1/cmtt/m/n/12 Dans ce processus, le 'Down Link Online Time' égale à $\OT1/c
 mr/m/n/12 0$ \T1/cmtt/m/n/12 ms
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--296
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 \T1/cmtt/m/n/12 , mais il a téléchargé $\OT1/cmr/m/n/12 746$ \T1/cmtt/m/n/12 bi
 ts, c'est clairement un erreur du
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 []\T1/cmtt/m/n/12 Nous avons décidé de ne utiliser les données avec ce type
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 \T1/cmtt/m/n/12 de erreur, à la fin, en supprimant ses données, il nous reste
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 $\OT1/cmr/m/n/12 37865$ \T1/cmtt/m/n/12 lignes ($\OT1/cmr/m/n/12 50894$ \T1/cmt
 t/m/n/12 lignes en origine, $\OT1/cmr/m/n/12 13029$ \T1/cmtt/m/n/12 lignes ont 
 été
@@ -3223,19 +3233,19 @@ t/m/n/12 lignes en origine, $\OT1/cmr/m/n/12 13029$ \T1/cmtt/m/n/12 lignes ont
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.299 
+l.300 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.299 
+l.300 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.299 
+l.300 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/lasttime.jpg> <C:/
 Users/wang/Desktop/Git/Latex/sample_report/images/errorData.png> <C:/Users/wang
 /Desktop/Git/Latex/sample_report/images/bizarre.jpg>]
@@ -3243,53 +3253,53 @@ Users/wang/Desktop/Git/Latex/sample_report/images/errorData.png> <C:/Users/wang
 File: images/newdata.jpg Graphic file (type jpg)
 
 <use images/newdata.jpg>
-Package pdftex.def Info: images/newdata.jpg used on input line 302.
+Package pdftex.def Info: images/newdata.jpg used on input line 303.
 (pdftex.def)             Requested size: 312.00119pt x 28.84218pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 308--322
 []\T1/cmtt/m/n/12 Entre ces 76 attributs, Une grande partie de ces
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 308--322
 \T1/cmtt/m/n/12 informations sont inutile, et pour certain attributs les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 308--322
 \T1/cmtt/m/n/12 contenus égal tous à 0. Finalement nous avons trouvé 11
  []
 
 <images/11.png, id=417, 314.67563pt x 91.84312pt>
 File: images/11.png Graphic file (type png)
  <use images/11.png>
-Package pdftex.def Info: images/11.png used on input line 327.
+Package pdftex.def Info: images/11.png used on input line 328.
 (pdftex.def)             Requested size: 272.99881pt x 79.68283pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
 []\T1/cmtt/m/n/12 Mais nous avons trouvé que dans certains lignes le taux de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
 \T1/cmtt/m/n/12 retransmission sont trop grands ( plus grand que $\OT1/cmr/m/n/
 12 100%$\T1/cmtt/m/n/12 ). par
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
 \T1/cmtt/m/n/12 exemple, dans un processus, il a téléchargé $\OT1/cmr/m/n/12 17
 $ \T1/cmtt/m/n/12 paquets IP, et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
 \T1/cmtt/m/n/12 il a $\OT1/cmr/m/n/12 7448$ \T1/cmtt/m/n/12 paquets sont désord
 re, et ré-téléchargé $\OT1/cmr/m/n/12 6384$ \T1/cmtt/m/n/12 paquets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
 [][]\T1/cmtt/m/n/12 21[][]. Les données ne sont pas correct, donc nous ne pouvo
 ns pas
  []
@@ -3299,10 +3309,10 @@ ns pas
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.330 \end{figure}
+l.331 \end{figure}
                    <C:/Users/wang/Desktop/Git/Latex/sample_report/images/newdat
 a.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 []\T1/cmtt/m/n/12 Finalement nous avons décidé de utiliser ces 5 attributs (la
  []
 
@@ -3310,40 +3320,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 File: images/max-min.png Graphic file (type png)
 
 <use images/max-min.png>
-Package pdftex.def Info: images/max-min.png used on input line 340.
+Package pdftex.def Info: images/max-min.png used on input line 341.
 (pdftex.def)             Requested size: 351.00508pt x 177.6066pt.
  <images/mean.jpg, id=424, 174.6525pt x 125.71968pt>
 File: images/mean.jpg Graphic file (type jpg)
 
 <use images/mean.jpg>
-Package pdftex.def Info: images/mean.jpg used on input line 347.
+Package pdftex.def Info: images/mean.jpg used on input line 348.
 (pdftex.def)             Requested size: 155.99762pt x 112.29683pt.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.21
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.351 
+l.352 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.351 
+l.352 
        <C:/Users/wang/Desktop/Git/Latex/sample_report/images/11.png> <C:/Users/
 wang/Desktop/Git/Latex/sample_report/images/max-min.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 []\T1/cmtt/m/n/12 Nous avons trouvé que l'écart type pour les trois attributs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 \T1/cmtt/m/n/12 de délais sont très grand. Les valeurs varient de $\OT1/cmr/m/n
 /12 0\OML/cmm/m/it/12 ms$ \T1/cmtt/m/n/12 à
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 $\OT1/cmr/m/n/12 1220150\OML/cmm/m/it/12 ms$\T1/cmtt/m/n/12 . Par contre la cha
 ngement de la vitesse de la
  []
@@ -3566,7 +3576,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 370E324A67D6A9DB4E383E624CF7362F;2608.
+(rerunfilecheck)             Checksum: F74E19D4D3A24BBDF41313B04EDB2583;2617.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
@@ -3601,9 +3611,9 @@ ang\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectc1728.pk> <C
 00\ectc2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on rapport.pdf (36 pages, 1325947 bytes).
+Output written on rapport.pdf (36 pages, 1329700 bytes).
 PDF statistics:
- 1157 PDF objects out of 1200 (max. 8388607)
+ 1158 PDF objects out of 1200 (max. 8388607)
  119 named destinations out of 1000 (max. 500000)
  434 words of extra memory for PDF output out of 10000 (max. 10000000)
 
