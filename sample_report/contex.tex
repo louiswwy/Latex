@@ -116,8 +116,7 @@ Entre deux \textsc{e-utran}, il y a l'interface X2, l'interface S-11 se trouve e
 \end{figure}
 
 
-\section{Les solution et la mise en \oe uvre}
-\subsection{Solution existant}     
+\section{Les solution existant}
 
 L'optimisation du service téléphonie est très important. L'opérateur a construit un immense réseau télécommunication, mais a cause de la mauvaise configuration du système, les utilisateur ne sont pas satisfais avec les services, les investissement n'a pas été remis. Donc les entreprises comme IBM, Huawei, et l'autre fournisseur du équipement essaient de trouver la meilleure solution. 
 
@@ -189,7 +188,7 @@ Selon l'article le cette méthode peut aider l'opérateur trouver les défaut du
 
 
 
-\subsection{Notre solution}
+\section{Le présentation de notre solution}
 
 La méthode qui utilise le comportement de l'utilisateur est intéressant, mais nous trouvons qu'elle peut utiliser seulement dans le service vocaux, nous n'avons pas trouvé les règles similaire dans l'autre service. D'ailleurs, le réseau LTE ne support pas le service vocaux, donc il n'existe pas optimisation du service vocaux dans réseau LTE et nous n'avons pas de données. Donc nous ne pouvons pas utiliser cette méthode.
 
@@ -204,7 +203,7 @@ La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode Q
 Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que le CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si le CMCC peut lancer un projet de externalisation ouverte, si le CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, le CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et peut-être il n'y a pas de revenu direct. Et l'entreprise ne fait pas de l'investissement sans retour.
 
 Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et nous supposons que les données dans le même partition ont des caractéristique similaires.
-\subsubsection{Clustering}
+\subsection{Clustering}
 L'algorithme de clustering est une des méthodes de classification non supervisée. Il est beaucoup utilisé quand le donnée n'a pas de connaissance a priori.
 
 Il existe de multiples méthodes de regroupement des données, parmi lesquelles:
@@ -216,22 +215,6 @@ Il existe de multiples méthodes de regroupement des données, parmi lesquelles:
 \item Classification basées sur des modèles.
 \end{itemize}
 
-Nous avons utiliser l'algorithme K-Means et CLARA. Ils sont deux techniques de Classification par partitionnement.
-
-Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. 
-
-C'est une méthode classique, il a été utilisés dans beaucoup différents domaines. Mais les résultats dépendent au nombre de clusters ou la valeur de K, différent paramètre peuvent mener à des résultat très différent.
-
-En 1974, Mme \textsc{Bezdek} a proposé cette question de évaluation, et donne la première fonction pour évaluer le résultat du clustering: \textsf{Partition}  \textsf{Coefficient}. Par la suite de nombreux chercheurs ont proposé une variété de fonctions pour évaluer le résultat, et évalue les qualité et le champ d'application de ses fonctions. 
-
-Par mesure l'efficacité entre les partitions et inter-partition, on peut évaluer le clustering. Le résultat de clustering idéal devrait être avoir la distance minimale dans le partitions, et la distance maximale entre les partitions. C'est à dire avec le plus petit grand de cohésion dans la partition, et le plus élevé degré de séparation entre les partitions.
-
-q
-
-a
-
- Après avoir étudié et comparé les caractéristiques de chaque partition, on pouvons défini quelle partition représentent mauvais qualité de service. Les résultat peut nous aider à classifier le service. 
- 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{images/kmeans}
@@ -239,9 +222,79 @@ a
 \label{fig:kmeans}
 \end{figure}
 
-Clara (Clustering Large Applications ) est un algorithme clustering, il est utilisé pour les données de grand quantité. Compare avec K-Means, il est plus robuste, et moins complexe.  
+Nous avons utiliser l'algorithme K-Means et CLARA (Clustering Large Applications ). Ils sont deux techniques de Classification par partitionnement.
 
-\subsubsection{Règles d'association}
+Le but de cet algorithme est de diviser des données en K partitions (clusters) dans lesquelles les données appartient à la partition avec la moyenne la plus proche. 
+
+\subsubsection{La distance}
+
+Quand on regroupe un ensemble de données, on calcule la distance entre chaque échantillon, la distance entre les échantillons dans un même groupe sont plus petit que les échantillons dans l'autre groupe. on suppose que les plus semblables les deux échantillons, plus la distance et petit, plus la similitude est grand.
+
+
+Il y a plusieurs moyen de calculer la similarité, On utilise la technique qui basé sur la distance, les techniques utilisé le plus souvent sont: \emph{distance euclidienne}, \emph{distance de Hamming}, \emph{distance Manhattan}, etc. Aussi il existe des méthodes qui mesuré la similarité, il inclut: \emph{coefficient de Jaccard}, \emph{cosinus similarité}, etc . Nous décidons de utiliser la distance euclidienne pour calculer la similarité.
+
+$$d(x,y) = \sqrt {\sum_{k=1}^n  (x_{k}-y_{k})^2}$$
+
+$n$ est la dimension, $x_{k}$ et $ y_{k}$ sont le k-ème attributs de échantillon x et y.
+
+$$ $$
+\subsubsection{La validité de clustering}
+C'est méthode a été utilisés dans beaucoup différents domaines. Mais la qualité du résultat dépend au nombre de clusters ou la valeur de K, différent paramètre peuvent mener à des résultat très différent.
+
+En 1974, Mme \textsc{Bezdek} a proposé cette question de évaluation, et donne la première fonction pour évaluer le résultat du clustering: \textsf{Partition}  \textsf{Coefficient}. Par la suite de nombreux chercheurs ont proposé une variété de fonctions pour évaluer le résultat, et évalue les qualité et le champ d'application de ses fonctions. 
+
+Par mesure l'efficacité entre les partitions et inter-partition, on peut évaluer le clustering. Le résultat de clustering idéal devrait être avoir la distance minimale dans le partitions, et la distance maximale entre les partitions. C'est à dire avec le plus petit grand de la cohésion dans la partition, et le plus élevé degré de la séparation entre les partitions. La cohésion mesure le degré de proximité dans la groupe, et la séparation mesure le degré de dissimilarité entre les groupe. La cohésion et la séparation peuvent calculer par les équations suivante.
+
+$$cohésion(C_{i}) = \sum_{x\in1} proximity(x, c_{i})$$
+
+$$séparation(C_{i},C_{j}) = proximity(c_{i}, c_{j})$$
+
+
+Dans les formules, le \(c\)\ est le centre de gravité d'un partition, \(proximity(a,b)\)\ est le mesure de proximité entre la partition a et b.
+
+Le degré de la cohésion de clusters et de la séparation est souvent utilisé comme une mesure principales pour évalue le résultat de clustering. Un bon regroupement devrait être à la fois un petit degré de la cohésion et un grand degré de la séparation.
+
+Le degré de la cohésion et de la séparation de la partition ne sont pas indépendants, la somme des deux est une constante, on suppose que quand on a le minimal degré de la cohésion, on peut avoir le maximal degré de la séparation. \textsc{é}videment, nous devons utiliser à la fois le degré de la cohésion et de la séparation pour mesuré la qualité du regroupement.
+
+\subsubsection{La silhouette C\oe fficient}
+
+Kaufman a proposé la silhouette c\oe fficient en 2010, cette méthode utilise à la fois les deux degrés.
+
+\begin{enumerate}
+\item la silhouette c\oe fficient d'un échantillon:\\
+
+ Pour un échantillon $d_{i}$, en supposent qu'il est dans groupe A, la silhouette c\oe fficient peut calculer par ce formulaire:
+$$s_{i}=\frac{b_{i}-a_{i}}{max(a_{i},b_{i})} $$
+
+\emph{$a_{i}$ est la dissemblance moyenne de la donnée i avec toutes les autres données dans le même cluster(plus la valeur est petit, meilleure est le regroupement). $b_{i}$ est la différence moyenne de $i$ à tout autre groupe $i$ n'est pas un membre.}
+\newpage
+
+Qui peut être écrite comme:
+$$  s_{i}=\left\{
+\begin{array}{rcl}
+1-\frac{a_{i}}{b_{i}},       &      & if\  a_{i}<b_{i}\\
+0,     &      & if\ a_{i}=b_{i}\\
+\frac{b_{i}}{a_{i}}-1,     &      & if\ a_{i}>b_{i}\\
+\end{array} \right. $$
+
+D'après la définition ci-dessus, il est clair que la valeur de $s_{i}$ est entre $1$ et $-1$
+$$-1<s_{i}<1$$
+
+Pour $s_{i}$ d'être proche de 1, nous demandons le $a_{i}$ plus petit que $b_{i}$. Comme $a_{i}$ mesure la dissemblable de i et son propre groupe, une petit valeur signifie qu'il est bien adapté. En outre, un grand $b_{i}$ implique que i est mal adapté à son groupe voisin. Ainsi, un $s_{i}$ près de $1$ signifie que la donnée est concentrée de manière appropriée. Si la valeur de $s_{i}$ est proche de $-1$, selon la même logique, nous voyons que le donnée $i$ serait plus approprié si elle a été regroupée dans son groupe voisin.
+
+\item la silhouette c\oe fficient moyenne:
+
+Pour le résultat d'un regroupement, le silhouette c\oe fficient égale à:
+$$s_{k}=\frac{1}{n}\sum_{i=1}^n s_{i}$$
+\emph{$n$ est le nombre de données, $k$ est le nombre de partition, $s_{k}$ est la moyenne du silhouette c\oe fficient. Nous pouvons utiliser $s_{k}$ pour évalue la qualité du clustering.}
+\newline
+\newline
+Le $s_{i}$ est les moyens sur l'ensemble des données d'un cluster, il est un mesure le degré de cohésion de toutes les données du cluster. Ainsi, les moyens de $s_{i}$ de l'ensemble des données ($s_{k}$) est une mesure de la façon appropriée les données ont été regroupés. S'il y a trop peu de clusters, ainsi que peut se produire lorsque un mauvais choix de k est utilisé dans l'algorithme K-Means, la silhouette C\oe fficient de certains groupes est beaucoup plus petit que les autres. Donc la plot de silhouette C\oe fficient et la valeur moyenne de silhouette peuvent être utilisé pour déterminer le nombre de cluster (la valeur de $k$ ) optimal pour le ensemble de données.
+\end{enumerate} 
+
+Après trouver les paramètre optimal, nous pouvons utiliser l'algorithme clustering, et après étudié et comparé les caractéristiques de chaque partition, on pouvons défini quelle partition représentent mauvais qualité de service. Les résultat peut nous aider à classifier le service. 
+
+\subsection{Règles d'association}
 La règle d'association est une méthode populaire, elle étudiée d'une manière approfondie dont le but est de découvrir des relations ayant un intérêt pour le statisticien entre les variables. En se basant sur le concept de relations fortes, Rakesh Agrawal et son équipe présente des règles d'association dont le but est de découvrir des similitudes entre des produits dans des données saisies sur une grande échelle dans les systèmes informatiques des points de ventes des chaînes de supermarchés. Par exemple, une règle découverte que si un homme achète les serviettes de bébé, il est susceptible de achète les bières. Une telle information peut être utile quand on veut prendre des décisions marketing.
 
 Les règles d'association sont employées aujourd'hui dans plusieurs domaines, incluant: la fouille du web, la détection d'intrusion et la bio-informatique.  Dans ces domaines, ils utilisent les données booléenne pour trouver les règles utiles. Mais dans le domaine télécommunication, les données de signalisation sont le données numérique. Donc nous ne pouvons pas directement utiliser la règles d'association. Par contre nous pouvons convertir les données de type numérique en données de caractère en divisant les données dans plusieurs partitions \cite{AR}. Par exemple, nous avons des données numérique entre $0$ et $100$, et on divise les données en 10 partitions, donc les chiffres entre $0$ et $10$ peuvent présenter par $0<x<10$. En utilisant cette technique nous pouvons utiliser la règle d'association pour trouver les relations dans les données.
@@ -267,8 +320,6 @@ Finalement nous décidons de utiliser le langage \textsf{R}. L'avantage de R son
 \end{itemize}
 
 Nous utilisons \textsf{Rstudio} comme notre environnement de programmation. C'est une interface utilisateur puissante et productive pour R.
-
-
 
 \subsubsection{Introduction des données}
 %\,\up{\cite{specifi}}
@@ -378,20 +429,88 @@ Finalement nous avons décidé de utiliser ces 5 attributs (la vitesse et le dé
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\linewidth, height=0.3\textheight]{images/max-min}
+\includegraphics[width=0.8\linewidth, height=0.2\textheight]{images/max-min}
 \caption{La valeur maximal, valeur minimal et l'écart type}
 \label{fig:max-min}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.4\linewidth]{images/mean}
+\includegraphics[width=0.3\linewidth]{images/mean}
 \caption{La valeur moyenne}
 \label{fig:mean}
 \end{figure}
 
 Nous avons trouvé que l'écart type pour les trois attributs de délais sont très grand. Les valeurs varient de $0ms$ à $1220150ms$. Par contre la changement  de la vitesse de la liaison montante et descendante n'est pas très grand.
 
+\section{La mise en \oe uvre}
+\subsection{La valeur optimal de $k$}
+Pour trouvé le k optimal pour notre données, nous avons utilisé la technique 'silhouette C\oe fficient' et 'somme de erreur carrés'.
+
+Nous avons mesuré le résultat de ces deux techniques quand la valeur de $k$ augmente de $1$ à $15$, étant donné que les caractéristique de l'algorithme, pour chaque valeur de $k$, nous avons répétées 50 fois et calcule la valeur moyenne pour éliminer les erreurs, en suite, nous étudions le résultat pour trouver la valeur optimal.
+\subsubsection{La somme d'erreur carrés}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{images/sse}
+\caption{somme d'erreur carrés}
+\label{fig:sse}
+\end{figure}
+Nous avons trouvé que la somme d'erreur carrés diminue quand $k$ augment, mais le taux de déclin est très faible, et il a peu de changements. Donc nous ne pouvons pas utilise cette méthode pour trouver le $k$.
+
+\subsubsection{La silhouette C\oe fficient}
+Nous utilisons la même technique pour calculer et visualiser la valeur de la silhouette C\oe fficient avec la différence valeur de $k$.
+
+D'abord, nous avons calculé la silhouette C\oe fficient quand la valeur de k change de 2 à 40:
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth, height=0.35\textheight]{images/sc40}
+\caption{la silhouette C\oe fficient quand k varie de 2 à 40}
+\label{fig:sc40}
+\end{figure}
+
+Nous avons trouvé que la valeur de la silhouette C\oe fficient décline quand $k$ augmente. Et les valeurs de silhouette C\oe fficient de $2$ à $15$ sont beaucoup plus grand que celle de $16$ à $40$. Et nous regardons la silhouette C\oe fficient quand la valeur de k varie de $2$ à $15$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth]{images/sc}
+\caption{la silhouette C\oe fficient quand k varie de 2 à 15}
+\label{fig:sc}
+\end{figure}
+Mais l'image de silhouette C\oe fficient 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{images/kmeqn}
+\caption{}
+\label{fig:kmeqn}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{images/max-min2}
+\caption{}
+\label{fig:max-min2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{images/max-min3}
+\caption{}
+\label{fig:max-min3}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{images/max-min4}
+\caption{}
+\label{fig:max-min4}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{images/AR}
+\caption{}
+\label{fig:AR}
+\end{figure}
 
 
 
@@ -399,11 +518,6 @@ Nous avons trouvé que l'écart type pour les trois attributs de délais sont tr
 
 
 
-
-
-
-
-,rngR=TRUE
 
 
 

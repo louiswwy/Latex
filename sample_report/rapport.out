@@ -14,23 +14,21 @@
 \BOOKMARK [3][-]{subsubsection.3.1.4}{La quatri\350me g\351n\351ration}{subsection.3.1}% 14
 \BOOKMARK [2][-]{subsection.3.2}{Le r\351seau LTE}{section.3}% 15
 \BOOKMARK [3][-]{subsubsection.3.2.1}{La structure du r\351seau LTE}{subsection.3.2}% 16
-\BOOKMARK [1][-]{section.4}{Les solution et la mise en \234uvre}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{Solution existant}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.2}{Notre solution}{section.4}% 19
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Clustering}{subsection.4.2}% 20
-\BOOKMARK [3][-]{subsubsection.4.2.2}{R\350gles d'association}{subsection.4.2}% 21
-\BOOKMARK [2][-]{subsection.4.3}{La mise en \234uvre}{section.4}% 22
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Le logiciel utilis\351s}{subsection.4.3}% 23
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Introduction des donn\351es}{subsection.4.3}% 24
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Pr\351traitement de donn\351es}{subsection.4.3}% 25
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Les caract\351ristique du donn\351e}{subsection.4.3}% 26
-\BOOKMARK [1][-]{section.5}{partie1}{}% 27
-\BOOKMARK [2][-]{subsection.5.1}{Une sous section}{section.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.1.1}{\311crire en anglais}{subsection.5.1}% 29
-\BOOKMARK [2][-]{subsection.5.2}{Lites}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.3}{R\351f\351rences}{section.5}% 31
-\BOOKMARK [2][-]{subsection.5.4}{Note de bas de page}{section.5}% 32
-\BOOKMARK [2][-]{subsection.5.5}{Figure}{section.5}% 33
-\BOOKMARK [1][-]{section.6}{Citation Wikip\351dia}{}% 34
-\BOOKMARK [1][-]{section*.3}{Conclusion}{}% 35
-\BOOKMARK [1][-]{section*.4}{R\351f\351rences}{}% 36
+\BOOKMARK [1][-]{section.4}{Les solution existant}{}% 17
+\BOOKMARK [1][-]{section.5}{Le pr\351sentation de notre solution}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Clustering}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.1.1}{La distance}{subsection.5.1}% 20
+\BOOKMARK [3][-]{subsubsection.5.1.2}{La validit\351 de clustering}{subsection.5.1}% 21
+\BOOKMARK [3][-]{subsubsection.5.1.3}{La silhouette C\234fficient}{subsection.5.1}% 22
+\BOOKMARK [2][-]{subsection.5.2}{R\350gles d'association}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.3}{La mise en \234uvre}{section.5}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Le logiciel utilis\351s}{subsection.5.3}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Introduction des donn\351es}{subsection.5.3}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Pr\351traitement de donn\351es}{subsection.5.3}% 27
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Les caract\351ristique du donn\351e}{subsection.5.3}% 28
+\BOOKMARK [1][-]{section.6}{La mise en \234uvre}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{La valeur optimal de k}{section.6}% 30
+\BOOKMARK [3][-]{subsubsection.6.1.1}{La somme d'erreur carr\351s}{subsection.6.1}% 31
+\BOOKMARK [3][-]{subsubsection.6.1.2}{La silhouette C\234fficient}{subsection.6.1}% 32
+\BOOKMARK [1][-]{section*.3}{Conclusion}{}% 33
+\BOOKMARK [1][-]{section*.4}{R\351f\351rences}{}% 34
