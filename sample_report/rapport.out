@@ -3,32 +3,38 @@
 \BOOKMARK [1][-]{section.2}{Introduction}{}% 3
 \BOOKMARK [2][-]{subsection.2.1}{Introduction du CMCC}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.2}{La crise du CMCC}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{L'optimisation du r\351seau}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{Introduction du laboratoire}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.5}{Objectif du projet}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Introduction de l'industrie de la t\351l\351communication}{}% 9
-\BOOKMARK [2][-]{subsection.3.1}{L'evolution des normes de t\351l\351phonie mobile}{section.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.1.1}{La premier g\351n\351ration}{subsection.3.1}% 11
-\BOOKMARK [3][-]{subsubsection.3.1.2}{La deuxi\350me g\351n\351ration}{subsection.3.1}% 12
-\BOOKMARK [3][-]{subsubsection.3.1.3}{La troisi\350me g\351n\351ration}{subsection.3.1}% 13
-\BOOKMARK [3][-]{subsubsection.3.1.4}{La quatri\350me g\351n\351ration}{subsection.3.1}% 14
-\BOOKMARK [2][-]{subsection.3.2}{Le r\351seau LTE}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.2.1}{La structure du r\351seau LTE}{subsection.3.2}% 16
-\BOOKMARK [1][-]{section.4}{Les solution existant}{}% 17
-\BOOKMARK [1][-]{section.5}{Le pr\351sentation de notre solution}{}% 18
-\BOOKMARK [2][-]{subsection.5.1}{Clustering}{section.5}% 19
-\BOOKMARK [3][-]{subsubsection.5.1.1}{La distance}{subsection.5.1}% 20
-\BOOKMARK [3][-]{subsubsection.5.1.2}{La validit\351 de clustering}{subsection.5.1}% 21
-\BOOKMARK [3][-]{subsubsection.5.1.3}{La silhouette C\234fficient}{subsection.5.1}% 22
-\BOOKMARK [2][-]{subsection.5.2}{R\350gles d'association}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.3}{La mise en \234uvre}{section.5}% 24
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Le logiciel utilis\351s}{subsection.5.3}% 25
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Introduction des donn\351es}{subsection.5.3}% 26
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Pr\351traitement de donn\351es}{subsection.5.3}% 27
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Les caract\351ristique du donn\351e}{subsection.5.3}% 28
-\BOOKMARK [1][-]{section.6}{La mise en \234uvre}{}% 29
-\BOOKMARK [2][-]{subsection.6.1}{La valeur optimal de k}{section.6}% 30
-\BOOKMARK [3][-]{subsubsection.6.1.1}{La somme d'erreur carr\351s}{subsection.6.1}% 31
-\BOOKMARK [3][-]{subsubsection.6.1.2}{La silhouette C\234fficient}{subsection.6.1}% 32
-\BOOKMARK [1][-]{section*.3}{Conclusion}{}% 33
-\BOOKMARK [1][-]{section*.4}{R\351f\351rences}{}% 34
+\BOOKMARK [3][-]{subsubsection.2.2.1}{La demande de mise \340 niveau du r\351seau}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Les changements des moyennes de revenu}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{L'optimisation du r\351seau}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Introduction du laboratoire}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.5}{Objectif du projet}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Introduction de l'industrie de la t\351l\351communication}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{L'evolution des normes de t\351l\351phonie mobile}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.1.1}{La premier g\351n\351ration}{subsection.3.1}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.2}{La deuxi\350me g\351n\351ration}{subsection.3.1}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.3}{La troisi\350me g\351n\351ration}{subsection.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.4}{La quatri\350me g\351n\351ration}{subsection.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Le r\351seau LTE}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.1}{La structure du r\351seau LTE}{subsection.3.2}% 18
+\BOOKMARK [1][-]{section.4}{Les solution existant}{}% 19
+\BOOKMARK [1][-]{section.5}{Le pr\351sentation de notre solution}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Clustering}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.1.1}{La distance}{subsection.5.1}% 22
+\BOOKMARK [3][-]{subsubsection.5.1.2}{La validit\351 de clustering}{subsection.5.1}% 23
+\BOOKMARK [3][-]{subsubsection.5.1.3}{La silhouette C\234fficient}{subsection.5.1}% 24
+\BOOKMARK [2][-]{subsection.5.2}{R\350gles d'association}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.3}{K-Means et l'arbre couvrant de poids minimal }{section.5}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.1}{L'algorithme KmMST}{subsection.5.3}% 27
+\BOOKMARK [1][-]{section.6}{La mise en \234uvre}{}% 28
+\BOOKMARK [2][-]{subsection.6.1}{Le logiciel utilis\351s}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.2}{Introduction des donn\351es}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.3}{Pr\351traitement de donn\351es}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.4}{Les caract\351ristique du donn\351e}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.5}{Le K-Means et Le R\350gle d'association }{section.6}% 33
+\BOOKMARK [3][-]{subsubsection.6.5.1}{La valeur optimal de k}{subsection.6.5}% 34
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Le clustering}{subsection.6.5}% 35
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Le R\350gle d'association}{subsection.6.5}% 36
+\BOOKMARK [2][-]{subsection.6.6}{Le KmMST}{section.6}% 37
+\BOOKMARK [3][-]{subsubsection.6.6.1}{L'\351tape de l'algorithme KmMST}{subsection.6.6}% 38
+\BOOKMARK [1][-]{section*.5}{Conclusion}{}% 39
+\BOOKMARK [1][-]{section*.7}{R\351f\351rences}{}% 40

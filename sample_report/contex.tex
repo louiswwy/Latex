@@ -200,11 +200,14 @@ La technique QoE et KQI sont beaucoup utilisé, mais d'abord, pour la méthode Q
 \label{fig:kpi}
 \end{figure}
 
-Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que le CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si le CMCC peut lancer un projet de externalisation ouverte, si le CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, le CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et peut-être il n'y a pas de revenu direct. Et l'entreprise ne fait pas de l'investissement sans retour.
+Le poids du chaque attributs sont définir par les experts, Mais l'utilisateur n'est pas satisfaits du service. Nous croyons que l'erreur a été causée par l'inexacte équation, et nous pensons que les algorithmes de Classification peuvent aider à améliorer le résultat, mais très vite nous avons trouver que le CMCC ne peut pas nous fournir ce type de données. Sans le connaissance a priori, nous ne pouvons pas utiliser ces algorithmes. Nous avons aussi pense à utiliser le externalisation ouverte (crowdsourcing), à notre avis si le CMCC peut lancer un projet de externalisation ouverte, si le CMCC peut encourager ses utilisateurs donnent les note aux services pour obtenir des crédits, nous pouvons obtenir les connaissance a priori, et a l'aide de ces données, nous pouvons trouver une équation peut-être mieux que les équations écrivent par les experts. Mais bien sur, le CMCC n'a pas accepté cette idée, parce que cette méthode peut coûter cher, et peut-être il n'y a pas de revenu direct. Et l'entreprise ne fait pas de l'investissement sans retour. Donc nous n'avons pas de connaissance a priori.
 
-Finalement, nous avons décidé d'utiliser l'algorithme de clustering. C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et nous supposons que les données dans le même partition ont des caractéristique similaires.
+Finalement, nous avons décidé d'utiliser la technique de l'apprentissage non supervisé, il contient la notion de Réseau de neurones et l'algorithme de clustering etc. Nous avons choisi l'algorithme de clustering. Et nous avons utilisé la technique de l'arbre couvrant de poids minimal en anglais Minimum spanning tree \textsf{(MST)} et la méthode \textsf{Règles d'association} et \textsf{PCA}.
+
 \subsection{Clustering}
 L'algorithme de clustering est une des méthodes de classification non supervisée. Il est beaucoup utilisé quand le donnée n'a pas de connaissance a priori.
+
+C'est une méthodes statistiques d'analyse des données. Elle divise un ensemble de données en différents groupe, les données de chaque groupe ont mathématiquement plus proche que les données de l'autre groupe,  et nous supposons que les données dans le même partition ont des caractéristique similaires.
 
 Il existe de multiples méthodes de regroupement des données, parmi lesquelles:
 \begin{itemize}
@@ -214,11 +217,21 @@ Il existe de multiples méthodes de regroupement des données, parmi lesquelles:
 \item Classification par grille;
 \item Classification basées sur des modèles.
 \end{itemize}
+\vspace{1ex}
 
+Les étapes de cette algorithme est:
+\begin{itemize}
+\item Choisir $k$ points qui représentent la position moyenne des $k$ partitions initiales (au hasard) ;
+\item Répéter les étape suivant jusqu'à convergence :
+\begin{enumerate}
+\item assigner chaque observation à la partition la plus proche
+\item mettre à jour la moyenne de chaque cluster
+\end{enumerate}
+\end{itemize}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{images/kmeans}
-\caption{procédé de l'algorithme K-Means}
+\caption{étapes de l'algorithme K-Means}
 \label{fig:kmeans}
 \end{figure}
 
@@ -237,7 +250,7 @@ $$d(x,y) = \sqrt {\sum_{k=1}^n  (x_{k}-y_{k})^2}$$
 
 $n$ est la dimension, $x_{k}$ et $ y_{k}$ sont le k-ème attributs de échantillon x et y.
 
-$$ $$
+
 \subsubsection{La validité de clustering}
 C'est méthode a été utilisés dans beaucoup différents domaines. Mais la qualité du résultat dépend au nombre de clusters ou la valeur de K, différent paramètre peuvent mener à des résultat très différent.
 
@@ -267,7 +280,7 @@ Kaufman a proposé la silhouette c\oe fficient en 2010, cette méthode utilise �
 $$s_{i}=\frac{b_{i}-a_{i}}{max(a_{i},b_{i})} $$
 
 \emph{$a_{i}$ est la dissemblance moyenne de la donnée i avec toutes les autres données dans le même cluster(plus la valeur est petit, meilleure est le regroupement). $b_{i}$ est la différence moyenne de $i$ à tout autre groupe $i$ n'est pas un membre.}
-\newpage
+\vspace{1ex}
 
 Qui peut être écrite comme:
 $$  s_{i}=\left\{
@@ -303,8 +316,59 @@ Les règles d'association sont employées aujourd'hui dans plusieurs domaines, i
  
  Nous décidons de utiliser le K-Means d'abord. Après analyse le résultat, nous pouvons utiliser la algorithme règles d'associations à l'aide du résultat de K-Means.
 
-\subsection{La mise en \oe uvre}
-\subsubsection{Le logiciel utilisés}
+\subsection{K-Means et l'arbre couvrant de poids minimal }
+D'après les techniques précédant, nous avons utilisé l'arbre couvrant de poids minimal avec K-Means.
+
+En théorie des graphes, étant donné un graphe non orienté connexe dont les arêtes sont pondérées, un arbre couvrant de poids minimal de ce graphe est un arbre couvrant (sous-ensemble qui est un arbre et qui connecte tous les sommets ensemble) dont la somme des poids des arêtes est minimale\ref{fig:mst}. L'arbre couvrant de poids minimal est aussi connu sous certains autres noms, tel qu'arbre couvrant minimum ou encore arbre sous-tendant minimum. L'algorithme de Prim et l'algorithme de Kruskal sont deux méthodes classique, qui sont tous les deux l'algorithme glouton. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{images/mst}
+\caption{MST}
+\label{fig:mst}
+\end{figure}
+
+En coupant $C-1$ arêtes le plus grand, nous pouvons grouper le données en $C$ parties.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{images/mstc}
+\caption{MST clustering}
+\label{fig:mstc}
+\end{figure}
+
+Dans notre projet, nous avons choisi l'algorithme Prim et K-Means pour faire le clustering. 
+
+La complexité de algorithme Prim est: $O((V+E)+\lg (V) = O(E \lg (V)) $, $V$ est l'ensemble de vertex ,$E$ est l'ensemble de arêtes.
+
+la complexité de algorithme K-Means est: $O(nkt)$, $n$ est la quantité de données, $k$ est le nombre de partitions, t est le nombre d'itérations.
+\subsubsection{L'algorithme KmMST}
+
+Dans l'article \cite{KmMst}, nous avons trouvé une algorithme qui utilise K-Means et la MST. 
+
+Parce que K-Means peut trouver des partitions sur forme sphéricité, et la valeur de $K$ n'est pas grand donc le résultat est influencer par les donnée de bruits, donc le résultat de K-Means est par fois peu satisfaisant. 
+
+D'après l'article, nous pouvons choisir une grand valeur pour K, plus utilise la technique MST pour combiner les partition en C groupes en coupant C-1 arête. La performance est mieux que celui de K-Means\ref{fig:kmmst}.
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.0\linewidth]{images/kmmst}
+\caption{La performance de K-Means, MST et KmMST}
+\label{fig:kmmst}
+\end{figure}
+
+L'algorithme KmMST peut décrire comme suit:
+Input: le données de quantité $n$, c\oe fficient $r$ et $C$.
+output: les partitions.
+l'étape:
+\begin{enumerate}
+\item calcule la valeur de $K$, $k=\left\vert n^r \right\vert \quad  \left( r \in \left[ 0,1 \right]  \right) $ par défaut la valeur de $r$ égale à $0,5$;
+\item utilise l'algorithme K-Means, trouve K partitions;
+\item calcule la distance entre chaque centre de la partition;
+\item utilise l'algorithme Prim pour crée l'arbre couvrant de poids minimal;
+\item coupe le $C-1$ plus bords qui ont le plus grand distance, le $C$ sous-graphe est le résultat de clustering.
+\end{enumerate}
+
+\section{La mise en \oe uvre}
+\subsection{Le logiciel utilisés}
 L'objectif de notre projet est de trouver une méthode qui peut s'implanter dans les serveurs du CMCC, et aider le CMCC améliorer la qualité du réseau. D'après le directeur du R\&D département du CMCC, au total, il a $20Pb$ de donnée stock dans ses base de données, donc le logiciel doit être capable d'exécuter grand quantité de données. En plus,  au lieu de utilisé directement les logiciel comme SQL (qui n'est pas très efficient si on a beaucoup de donnée stock dans différent serveur), le CMCC utilise 'Hadoop' pour stock et géré ses données.
 
 Donc le logiciel que nous utilisons doit être capable d'exécuter grand quantité de donnée et peut travailler avec Hadoop. 
@@ -321,7 +385,7 @@ Finalement nous décidons de utiliser le langage \textsf{R}. L'avantage de R son
 
 Nous utilisons \textsf{Rstudio} comme notre environnement de programmation. C'est une interface utilisateur puissante et productive pour R.
 
-\subsubsection{Introduction des données}
+\subsection{Introduction des données}
 %\,\up{\cite{specifi}}
 Après quelque semaines de négociation avec les employés de différents départements de le CMCC, ils nous ont fourni deux versions de données, et ses spécifications du format\cite{specifi}. Nous avons trouvé que le CMCC n'a pas de accès direct aux données, et le fournisseur d'équipement a modifié le spécification fournir par le CMCC, et il y a des erreurs dans les données fourni par les fournisseur d'équipement.
 
@@ -371,7 +435,7 @@ les données sont collectent dans $20.92$ minutes \Ref{fig:lasttime}.
 \label{fig:lasttime}
 \end{figure}
 
-\subsubsection{Prétraitement de données}
+\subsection{Prétraitement de données}
 En analysant des données, nous avons trouvé des erreurs de données, et le fournisseur nous a confirmé que ces sont les défaut de leur système 4G. Pour les attributs 'IMSI', 'IMEI', 'MSISDN', $90$ \% de lignes sont vides, ce qui ne sont pas vides, les contenus sont illisible, et peuvent provoquant des erreurs de lecture \ref{fig:errorData}. Et nous avons trouvé que dans les contenus de certains lignes sont bizarre. 
 \begin{figure}[H]
 	\centering
@@ -423,7 +487,7 @@ Mais nous avons trouvé que dans certains lignes le taux de retransmission sont 
 
 Finalement nous avons décidé de utiliser ces 5 attributs (la vitesse et le délai) pour mesurer la qualité du service.
 
-\subsubsection{Les caractéristique du donnée}
+\subsection{Les caractéristique du donnée}
 
 
 
@@ -443,32 +507,31 @@ Finalement nous avons décidé de utiliser ces 5 attributs (la vitesse et le dé
 
 Nous avons trouvé que l'écart type pour les trois attributs de délais sont très grand. Les valeurs varient de $0ms$ à $1220150ms$. Par contre la changement  de la vitesse de la liaison montante et descendante n'est pas très grand.
 
-\section{La mise en \oe uvre}
-\subsection{La valeur optimal de $k$}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth]{images/data-delai}
+\caption{Le temps de réponse du serveur}
+\label{fig:data-delai}
+\end{figure}
+En analysant le données, nous avons trouvé que les données ne sont pas normal, et l'ingénieur du fournisseur de l'équipement nous ont confirmé que le système de collecte d'informations de signalisation a des défauts. 
+ 
+%\section{La mise en \oe uvre}
+\subsection{Le K-Means et Le Règle d'association }
+\subsubsection{La valeur optimal de $k$}
 Pour trouvé le k optimal pour notre données, nous avons utilisé la technique 'silhouette C\oe fficient' et 'somme de erreur carrés'.
 
 Nous avons mesuré le résultat de ces deux techniques quand la valeur de $k$ augmente de $1$ à $15$, étant donné que les caractéristique de l'algorithme, pour chaque valeur de $k$, nous avons répétées 50 fois et calcule la valeur moyenne pour éliminer les erreurs, en suite, nous étudions le résultat pour trouver la valeur optimal.
-\subsubsection{La somme d'erreur carrés}
+\subsubsection*{La somme d'erreur carrés}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{images/sse}
 \caption{somme d'erreur carrés}
 \label{fig:sse}
 \end{figure}
-Nous avons trouvé que la somme d'erreur carrés diminue quand $k$ augment, mais le taux de déclin est très faible, et il a peu de changements. Donc nous ne pouvons pas utilise cette méthode pour trouver le $k$.
+Nous avons trouvé que la somme d'erreur carrés diminue quand $k$ augment, mais il est difficile de choisir la valeur optimal de $k$ avec cette image.
 
-\subsubsection{La silhouette C\oe fficient}
-Nous utilisons la même technique pour calculer et visualiser la valeur de la silhouette C\oe fficient avec la différence valeur de $k$.
-
-D'abord, nous avons calculé la silhouette C\oe fficient quand la valeur de k change de 2 à 40:
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.8\linewidth, height=0.35\textheight]{images/sc40}
-\caption{la silhouette C\oe fficient quand k varie de 2 à 40}
-\label{fig:sc40}
-\end{figure}
-
-Nous avons trouvé que la valeur de la silhouette C\oe fficient décline quand $k$ augmente. Et les valeurs de silhouette C\oe fficient de $2$ à $15$ sont beaucoup plus grand que celle de $16$ à $40$. Et nous regardons la silhouette C\oe fficient quand la valeur de k varie de $2$ à $15$.
+\subsubsection*{La silhouette C\oe fficient}
+Nous utilisons la même technique pour calculer et visualiser la valeur de la silhouette C\oe fficient.
 
 \begin{figure}[H]
 \centering
@@ -476,44 +539,128 @@ Nous avons trouvé que la valeur de la silhouette C\oe fficient décline quand $
 \caption{la silhouette C\oe fficient quand k varie de 2 à 15}
 \label{fig:sc}
 \end{figure}
-Mais l'image de silhouette C\oe fficient 
 
+L'image de la silhouette C\oe fficient nous montrons que comme quand $k=3$ la valeur de la silhouette C\oe fficient est plus grand. Donc nous soupçonnons que quand $k=3$ nous pouvons trouver le mieux partition.
+
+\subsubsection{Le clustering}
+Après classifie le données en 3 groupes utilisant l'algorithme CLARA. Nous avons trouvé que la majorité de données ($94 \%$ de données) sont dans le premier groupe, un groupe de $4,4 \%$, la troisième groupe a $1,6 \%$ de données.  
+
+ \begin{figure}[H]
+ 	\flushleft
+ 	 \includegraphics[width=0.45\linewidth]{images/3cluster}
+ 	 \label{fig:3cluster}
+ 	\hspace{1in}	 
+ 	\includegraphics[width=0.325\linewidth]{images/piechart}
+ 	\label{fig:piechart}
+ 	\caption{Cluster} 
+ \end{figure}
+
+En utilisant le fonction 'plot3d' fourni par le package 'rgl', nous pouvons visualiser le données en trois dimensions, et nous pouvons visualiser le résultat de clustering.
+
+
+% bande passante moyenne de la liaison montante, bande passante moyenne de la liaison descendant, et le premier délai de réponse
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{images/kmeqn}
-\caption{}
+\includegraphics[width=0.6\linewidth]{images/kmeqn}
+\caption{up link Average Band, down link Average Band, first Respond Time.}
 \label{fig:kmeqn}
 \end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{images/3delai}
+\caption{first Respond Time, last Packet Time, last Ack Time.}
+\label{fig:3delai}
+\end{figure}
+
+Nous avons trouver que le données de 'cluster 1' sont les points sont colorent en noir, 'cluster 2' en rouge, 'cluster 3' en vert. 
+
+Après le regroupement, nous pouvons utiliser l'algorithme 'k plus proches voisins' pour déterminer le nouveau données font partie de quel groupe .
+
+\subsubsection{Le Règle d'association}
+En utilisant le résultat de clustering, nous pouvons transformer les données numérique à données caractère. 
+
+Nous y parvenons en quatre étapes
+\begin{enumerate}
+\item D'abord, nous avons trouvé les valeur minimal et maximal de chaque attribut\ref{fig:max-min1};
+\item Ensuite, nous avons trouvé les intervalles de chaque attribut\ref{fig:seuil};
+\item Puis, nous avons transformé les données numérique à données caractère\ref{fig:newData2};
+\item \textsc{à} la fin, nous avons utilisé l'algorithme Apriori pour trouver des règles\ref{fig:newar}. 
+\end{enumerate}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{images/max-min1}
+\caption{trouver les valeur minimal et maximal de chaque attribut}
+\label{fig:max-min1}
+\end{figure}
+
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{images/max-min2}
-\caption{}
-\label{fig:max-min2}
+\includegraphics[width=0.8\linewidth]{images/seuil}
+\caption{défini les intervalles}
+\label{fig:seuil}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{images/max-min3}
-\caption{}
-\label{fig:max-min3}
-\end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\linewidth]{images/max-min4}
-\caption{}
-\label{fig:max-min4}
+\includegraphics[width=0.8\linewidth]{images/newData2}
+\caption{transformer les données numérique à données caractère}
+\label{fig:newData2}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{images/AR}
-\caption{}
-\label{fig:AR}
+\includegraphics[width=0.8\linewidth]{images/newar}
+\caption{Les règles été trouvé par l'algorithme règle d'association  }
+\label{fig:newar}
 \end{figure}
 
+\subsection{Le KmMST}
+ Par clustering le données en beaucoup de partitions, et utilise la technique de MST, nous pouvons surmonter les défaut de K-Means et clustering le données..
+ 
+  \subsubsection{L'étape de l'algorithme KmMST}
+  
+  \begin{enumerate}
+  \item Regroupement le données;\\
+  
+   La valeur de $K$ égal à $n^r$, le $n$ égal à la quantité de données, $r$ est dans l'intervalle de $0$ et $1$, par défaut, $r$ égal à $0,5$.
+   
+   En premier, nous avons regroupé le données en K partition.
+   
+  \item \textsc{é}tablir la matrice de distance;\\
+  
+  Après, nous pouvons utiliser les valeurs du centre de chaque partition pour calculer la matrice de distance
+  \begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{images/distance}
+\caption{la matrice de distance}
+\label{fig:distance}
+\end{figure}
 
+  
+  \item Utilise la technique de MST;\\
+  
+  \textsc{à} aide de la package 'igraph' nous pouvons trouver l'arbre couvrant de poids minimal.
+  
+  \begin{figure}[H]
+\centering
+\includegraphics[width=0.45\linewidth]{images/mst2}
+\caption{L'arbre couvrant de poids minimal}
+\label{fig:mst2}
+\end{figure}
 
+  \item Coupe le arête le plus long
+  
+  Techniquement, nous pouvons trouver les partitions par couper les arête long, et nous avons tester avec différentes valeurs, mais les sommets sont devenu le point isolé.
+  
+  \begin{figure}[H]
+\centering
+\includegraphics[width=0.6\linewidth]{images/mst10}
+\caption{L'arbre couvrant de poids minimal, quand C = $10$}
+\label{fig:mst10}
+\end{figure}
+
+  \end{enumerate}
 
 
 
