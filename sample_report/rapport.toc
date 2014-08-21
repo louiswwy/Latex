@@ -38,4 +38,4 @@
 \contentsline {subsection}{\numberline {6.6}Le KmMST}{35}{subsection.6.6}
 \contentsline {subsubsection}{\numberline {6.6.1}L'\IeC {\'e}tape de l'algorithme KmMST}{35}{subsubsection.6.6.1}
 \contentsline {section}{Conclusion}{38}{section*.5}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{40}{section*.7}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{39}{section*.7}
