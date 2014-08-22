@@ -11,13 +11,16 @@
 \contentsline {subsection}{\numberline {2.5}Objectif du projet}{6}{subsection.2.5}
 \contentsline {section}{\numberline {3}Introduction de l'industrie de la t\IeC {\'e}l\IeC {\'e}communication}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}L'evolution des normes de t\IeC {\'e}l\IeC {\'e}phonie mobile}{7}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}La premier g\IeC {\'e}n\IeC {\'e}ration}{8}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1}La premi\IeC {\`e}re g\IeC {\'e}n\IeC {\'e}ration}{8}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}La deuxi\IeC {\`e}me g\IeC {\'e}n\IeC {\'e}ration}{8}{subsubsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.3}La troisi\IeC {\`e}me g\IeC {\'e}n\IeC {\'e}ration}{9}{subsubsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.4}La quatri\IeC {\`e}me g\IeC {\'e}n\IeC {\'e}ration}{9}{subsubsection.3.1.4}
 \contentsline {subsection}{\numberline {3.2}Le r\IeC {\'e}seau LTE}{10}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}La structure du r\IeC {\'e}seau LTE}{11}{subsubsection.3.2.1}
-\contentsline {section}{\numberline {4}Les solution existant}{13}{section.4}
+\contentsline {section}{\numberline {4}Les solutions existantes}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}la Technique KQI}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}la Technique QoE}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}la Technique qui \IeC {\'e}tude les comportements de l'utilisateur}{16}{subsection.4.3}
 \contentsline {section}{\numberline {5}Le pr\IeC {\'e}sentation de notre solution}{16}{section.5}
 \contentsline {subsection}{\numberline {5.1}Clustering}{17}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}La distance}{18}{subsubsection.5.1.1}
@@ -27,15 +30,15 @@
 \contentsline {subsection}{\numberline {5.3}K-Means et l'arbre couvrant de poids minimal }{22}{subsection.5.3}
 \contentsline {subsubsection}{\numberline {5.3.1}L'algorithme KmMST}{23}{subsubsection.5.3.1}
 \contentsline {section}{\numberline {6}La mise en \oe uvre}{24}{section.6}
-\contentsline {subsection}{\numberline {6.1}Le logiciel utilis\IeC {\'e}s}{24}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.1}Le logiciel utilis\IeC {\'e}}{24}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Introduction des donn\IeC {\'e}es}{25}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Pr\IeC {\'e}traitement de donn\IeC {\'e}es}{26}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Les caract\IeC {\'e}ristique du donn\IeC {\'e}e}{29}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.3}Pr\IeC {\'e}-traitement de donn\IeC {\'e}es}{26}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Les caract\IeC {\'e}ristiques de donn\IeC {\'e}es}{29}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Le K-Means et Le R\IeC {\`e}gle d'association }{30}{subsection.6.5}
-\contentsline {subsubsection}{\numberline {6.5.1}La valeur optimal de $k$}{30}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.1}La valeur optimale de $k$}{30}{subsubsection.6.5.1}
 \contentsline {subsubsection}{\numberline {6.5.2}Le clustering}{31}{subsubsection.6.5.2}
 \contentsline {subsubsection}{\numberline {6.5.3}Le R\IeC {\`e}gle d'association}{33}{subsubsection.6.5.3}
-\contentsline {subsection}{\numberline {6.6}Le KmMST}{35}{subsection.6.6}
-\contentsline {subsubsection}{\numberline {6.6.1}L'\IeC {\'e}tape de l'algorithme KmMST}{35}{subsubsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6}Le KmMST}{36}{subsection.6.6}
+\contentsline {subsubsection}{\numberline {6.6.1}L'\IeC {\'e}tape de l'algorithme KmMST}{36}{subsubsection.6.6.1}
 \contentsline {section}{Conclusion}{38}{section*.5}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{39}{section*.7}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{39}{section*.6}

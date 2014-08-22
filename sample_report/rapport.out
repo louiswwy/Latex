@@ -10,31 +10,34 @@
 \BOOKMARK [2][-]{subsection.2.5}{Objectif du projet}{section.2}% 10
 \BOOKMARK [1][-]{section.3}{Introduction de l'industrie de la t\351l\351communication}{}% 11
 \BOOKMARK [2][-]{subsection.3.1}{L'evolution des normes de t\351l\351phonie mobile}{section.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.1.1}{La premier g\351n\351ration}{subsection.3.1}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.1}{La premi\350re g\351n\351ration}{subsection.3.1}% 13
 \BOOKMARK [3][-]{subsubsection.3.1.2}{La deuxi\350me g\351n\351ration}{subsection.3.1}% 14
 \BOOKMARK [3][-]{subsubsection.3.1.3}{La troisi\350me g\351n\351ration}{subsection.3.1}% 15
 \BOOKMARK [3][-]{subsubsection.3.1.4}{La quatri\350me g\351n\351ration}{subsection.3.1}% 16
 \BOOKMARK [2][-]{subsection.3.2}{Le r\351seau LTE}{section.3}% 17
 \BOOKMARK [3][-]{subsubsection.3.2.1}{La structure du r\351seau LTE}{subsection.3.2}% 18
-\BOOKMARK [1][-]{section.4}{Les solution existant}{}% 19
-\BOOKMARK [1][-]{section.5}{Le pr\351sentation de notre solution}{}% 20
-\BOOKMARK [2][-]{subsection.5.1}{Clustering}{section.5}% 21
-\BOOKMARK [3][-]{subsubsection.5.1.1}{La distance}{subsection.5.1}% 22
-\BOOKMARK [3][-]{subsubsection.5.1.2}{La validit\351 de clustering}{subsection.5.1}% 23
-\BOOKMARK [3][-]{subsubsection.5.1.3}{La silhouette C\234fficient}{subsection.5.1}% 24
-\BOOKMARK [2][-]{subsection.5.2}{R\350gles d'association}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.3}{K-Means et l'arbre couvrant de poids minimal }{section.5}% 26
-\BOOKMARK [3][-]{subsubsection.5.3.1}{L'algorithme KmMST}{subsection.5.3}% 27
-\BOOKMARK [1][-]{section.6}{La mise en \234uvre}{}% 28
-\BOOKMARK [2][-]{subsection.6.1}{Le logiciel utilis\351s}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.2}{Introduction des donn\351es}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.3}{Pr\351traitement de donn\351es}{section.6}% 31
-\BOOKMARK [2][-]{subsection.6.4}{Les caract\351ristique du donn\351e}{section.6}% 32
-\BOOKMARK [2][-]{subsection.6.5}{Le K-Means et Le R\350gle d'association }{section.6}% 33
-\BOOKMARK [3][-]{subsubsection.6.5.1}{La valeur optimal de k}{subsection.6.5}% 34
-\BOOKMARK [3][-]{subsubsection.6.5.2}{Le clustering}{subsection.6.5}% 35
-\BOOKMARK [3][-]{subsubsection.6.5.3}{Le R\350gle d'association}{subsection.6.5}% 36
-\BOOKMARK [2][-]{subsection.6.6}{Le KmMST}{section.6}% 37
-\BOOKMARK [3][-]{subsubsection.6.6.1}{L'\351tape de l'algorithme KmMST}{subsection.6.6}% 38
-\BOOKMARK [1][-]{section*.5}{Conclusion}{}% 39
-\BOOKMARK [1][-]{section*.7}{R\351f\351rences}{}% 40
+\BOOKMARK [1][-]{section.4}{Les solutions existantes}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{la Technique KQI}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{la Technique QoE}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{la Technique qui \351tude les comportements de l'utilisateur}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{Le pr\351sentation de notre solution}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Clustering}{section.5}% 24
+\BOOKMARK [3][-]{subsubsection.5.1.1}{La distance}{subsection.5.1}% 25
+\BOOKMARK [3][-]{subsubsection.5.1.2}{La validit\351 de clustering}{subsection.5.1}% 26
+\BOOKMARK [3][-]{subsubsection.5.1.3}{La silhouette C\234fficient}{subsection.5.1}% 27
+\BOOKMARK [2][-]{subsection.5.2}{R\350gles d'association}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.3}{K-Means et l'arbre couvrant de poids minimal }{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.3.1}{L'algorithme KmMST}{subsection.5.3}% 30
+\BOOKMARK [1][-]{section.6}{La mise en \234uvre}{}% 31
+\BOOKMARK [2][-]{subsection.6.1}{Le logiciel utilis\351}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.2}{Introduction des donn\351es}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.3}{Pr\351-traitement de donn\351es}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.4}{Les caract\351ristiques de donn\351es}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.5}{Le K-Means et Le R\350gle d'association }{section.6}% 36
+\BOOKMARK [3][-]{subsubsection.6.5.1}{La valeur optimale de k}{subsection.6.5}% 37
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Le clustering}{subsection.6.5}% 38
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Le R\350gle d'association}{subsection.6.5}% 39
+\BOOKMARK [2][-]{subsection.6.6}{Le KmMST}{section.6}% 40
+\BOOKMARK [3][-]{subsubsection.6.6.1}{L'\351tape de l'algorithme KmMST}{subsection.6.6}% 41
+\BOOKMARK [1][-]{section*.5}{Conclusion}{}% 42
+\BOOKMARK [1][-]{section*.6}{R\351f\351rences}{}% 43
