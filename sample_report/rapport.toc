@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {6.5}Le K-Means et Le R\IeC {\`e}gle d'association }{30}{subsection.6.5}
 \contentsline {subsubsection}{\numberline {6.5.1}La valeur optimale de $k$}{30}{subsubsection.6.5.1}
 \contentsline {subsubsection}{\numberline {6.5.2}Le clustering}{31}{subsubsection.6.5.2}
-\contentsline {subsubsection}{\numberline {6.5.3}Le R\IeC {\`e}gle d'association}{33}{subsubsection.6.5.3}
+\contentsline {subsubsection}{\numberline {6.5.3}La R\IeC {\`e}gle d'association}{33}{subsubsection.6.5.3}
 \contentsline {subsection}{\numberline {6.6}Le KmMST}{36}{subsection.6.6}
 \contentsline {subsubsection}{\numberline {6.6.1}L'\IeC {\'e}tape de l'algorithme KmMST}{36}{subsubsection.6.6.1}
 \contentsline {section}{Conclusion}{38}{section*.5}

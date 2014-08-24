@@ -318,9 +318,9 @@ Les règles d'association sont employées aujourd'hui dans plusieurs domaines, i
  Nous décidons de utiliser le K-Means d'abord. Après avoir analysé le résultat, nous pouvons utiliser l'algorithme règles d'associations à l'aide du résultat de K-Means.
 
 \subsection{K-Means et l'arbre couvrant de poids minimal }
-D'après les techniques précédant, nous avons utilisé l'arbre couvrant de poids minimal avec K-Means.
+D'après les techniques précédantes, nous avons utilisé l'arbre couvrant de poids minimal avec K-Means.
 
-En théorie des graphes, étant donné un graphe non orienté connexe dont les arêtes sont pondérées, un arbre couvrant de poids minimal de ce graphe est un arbre couvrant (sous-ensemble qui est un arbre et qui connecte tous les sommets ensemble) dont la somme des poids des arêtes est minimale\ref{fig:mst}. L'arbre couvrant de poids minimal est aussi connu sous certains autres noms, tel qu'arbre couvrant minimum ou encore arbre sous-tendant minimum. L'algorithme de Prim et l'algorithme de Kruskal sont deux méthodes classique, qui sont tous les deux l'algorithme glouton. 
+En théorie des graphes, étant donné qu'un graphe non orienté connexe et que ses arêtes sont pondérées, un arbre couvrant de poids minimal de ce graphe est un arbre couvrant (sous-ensemble qui est un arbre et qui connecte tous les sommets ensemble) dont la somme des poids des arêtes est minimale\ref{fig:mst}. L'arbre couvrant de poids minimal est aussi connu sous certains autres noms, tel qu'arbre couvrant minimum ou encore arbre sous-tendant minimum. L'algorithme de Prim et l'algorithme de Kruskal sont deux méthodes classique, qui sont tous les deux l'algorithme glouton. 
 
 \begin{figure}[H]
 \centering
@@ -329,7 +329,7 @@ En théorie des graphes, étant donné un graphe non orienté connexe dont les a
 \label{fig:mst}
 \end{figure}
 
-En coupant $C-1$ arêtes le plus grand, nous pouvons grouper le données en $C$ parties\ref{fig:mstc}.
+En coupant $C-1$ arêtes la plus grande, nous pouvons grouper les données en $C$ parties\ref{fig:mstc}.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.4\linewidth]{images/mstc}
@@ -339,16 +339,16 @@ En coupant $C-1$ arêtes le plus grand, nous pouvons grouper le données en $C$ 
 
 Dans notre projet, nous avons choisi l'algorithme Prim et K-Means pour faire le clustering. 
 
-La complexité de algorithme Prim est: $O((V+E)+\lg (V) = O(E \lg (V)) $, $V$ est l'ensemble de vertex ,$E$ est l'ensemble de arêtes.
+La complexité d'algorithme Prim est: $O((V+E)+\lg (V) = O(E \lg (V)) $, $V$ est l'ensemble de vertex ,$E$ est l'ensemble de arêtes.
 
-La complexité de algorithme K-Means est: $O(nkt)$, $n$ est la quantité de données, $k$ est le nombre de partitions, t est le nombre d'itérations.
+La complexité d'algorithme K-Means est: $O(nkt)$, $n$ est la quantité de données, $k$ est le nombre de partitions, t est le nombre d'itérations.
 \subsubsection{L'algorithme KmMST}
 
 Dans l'article \cite{KmMst}, nous avons trouvé une algorithme qui utilise K-Means et la MST. 
 
-Parce que K-Means peut trouver des partitions sur forme sphéricité, et la valeur de $K$ n'est pas grand donc le résultat est influencer par les donnée de bruits, donc le résultat de K-Means est par fois peu satisfaisant. 
+Parce que K-Means peut trouver des partitions sur forme de sphéricité, et la valeur de $K$ n'est pas grande, donc le résultat est influencé par les données de bruits, donc le résultat de K-Means est par fois peu satisfaisant. 
 
-D'après l'article, nous pouvons choisir une grand valeur pour K, plus utilise la technique MST pour combiner les partition en C groupes en coupant C-1 arête. La performance est mieux que celui de K-Means\ref{fig:kmmst}.
+D'après l'article, nous pouvons choisir une grande valeur pour K, plus utiliser la technique MST pour combiner les partition en C groupes en coupant C-1 arête. La performance est meilleure que celui de K-Means\ref{fig:kmmst}.
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.0\linewidth]{images/kmmst}
@@ -356,19 +356,19 @@ D'après l'article, nous pouvons choisir une grand valeur pour K, plus utilise l
 \label{fig:kmmst}
 \end{figure}
 
-L'algorithme KmMST peut décrire comme suit:
+L'algorithme KmMST peut être décri comme suit:
 
 
 \begin{enumerate}
-\item calcule la valeur de $K$, $k=\left\vert n^r \right\vert \quad  \left( r \in \left[ 0,1 \right]  \right) $ par défaut la valeur de $r$ égale à $0,5$;
-\item utilise l'algorithme K-Means, trouve K partitions;
-\item calcule la distance entre chaque centre de la partition;
-\item utilise l'algorithme Prim pour crée l'arbre couvrant de poids minimal;
-\item coupe le $C-1$ plus bords qui ont le plus grand distance, le $C$ sous-graphe est le résultat de clustering.
+\item calculer la valeur de $K$, $k=\left\vert n^r \right\vert \quad  \left( r \in \left[ 0,1 \right]  \right) $ par défaut la valeur de $r$ égale à $0,5$;
+\item utiliser l'algorithme K-Means, trouver K partitions;
+\item calculer la distance entre chaque centre de la partition;
+\item utiliser l'algorithme Prim pour créer l'arbre couvrant de poids minimal;
+\item couper le $C-1$ plus bords qui ont la plus grande distance, le $C$ sous-graphe est le résultat de clustering.
 \end{enumerate}
 
 
-Pour utiliser cette algorithme, nous avons besoin: la quantité $n$ de données, le c\oe fficient de $r$ et la valeur de $C$. En utilisant cette méthode nous pouvons trouver les partitions.
+Pour utiliser cet algorithme, nous avons besoin de a quantité $n$ de données, du c\oe fficient de $r$ et de la valeur de $C$. En utilisant cette méthode nous pouvons trouver les partitions.
 
 \section{La mise en \oe uvre}
 \subsection{Le logiciel utilisé}
@@ -521,17 +521,17 @@ En analysant le données, nous avons trouvé que les données ne sont pas normal
 %\section{La mise en \oe uvre}
 \subsection{Le K-Means et Le Règle d'association }
 \subsubsection{La valeur optimale de $k$}
-Pour trouver le k optimal pour nos données, nous avons utilisé la technique 'silhouette C\oe fficient' et 'somme d'erreur carrés'.
+Pour trouver le k optimal pour nos données, nous avons utilisé la technique 'silhouette C\oe fficient' et 'somme d'erreurs carrées'.
 
-Nous avons mesuré le résultat de ces deux techniques quand la valeur de $k$ augmente de $1$ à $15$, En tenant compte des caractéristiques de l'algorithme, pour chaque valeur de $k$, nous avons répété 50 fois en vue de calculer la valeur moyenne pour éliminer les erreurs. En suite, nous avons étudié le résultat pour trouver la valeur optimale.
+Nous avons mesuré le résultat de ces deux techniques quand la valeur de $k$ augmente de $1$ à $15$. En tenant compte des caractéristiques de l'algorithme, pour chaque valeur de $k$, nous avons répété 50 fois en vue de calculer la valeur moyenne pour éliminer les erreurs. En suite, nous avons étudié le résultat pour trouver la valeur optimale.
 \subsubsection*{La somme d'erreurs carrées}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{images/sse}
-\caption{somme d'erreur carrés}
+\caption{somme d'erreurs carrées}
 \label{fig:sse}
 \end{figure}
-Nous avons trouvé que la somme d'erreurs carrées diminue quand $k$ augmente, mais il est difficile de choisir la valeur optimal de $k$ avec cette image.
+Nous avons trouvé que la somme d'erreurs carrées diminue quand $k$ augmente, mais il est difficile de choisir la valeur optimale de $k$ avec cette image.
 
 \subsubsection*{La silhouette C\oe fficient}
 Nous utilisons la même technique pour calculer et visualiser la valeur de la silhouette C\oe fficient en fonction de la valeur de $k$.
@@ -543,10 +543,10 @@ Nous utilisons la même technique pour calculer et visualiser la valeur de la si
 \label{fig:sc}
 \end{figure}
 
-L'image de la silhouette C\oe fficient nous montrons que comme quand $k=3$ la valeur de la silhouette C\oe fficient est plus grandes. Donc nous soupçonnons que quand $k=3$ nous pouvons trouver le mieux partition.
+L'image de la silhouette C\oe fficient nous montre que comme quand $k=3$ la valeur de la silhouette C\oe fficient est la plus grandes. Donc nous soupçonnons que quand $k=3$, nous pouvons trouver la meilleure partition.
 
 \subsubsection{Le clustering}
-Après classifie le données en 3 groupes utilisant l'algorithme CLARA. Nous avons trouvé que la majorité de données ($94 \%$ de données) sont dans le premier groupe, un groupe de $4,4 \%$, la troisième groupe a $1,6 \%$ de données.  
+Après avoir classé le données en 3 groupes en utilisant l'algorithme CLARA, nous avons trouvé que la majorité de données ($94 \%$ de données) sont dans le premier groupe, un groupe de $4,4 \%$, le troisième groupe a $1,6 \%$ de données.  
 
  \begin{figure}[H]
  	\flushleft
@@ -558,7 +558,7 @@ Après classifie le données en 3 groupes utilisant l'algorithme CLARA. Nous avo
  	\caption{Le nombre des trois clusters} 
  \end{figure}
 
-En utilisant le fonction 'plot3d' fourni par le package 'rgl', nous pouvons visualiser le données en trois dimensions, et nous pouvons visualiser le résultat de clustering.
+En utilisant la fonction 'plot3d' fournie par le package 'rgl', nous pouvons visualiser les données en trois dimensions, et nous pouvons visualiser le résultat de clustering.
 
 
 % bande passante moyenne de la liaison montante, bande passante moyenne de la liaison descendant, et le premier délai de réponse
@@ -575,24 +575,24 @@ En utilisant le fonction 'plot3d' fourni par le package 'rgl', nous pouvons visu
 \label{fig:3delai}
 \end{figure}
 
-Nous avons trouver que les points noir sont le données de 'cluster 1' , les points de 'cluster 2' sont en rouge, les points de 'cluster 3' sont en vert. 
+Nous avons trouvé que les points noirs sont les données de 'cluster 1' , les points de 'cluster 2' sont en rouge, les points de 'cluster 3' sont en vert. 
 
-Après le regroupement, nous pouvons utiliser l'algorithme 'k plus proches voisins' pour déterminer le nouveau données font partie de quel groupe .
+Après le regroupement, nous pouvons utiliser l'algorithme 'k plus proches voisins' pour déterminer le groupe dont les nouvelles données font partie.
 
-\subsubsection{Le Règle d'association}
-En utilisant le résultat de clustering, nous pouvons transformer le données numérique au données caractère. 
+\subsubsection{La Règle d'association}
+En utilisant le résultat de clustering, nous pouvons transformer le données numériques aux données caractéristiques. 
 
 Nous y parvenons en quatre étapes
 \begin{enumerate}
-\item D'abord, nous trouvons les valeur minimal et maximal de chaque attribut\ref{fig:max-min1};
+\item D'abord, nous trouvons les valeurs minimale et maximale de chaque attribut\ref{fig:max-min1};
 \item Ensuite, nous trouvons les intervalles de chaque attribut\ref{fig:seuil};
-\item Puis, nous transformons le données numérique au données caractère\ref{fig:newData2};
+\item Puis, nous transformons les données numériques aux données caractéristiques\ref{fig:newData2};
 \item \textsc{à} la fin, nous utilisons l'algorithme Apriori pour trouver des règles\ref{fig:newar}. 
 \end{enumerate}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{images/max-min1}
-\caption{trouver les valeur minimal et maximal de chaque attribut}
+\caption{trouver les valeurs minimal et maximal de chaque attribut}
 \label{fig:max-min1}
 \end{figure}
 
@@ -600,19 +600,19 @@ Nous y parvenons en quatre étapes
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{images/seuil}
-\caption{défini les intervalles}
+\caption{définir les intervalles}
 \label{fig:seuil}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{images/newData2}
-\caption{transformer les données numérique à données caractère}
+\caption{transformer les données numériques aux données caractéristique}
 \label{fig:newData2}
 \end{figure}
 
 En changeant les paramètres de l'algorithme, nous pouvons filtrer le résultat. Par exemple, nous cherchons les règles qui ont le support supérieur à
-$0,5$ et la confidence supérieur à $0,8$, et aussi la valeur de 'lastAckTime' et 'upAvBand' sont dans la première intervalle\ref{fig:arp}. Et nous avons trouvé $7$ règle à la fin.\ref{fig:newar}
+$0,5$ et la confidence supérieure à $0,8$, et aussi la valeur de 'lastAckTime' et 'upAvBand' sont dans la première intervalle\ref{fig:arp}. Et nous avons trouvé $7$ règles à la fin.\ref{fig:newar}
 
 \begin{figure}[H]
 \centering
@@ -625,34 +625,34 @@ $0,5$ et la confidence supérieur à $0,8$, et aussi la valeur de 'lastAckTime' 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\linewidth]{images/ars}
-\caption{Les règles trouvé par l'algorithme règle d'association  }
+\caption{Les règles trouvées par l'algorithme règle d'association  }
 \label{fig:newar}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{images/AR2}
-\caption{Les règles découvert}
+\caption{Les règles découvertes}
 \label{fig:AR2}
 \end{figure}
 
-Selon les règles trouvent par l'algorithme du Règle d'association, si la valeur de 'lastPacketTime' est dans la deuxième intervalle $1$ alors la valeur de 'lastAckTime' est plus susceptible d'être dans l'intervalle $1$, et entre tous les données ou la valeur de 'firstRespondTime' est dans la première intervalle, $.82,9\%$ d'entre eux la valeur de 'lastAckTime' est dans l'intervalle $1$.
+Selon les règles trouvées par l'algorithme de la Règle d'association, si la valeur de 'lastPacketTime' est dans la deuxième intervalle $1$, la valeur de 'lastAckTime' sera plus susceptible d'être dans l'intervalle $1$, et entre toutes les données ou si la valeur de 'firstRespondTime' est dans la première intervalle, $.82,9\%$ d'entre eux la valeur de 'lastAckTime' sera dans l'intervalle $1$.
 
-En utilisant les paramètres différent, nous pouvons trouver le règle que nous avons besoin. Mais dans notre cas les règles trouvé ne sont pas clair.
+En utilisant les paramètres différent, nous pouvons trouver la règle dont nous avons besoin. Mais dans notre cas, les règles trouvées ne sont pas claires.
 
 \subsection{Le KmMST}
 La deuxième méthode, nous utilisons l'algorithme K-Means avec MST.
 
-Parce que l'algorithme K-Means ne fonctionne bien que avec les données de distribution sphérique, donc par clustering le données en beaucoup de partitions, et utilise la technique de MST, nous pouvons surmonter les défaut de K-Means et obtenir les bons résultats de clustering.
+Parce que l'algorithme K-Means ne fonctionne bien qu'avec les données de distribution sphérique, donc par clustering le données en beaucoup de partitions, et en utilisant la technique de MST, nous pouvons surmonter les défaut de K-Means et obtenir les bons résultats de clustering.
  
   \subsubsection{L'étape de l'algorithme KmMST}
   
   \begin{enumerate}
-  \item Regroupement le données;\\
+  \item Regroupement des données;\\
   
-   La valeur de $K$ égal à $n^r$, le $n$ égal à la quantité de données, $r$ est dans l'intervalle de $0$ et $1$, par défaut, $r$ égal à $0,5$.
+   La valeur de $K$ égale à $n^r$, le $n$ égale à la quantité de données, $r$ est dans l'intervalle de $0$ et $1$, par défaut, $r$ égale à $0,5$.
    
-   En premier, nous avons regroupé le données en K partition.
+   En premier, nous avons regroupé les données en K partition.
    
   \item \textsc{é}tablir la matrice de distance;\\
   
@@ -665,9 +665,9 @@ Parce que l'algorithme K-Means ne fonctionne bien que avec les données de distr
 \end{figure}
 
   
-  \item Utilise la technique de MST;\\
+  \item Utilises la technique de MST;\\
   
-  \textsc{à} aide de la package 'igraph' nous pouvons trouver l'arbre couvrant de poids minimal.
+  \textsc{à} l'aide du package 'igraph', nous pouvons trouver l'arbre couvrant de poids minimal.
   
   \begin{figure}[H]
 \centering
@@ -676,9 +676,9 @@ Parce que l'algorithme K-Means ne fonctionne bien que avec les données de distr
 \label{fig:mst2}
 \end{figure}
 
-  \item Coupe le arête le plus long
+  \item Couper le arête la plus longue
   
-  Techniquement, nous pouvons trouver les partitions par couper les arête long, et nous avons tester avec différentes valeurs, mais les sommets sont devenu le point isolé.
+  Techniquement, nous pouvons trouver les partitions par couper les arêtes longue, et nous avons testé avec différentes valeurs, mais les sommets sont devenus les points isolés.
   
   \begin{figure}[H]
 \centering
